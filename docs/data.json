@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-04-23 11:30 UTC",
+  "metrics": {
+    "total_return_pct": 0.0,
+    "ytd_return_pct": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown_pct": 0.0,
+    "total_trades": 0,
+    "win_rate": 0.0,
+    "current_value": 100000.0
+  },
+  "starting_capital": 100000.0,
+  "chart": {
+    "labels": [
+      "2026-04-23"
+    ],
+    "portfolio": [
+      100000.0
+    ],
+    "benchmark": [
+      null
+    ]
+  },
+  "positions": [],
+  "transactions": [
+    {
+      "ticker": "NSRX",
+      "insider_name": "Teleman Dan Benjamin",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-04-22",
+      "shares": 2900.0,
+      "price": 3.76,
+      "value": 10904.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    }
+  ],
+  "trades": []
+}

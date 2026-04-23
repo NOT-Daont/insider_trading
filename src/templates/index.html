@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Insider Trading Tracker – virtual portfolio based on SEC Form 4 filings with insider confidence scoring.">
+<title>Insider Trading Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">
+      <div class="logo-icon">📊</div>
+      <h1>Insider Trading Tracker</h1>
+    </div>
+    <div class="updated-at" id="updatedAt">Loading…</div>
+  </div>
+</header>
+
+<main class="container">
+
+  <div class="disclaimer">
+    <strong>⚠️ Educational Project Only.</strong>
+    This is a simulated portfolio for educational and research purposes.
+    It does NOT constitute investment advice. Past insider buying patterns do not guarantee future returns.
+    All trades are virtual – no real money is involved.
+  </div>
+
+  <!-- Metric Cards -->
+  <div class="metrics-grid" id="metricsGrid">
+    <div class="metric-card highlight" id="cardValue">
+      <div class="metric-label">Portfolio Value</div>
+      <div class="metric-value" id="metricValue">—</div>
+      <div class="metric-sub" id="metricReturn">—</div>
+    </div>
+    <div class="metric-card" id="cardYTD">
+      <div class="metric-label">YTD Return</div>
+      <div class="metric-value" id="metricYTD">—</div>
+    </div>
+    <div class="metric-card" id="cardSharpe">
+      <div class="metric-label">Sharpe Ratio</div>
+      <div class="metric-value" id="metricSharpe">—</div>
+    </div>
+    <div class="metric-card" id="cardDrawdown">
+      <div class="metric-label">Max Drawdown</div>
+      <div class="metric-value" id="metricDrawdown">—</div>
+    </div>
+    <div class="metric-card" id="cardTrades">
+      <div class="metric-label">Total Trades</div>
+      <div class="metric-value" id="metricTrades">—</div>
+    </div>
+    <div class="metric-card" id="cardWinRate">
+      <div class="metric-label">Win Rate</div>
+      <div class="metric-value" id="metricWinRate">—</div>
+    </div>
+  </div>
+
+  <!-- Chart -->
+  <div class="chart-section">
+    <h2>Portfolio vs S&amp;P 500</h2>
+    <div class="chart-wrapper">
+      <canvas id="portfolioChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Current Positions -->
+  <div class="section-header">
+    <h2>🏦 Current Positions</h2>
+    <span class="badge badge-accent" id="positionCount">0 positions</span>
+  </div>
+  <div class="table-container">
+    <div class="table-scroll">
+      <table id="positionsTable">
+        <thead>
+          <tr>
+            <th>Ticker</th>
+            <th>Shares</th>
+            <th>Avg Cost</th>
+            <th>Current Price</th>
+            <th>P/L %</th>
+            <th>Opened</th>
+            <th>Insider</th>
+          </tr>
+        </thead>
+        <tbody id="positionsBody">
+          <tr><td colspan="7" class="empty-state"><div class="icon">📭</div>No open positions</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Recent Insider Transactions -->
+  <div class="section-header">
+    <h2>🔍 Top Insider Transactions</h2>
+    <span class="badge badge-gold" id="txCount">Score ≥ 50</span>
+  </div>
+  <div class="table-container">
+    <div class="table-scroll">
+      <table id="transactionsTable">
+        <thead>
+          <tr>
+            <th>Score</th>
+            <th>Ticker</th>
+            <th>Insider</th>
+            <th>Title</th>
+            <th>Date</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Value</th>
+            <th>Hit Rate</th>
+          </tr>
+        </thead>
+        <tbody id="transactionsBody">
+          <tr><td colspan="9" class="empty-state"><div class="icon">📡</div>No transactions scored yet</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Trade History -->
+  <div class="section-header">
+    <h2>📋 Virtual Trade History</h2>
+    <span class="badge badge-green" id="tradeCount">0 trades</span>
+  </div>
+  <div class="table-container">
+    <div class="table-scroll">
+      <table id="tradesTable">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Action</th>
+            <th>Ticker</th>
+            <th>Price</th>
+            <th>Shares</th>
+            <th>Value</th>
+            <th>Reason</th>
+            <th>Insider</th>
+          </tr>
+        </thead>
+        <tbody id="tradesBody">
+          <tr><td colspan="8" class="empty-state"><div class="icon">📝</div>No virtual trades yet</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>
+      Built with Python &amp; Chart.js |
+      Data from <a href="https://www.sec.gov/edgar" target="_blank" rel="noopener">SEC EDGAR</a> |
+      <a href="https://github.com" target="_blank" rel="noopener">View on GitHub</a>
+    </p>
+    <p style="margin-top:8px">
+      ⚠️ Educational project only. Not investment advice.
+    </p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
