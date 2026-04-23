@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23 19:09 UTC",
+  "updated_at": "2026-04-23 22:51 UTC",
   "metrics": {
     "total_return_pct": 0.0,
     "ytd_return_pct": 0.0,
@@ -33,6 +33,32 @@
       "value": 10904.0,
       "tx_code": "P",
       "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "PRLD",
+      "insider_name": "ORBIMED ADVISORS LLC",
+      "insider_title": "Director",
+      "trade_date": "2026-04-21",
+      "shares": 1689189.0,
+      "price": 4.44,
+      "value": 7499999.16,
+      "tx_code": "P",
+      "score": 52.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "JYNT",
+      "insider_name": "JOBSON CHARLES E",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-04-21",
+      "shares": 509.0,
+      "price": 8.58,
+      "value": 4367.22,
+      "tx_code": "P",
+      "score": 50.0,
       "hit_rate": 50.0,
       "cluster": false
     }
