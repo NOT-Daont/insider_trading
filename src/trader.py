@@ -23,18 +23,12 @@ logger = logging.getLogger(__name__)
 
 
 def _get_current_price(ticker: str) -> float | None:
-    """Fetch current market price via yfinance. Returns None on failure."""
+    """Fetch current market price. Returns None on failure."""
+    from src.prices import get_current_price as get_price
     try:
-        import yfinance as yf
-
-        stock = yf.Ticker(ticker)
-        hist = stock.history(period="5d")
-        if hist.empty:
-            logger.warning("No price data for %s", ticker)
-            return None
-        return float(hist["Close"].iloc[-1])
+        return get_price(ticker)
     except Exception:
-        logger.exception("Failed to get price for %s", ticker)
+        logger.debug("Failed to fetch price for %s", ticker)
         return None
 
 
@@ -57,11 +51,18 @@ def _get_portfolio_value(conn) -> float:
 
 
 def _evaluate_new_signals(conn) -> int:
-    """
-    Find high-scoring transactions and open new positions.
-    Returns number of new positions opened.
-    """
-    # Get scored transactions that meet threshold and haven't been acted on
+    """Evaluate unscored/untraded high-score transactions and buy if possible."""
+    new_trades = 0
+
+    cash_row = conn.execute("SELECT cash FROM portfolio_state WHERE id = 1").fetchone()
+    if not cash_row:
+        return 0
+    cash = float(cash_row["cash"])
+
+    # Filter: ignore transactions older than 7 days
+    cutoff_date = (datetime.utcnow() - timedelta(days=7)).strftime("%Y-%m-%d")
+
+    # Find all recent transactions with score >= threshold
     high_score_txs = conn.execute(
         """
         SELECT it.id, it.ticker, it.insider_name, it.trade_date,
@@ -70,13 +71,14 @@ def _evaluate_new_signals(conn) -> int:
         JOIN insider_scores s ON s.transaction_id = it.id
         WHERE s.total_score >= ?
         AND it.tx_code = 'P'
+        AND it.trade_date >= ?
         AND NOT EXISTS (
             SELECT 1 FROM virtual_trades vt
             WHERE vt.triggering_tx_id = it.id AND vt.action = 'BUY'
         )
         ORDER BY s.total_score DESC
         """,
-        (SCORE_THRESHOLD,),
+        (SCORE_THRESHOLD, cutoff_date),
     ).fetchall()
 
     logger.info("Found %d high-scoring signals (≥%d)", len(high_score_txs), SCORE_THRESHOLD)

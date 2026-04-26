@@ -46,6 +46,7 @@ jobs:
         run: python -m src.main
         env:
           PYTHONPATH: .
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5

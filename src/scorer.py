@@ -69,14 +69,14 @@ def _compute_hit_rate(cik: str, conn) -> float | None:
     # When running live, we can track forward performance.
 
     # Simplified: estimate based on average return of held stocks.
-    # In production, this would use yfinance to fetch historical prices.
     try:
-        import yfinance as yf
+        from src.prices import get_price_on_date
 
         hits = 0
         total = 0
 
-        for row in rows[:20]:  # Limit to last 20 to avoid excessive API calls
+        # Only sample a subset if there are many, to save time
+        for row in rows[:20]:
             ticker = row["ticker"]
             trade_date_str = row["trade_date"]
             buy_price = row["price"]
@@ -89,34 +89,19 @@ def _compute_hit_rate(cik: str, conn) -> float | None:
                 if end_dt > datetime.utcnow():
                     continue
 
-                # Fetch stock price at end date
-                stock = yf.Ticker(ticker)
-                hist = stock.history(
-                    start=end_dt.strftime("%Y-%m-%d"),
-                    end=(end_dt + timedelta(days=5)).strftime("%Y-%m-%d"),
-                )
-                if hist.empty:
+                end_price = get_price_on_date(ticker, end_dt.strftime("%Y-%m-%d"))
+                if end_price is None:
                     continue
-
-                end_price = float(hist["Close"].iloc[0])
                 stock_return = (end_price - buy_price) / buy_price
 
                 # Fetch SPY return for same period
-                spy = yf.Ticker(BENCHMARK_TICKER)
-                spy_start_hist = spy.history(
-                    start=trade_date_str,
-                    end=(trade_dt + timedelta(days=5)).strftime("%Y-%m-%d"),
-                )
-                spy_end_hist = spy.history(
-                    start=end_dt.strftime("%Y-%m-%d"),
-                    end=(end_dt + timedelta(days=5)).strftime("%Y-%m-%d"),
-                )
-                if spy_start_hist.empty or spy_end_hist.empty:
+                spy_start_price = get_price_on_date(BENCHMARK_TICKER, trade_date_str)
+                spy_end_price = get_price_on_date(BENCHMARK_TICKER, end_dt.strftime("%Y-%m-%d"))
+
+                if spy_start_price is None or spy_end_price is None or spy_start_price == 0:
                     continue
 
-                spy_return = (
-                    float(spy_end_hist["Close"].iloc[0]) - float(spy_start_hist["Close"].iloc[0])
-                ) / float(spy_start_hist["Close"].iloc[0])
+                spy_return = (spy_end_price - spy_start_price) / spy_start_price
 
                 total += 1
                 if stock_return > spy_return:
@@ -131,9 +116,6 @@ def _compute_hit_rate(cik: str, conn) -> float | None:
 
         return hits / total
 
-    except ImportError:
-        logger.warning("yfinance not available, skipping hit rate computation")
-        return None
     except Exception:
         logger.exception("Error computing hit rate for CIK %s", cik)
         return None

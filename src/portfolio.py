@@ -58,37 +58,24 @@ def _compute_portfolio_value(conn) -> tuple[float, float, float, int]:
 
 
 def _get_benchmark_value(conn) -> float | None:
-    """
-    Get benchmark (SPY) value normalized to the same starting capital.
-    We compute what the portfolio would be worth if we'd bought SPY from day 1.
-    """
+    """Calculate the value of the benchmark (SPY) assuming starting capital was invested."""
     try:
-        import yfinance as yf
+        from src.prices import get_price_on_date, get_current_price as get_price
 
-        # Get the first snapshot date from history
-        first = conn.execute(
-            "SELECT date FROM portfolio_history ORDER BY date ASC LIMIT 1"
-        ).fetchone()
-
-        if first is None:
-            # First run – benchmark equals starting capital
+        # Find first trade date
+        first = conn.execute("SELECT MIN(date) as date FROM portfolio_history").fetchone()
+        if not first or not first["date"]:
             return STARTING_CAPITAL
 
         first_date = first["date"]
 
-        spy = yf.Ticker(BENCHMARK_TICKER)
-
-        # Get SPY price on first snapshot date
-        hist_start = spy.history(start=first_date, period="5d")
-        if hist_start.empty:
+        start_price = get_price_on_date(BENCHMARK_TICKER, first_date)
+        if start_price is None:
             return None
-        start_price = float(hist_start["Close"].iloc[0])
 
-        # Get current SPY price
-        hist_now = spy.history(period="5d")
-        if hist_now.empty:
+        current_price = get_price(BENCHMARK_TICKER)
+        if current_price is None:
             return None
-        current_price = float(hist_now["Close"].iloc[-1])
 
         # Normalize: what would starting capital be worth invested in SPY?
         spy_return = (current_price - start_price) / start_price

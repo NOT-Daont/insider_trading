@@ -86,15 +86,17 @@ def test_db(tmp_path):
 
 def _add_scored_transaction(conn, ticker="AAPL", score=80.0, insider="Test Insider"):
     """Insert a transaction and its score."""
+    from datetime import datetime
+    today = datetime.utcnow().strftime("%Y-%m-%d")
     cursor = conn.execute(
         """
         INSERT INTO insider_transactions
         (accession_no, filed_date, trade_date, ticker, cik, insider_name,
          insider_title, tx_code, shares, price, value, is_10b5_1)
-        VALUES (?, '2024-01-15', '2024-01-15', ?, '12345', ?, 'CEO', 'P',
+        VALUES (?, ?, ?, ?, '12345', ?, 'CEO', 'P',
                 1000, 150.0, 150000.0, 0)
         """,
-        (f"test-{ticker}-{score}", ticker, insider),
+        (f"test-{ticker}-{score}", today, today, ticker, insider),
     )
     tx_id = cursor.lastrowid
     conn.execute(
