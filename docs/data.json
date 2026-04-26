@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23 11:30 UTC",
+  "updated_at": "2026-04-24 22:42 UTC",
   "metrics": {
     "total_return_pct": 0.0,
     "ytd_return_pct": 0.0,
@@ -12,12 +12,15 @@
   "starting_capital": 100000.0,
   "chart": {
     "labels": [
-      "2026-04-23"
+      "2026-04-23",
+      "2026-04-24"
     ],
     "portfolio": [
+      100000.0,
       100000.0
     ],
     "benchmark": [
+      null,
       null
     ]
   },
@@ -33,6 +36,110 @@
       "value": 10904.0,
       "tx_code": "P",
       "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "NTHI",
+      "insider_name": "GARNETT KEITHLY",
+      "insider_title": "CFO",
+      "trade_date": "2025-04-15",
+      "shares": 300.0,
+      "price": 5.38,
+      "value": 1614.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "TORO",
+      "insider_name": "Panagiotidis Petros Panagiotis",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-04-22",
+      "shares": 1465990.0,
+      "price": 6.45,
+      "value": 9456515.09,
+      "tx_code": "P",
+      "score": 70.5,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "TORO",
+      "insider_name": "Panagiotidis Petros Panagiotis",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-04-22",
+      "shares": 516738.0,
+      "price": 5.04,
+      "value": 2606064.76,
+      "tx_code": "P",
+      "score": 66.4,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "TORO",
+      "insider_name": "Panagiotidis Petros Panagiotis",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-04-23",
+      "shares": 265836.0,
+      "price": 6.52,
+      "value": 1734473.57,
+      "tx_code": "P",
+      "score": 65.8,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "TORO",
+      "insider_name": "Panagiotidis Petros Panagiotis",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-04-24",
+      "shares": 67407.0,
+      "price": 6.79,
+      "value": 457592.42,
+      "tx_code": "P",
+      "score": 65.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "PRLD",
+      "insider_name": "ORBIMED ADVISORS LLC",
+      "insider_title": "Director",
+      "trade_date": "2026-04-21",
+      "shares": 1689189.0,
+      "price": 4.44,
+      "value": 7499999.16,
+      "tx_code": "P",
+      "score": 52.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "JYNT",
+      "insider_name": "JOBSON CHARLES E",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-04-21",
+      "shares": 509.0,
+      "price": 8.58,
+      "value": 4367.22,
+      "tx_code": "P",
+      "score": 50.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "ZIVO",
+      "insider_name": "STROME MARK E",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-04-17",
+      "shares": 100000.0,
+      "price": 2.0,
+      "value": 200000.0,
+      "tx_code": "P",
+      "score": 50.0,
       "hit_rate": 50.0,
       "cluster": false
     }
