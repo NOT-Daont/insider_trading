@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27 19:23 UTC",
+  "updated_at": "2026-04-27 22:56 UTC",
   "metrics": {
     "total_return_pct": 0.0,
     "ytd_return_pct": 0.0,
@@ -29,6 +29,19 @@
   },
   "positions": [],
   "transactions": [
+    {
+      "ticker": "ABT",
+      "insider_name": "Boudreau Philip P",
+      "insider_title": "EVP AND CFO",
+      "trade_date": "2026-04-23",
+      "shares": 2200.0,
+      "price": 91.5,
+      "value": 201300.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
     {
       "ticker": "NSRX",
       "insider_name": "Teleman Dan Benjamin",
@@ -199,6 +212,32 @@
       "cluster": false
     },
     {
+      "ticker": "GGG",
+      "insider_name": "Simon Andrea Helen",
+      "insider_title": "Director",
+      "trade_date": "2026-04-27",
+      "shares": 1240.0,
+      "price": 80.53,
+      "value": 99857.2,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "HEPA",
+      "insider_name": "Purcell Michael J.",
+      "insider_title": "Director",
+      "trade_date": "2026-04-21",
+      "shares": 1250000.0,
+      "price": 0.04,
+      "value": 50000.0,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "PRLD",
       "insider_name": "ORBIMED ADVISORS LLC",
       "insider_title": "Director",
@@ -208,6 +247,19 @@
       "value": 7499999.16,
       "tx_code": "P",
       "score": 52.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "MHH",
+      "insider_name": "SHAW STEVEN A",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-04-27",
+      "shares": 1000.0,
+      "price": 7.04,
+      "value": 7040.0,
+      "tx_code": "P",
+      "score": 50.0,
       "hit_rate": 50.0,
       "cluster": false
     },
