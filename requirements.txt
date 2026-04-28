@@ -3,3 +3,4 @@ beautifulsoup4==4.12.3
 lxml==5.1.0
 pytest==8.0.2
 numpy==1.26.4
+python-dotenv==1.0.1

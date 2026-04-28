@@ -9,6 +9,12 @@ import logging
 import sys
 import time
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 from src.db import init_db
 
 logging.basicConfig(

@@ -20,17 +20,12 @@ logger = logging.getLogger(__name__)
 
 
 def _get_current_price(ticker: str) -> float | None:
-    """Fetch current market price via yfinance."""
+    """Fetch current market price."""
+    from src.prices import get_current_price as get_price
     try:
-        import yfinance as yf
-
-        stock = yf.Ticker(ticker)
-        hist = stock.history(period="5d")
-        if hist.empty:
-            return None
-        return float(hist["Close"].iloc[-1])
+        return get_price(ticker)
     except Exception:
-        logger.exception("Failed to get price for %s", ticker)
+        logger.debug("Could not fetch price for %s", ticker)
         return None
 
 
