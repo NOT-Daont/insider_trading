@@ -1,3 +1,4 @@
+"""
 prices.py - Stock price fetching module using Finnhub, Yahoo API, and Stooq.
 
 Uses Finnhub as the primary data source (if FINNHUB_API_KEY is set).
