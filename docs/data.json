@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-04-28 18:51 UTC",
+  "updated_at": "2026-04-28 19:42 UTC",
   "metrics": {
-    "total_return_pct": 0.14,
-    "ytd_return_pct": 0.14,
+    "total_return_pct": 0.23,
+    "ytd_return_pct": 0.23,
     "sharpe_ratio": 11.22,
     "max_drawdown_pct": 0.0,
     "total_trades": 3,
     "win_rate": 0.0,
-    "current_value": 100142.76
+    "current_value": 100233.97
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -21,13 +21,13 @@
       100000.0,
       100000.0,
       100000.0,
-      100142.76
+      100233.97
     ],
     "benchmark": [
       null,
       null,
       null,
-      100413.58
+      100464.39
     ]
   },
   "positions": [
@@ -250,6 +250,19 @@
       "shares": 1000.0,
       "price": 64.8,
       "value": 64800.0,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "BHB",
+      "insider_name": "Caras Matthew L",
+      "insider_title": "Director",
+      "trade_date": "2026-04-28",
+      "shares": 760.0,
+      "price": 34.68,
+      "value": 26356.8,
       "tx_code": "P",
       "score": 58.0,
       "hit_rate": 50.0,
