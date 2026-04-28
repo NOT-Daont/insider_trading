@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-27 22:56 UTC",
+  "updated_at": "2026-04-28 16:13 UTC",
   "metrics": {
     "total_return_pct": 0.0,
     "ytd_return_pct": 0.0,
-    "sharpe_ratio": 0.0,
+    "sharpe_ratio": 11.22,
     "max_drawdown_pct": 0.0,
-    "total_trades": 0,
+    "total_trades": 3,
     "win_rate": 0.0,
     "current_value": 100000.0
   },
@@ -14,9 +14,11 @@
     "labels": [
       "2026-04-23",
       "2026-04-24",
-      "2026-04-27"
+      "2026-04-27",
+      "2026-04-28"
     ],
     "portfolio": [
+      100000.0,
       100000.0,
       100000.0,
       100000.0
@@ -24,10 +26,39 @@
     "benchmark": [
       null,
       null,
-      null
+      null,
+      100254.07
     ]
   },
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "NSRX",
+      "shares": 1712.0,
+      "avg_cost": 2.92,
+      "opened_at": "2026-04-28",
+      "triggering_insider": "Teleman Dan Benjamin",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "ABT",
+      "shares": 53.0,
+      "avg_cost": 93.88,
+      "opened_at": "2026-04-28",
+      "triggering_insider": "Boudreau Philip P",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "TORO",
+      "shares": 729.0,
+      "avg_cost": 6.85,
+      "opened_at": "2026-04-28",
+      "triggering_insider": "Panagiotidis Petros Panagiotis",
+      "current_price": null,
+      "pnl_pct": null
+    }
+  ],
   "transactions": [
     {
       "ticker": "ABT",
@@ -212,6 +243,19 @@
       "cluster": false
     },
     {
+      "ticker": "BHRB",
+      "insider_name": "McLaughlin Shawn Patrick",
+      "insider_title": "Director",
+      "trade_date": "2026-04-28",
+      "shares": 1000.0,
+      "price": 64.8,
+      "value": 64800.0,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "GGG",
       "insider_name": "Simon Andrea Helen",
       "insider_title": "Director",
@@ -316,5 +360,36 @@
       "cluster": false
     }
   ],
-  "trades": []
+  "trades": [
+    {
+      "timestamp": "2026-04-28 16:13:26",
+      "ticker": "TORO",
+      "action": "BUY",
+      "price": 6.85,
+      "shares": 729.0,
+      "total_value": 4993.65,
+      "reason": "Score 70.5 ≥ 70",
+      "triggering_insider": "Panagiotidis Petros Panagiotis"
+    },
+    {
+      "timestamp": "2026-04-28 16:13:25",
+      "ticker": "NSRX",
+      "action": "BUY",
+      "price": 2.92,
+      "shares": 1712.0,
+      "total_value": 4999.04,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Teleman Dan Benjamin"
+    },
+    {
+      "timestamp": "2026-04-28 16:13:25",
+      "ticker": "ABT",
+      "action": "BUY",
+      "price": 93.88,
+      "shares": 53.0,
+      "total_value": 4975.64,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Boudreau Philip P"
+    }
+  ]
 }
