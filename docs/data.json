@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-04-28 19:42 UTC",
+  "updated_at": "2026-04-28 22:58 UTC",
   "metrics": {
-    "total_return_pct": 0.23,
-    "ytd_return_pct": 0.23,
+    "total_return_pct": 0.19,
+    "ytd_return_pct": 0.19,
     "sharpe_ratio": 11.22,
     "max_drawdown_pct": 0.0,
     "total_trades": 3,
     "win_rate": 0.0,
-    "current_value": 100233.97
+    "current_value": 100193.23
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -21,13 +21,13 @@
       100000.0,
       100000.0,
       100000.0,
-      100233.97
+      100193.23
     ],
     "benchmark": [
       null,
       null,
       null,
-      100464.39
+      100457.33
     ]
   },
   "positions": [
@@ -148,6 +148,19 @@
       "value": 2606064.76,
       "tx_code": "P",
       "score": 66.4,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "NTHI",
+      "insider_name": "Heshmatpour Amir F",
+      "insider_title": "President",
+      "trade_date": "2026-04-28",
+      "shares": 10000.0,
+      "price": 4.52,
+      "value": 45180.0,
+      "tx_code": "P",
+      "score": 66.0,
       "hit_rate": 50.0,
       "cluster": false
     },
