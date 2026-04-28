@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24 22:42 UTC",
+  "updated_at": "2026-04-27 22:56 UTC",
   "metrics": {
     "total_return_pct": 0.0,
     "ytd_return_pct": 0.0,
@@ -13,19 +13,35 @@
   "chart": {
     "labels": [
       "2026-04-23",
-      "2026-04-24"
+      "2026-04-24",
+      "2026-04-27"
     ],
     "portfolio": [
+      100000.0,
       100000.0,
       100000.0
     ],
     "benchmark": [
+      null,
       null,
       null
     ]
   },
   "positions": [],
   "transactions": [
+    {
+      "ticker": "ABT",
+      "insider_name": "Boudreau Philip P",
+      "insider_title": "EVP AND CFO",
+      "trade_date": "2026-04-23",
+      "shares": 2200.0,
+      "price": 91.5,
+      "value": 201300.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
     {
       "ticker": "NSRX",
       "insider_name": "Teleman Dan Benjamin",
@@ -66,6 +82,32 @@
       "cluster": false
     },
     {
+      "ticker": "NBBK",
+      "insider_name": "CAMPANELLI JOSEPH P",
+      "insider_title": "President & CEO",
+      "trade_date": "2026-04-24",
+      "shares": 722.0,
+      "price": 19.45,
+      "value": 14042.9,
+      "tx_code": "P",
+      "score": 69.6,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "NBBK",
+      "insider_name": "CAMPANELLI JOSEPH P",
+      "insider_title": "President & CEO",
+      "trade_date": "2026-04-24",
+      "shares": 500.0,
+      "price": 19.37,
+      "value": 9685.0,
+      "tx_code": "P",
+      "score": 67.8,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "TORO",
       "insider_name": "Panagiotidis Petros Panagiotis",
       "insider_title": "Chief Executive Officer",
@@ -75,6 +117,32 @@
       "value": 2606064.76,
       "tx_code": "P",
       "score": 66.4,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "KYN",
+      "insider_name": "Baker James C",
+      "insider_title": "President",
+      "trade_date": "2026-04-27",
+      "shares": 25000.0,
+      "price": 13.57,
+      "value": 339250.0,
+      "tx_code": "P",
+      "score": 66.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "NBBK",
+      "insider_name": "CAMPANELLI JOSEPH P",
+      "insider_title": "President & CEO",
+      "trade_date": "2026-04-24",
+      "shares": 320.0,
+      "price": 19.33,
+      "value": 6185.6,
+      "tx_code": "P",
+      "score": 65.8,
       "hit_rate": 50.0,
       "cluster": false
     },
@@ -105,6 +173,71 @@
       "cluster": false
     },
     {
+      "ticker": "NBBK",
+      "insider_name": "CAMPANELLI JOSEPH P",
+      "insider_title": "President & CEO",
+      "trade_date": "2026-04-24",
+      "shares": 180.0,
+      "price": 19.34,
+      "value": 3481.2,
+      "tx_code": "P",
+      "score": 64.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "NBBK",
+      "insider_name": "CAMPANELLI JOSEPH P",
+      "insider_title": "President & CEO",
+      "trade_date": "2026-04-24",
+      "shares": 178.0,
+      "price": 19.46,
+      "value": 3463.88,
+      "tx_code": "P",
+      "score": 64.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "NBBK",
+      "insider_name": "CAMPANELLI JOSEPH P",
+      "insider_title": "President & CEO",
+      "trade_date": "2026-04-24",
+      "shares": 100.0,
+      "price": 19.47,
+      "value": 1947.0,
+      "tx_code": "P",
+      "score": 63.5,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "GGG",
+      "insider_name": "Simon Andrea Helen",
+      "insider_title": "Director",
+      "trade_date": "2026-04-27",
+      "shares": 1240.0,
+      "price": 80.53,
+      "value": 99857.2,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "HEPA",
+      "insider_name": "Purcell Michael J.",
+      "insider_title": "Director",
+      "trade_date": "2026-04-21",
+      "shares": 1250000.0,
+      "price": 0.04,
+      "value": 50000.0,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "PRLD",
       "insider_name": "ORBIMED ADVISORS LLC",
       "insider_title": "Director",
@@ -114,6 +247,32 @@
       "value": 7499999.16,
       "tx_code": "P",
       "score": 52.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "MHH",
+      "insider_name": "SHAW STEVEN A",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-04-27",
+      "shares": 1000.0,
+      "price": 7.04,
+      "value": 7040.0,
+      "tx_code": "P",
+      "score": 50.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "PFBX",
+      "insider_name": "Stilwell Joseph",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-04-24",
+      "shares": 620.0,
+      "price": 21.5,
+      "value": 13330.0,
+      "tx_code": "P",
+      "score": 50.0,
       "hit_rate": 50.0,
       "cluster": false
     },
@@ -138,6 +297,19 @@
       "shares": 100000.0,
       "price": 2.0,
       "value": 200000.0,
+      "tx_code": "P",
+      "score": 50.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "AB-LEND",
+      "insider_name": "PM Alpha DAC",
+      "insider_title": "10% Owner",
+      "trade_date": "2025-09-30",
+      "shares": 232618.0,
+      "price": 25.3,
+      "value": 5886165.87,
       "tx_code": "P",
       "score": 50.0,
       "hit_rate": 50.0,
