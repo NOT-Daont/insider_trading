@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-04-28 22:58 UTC",
+  "updated_at": "2026-04-29 13:41 UTC",
   "metrics": {
-    "total_return_pct": 0.19,
-    "ytd_return_pct": 0.19,
-    "sharpe_ratio": 11.22,
-    "max_drawdown_pct": 0.0,
+    "total_return_pct": 0.15,
+    "ytd_return_pct": 0.15,
+    "sharpe_ratio": 6.74,
+    "max_drawdown_pct": 0.04,
     "total_trades": 3,
     "win_rate": 0.0,
-    "current_value": 100193.23
+    "current_value": 100154.08
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -15,19 +15,22 @@
       "2026-04-23",
       "2026-04-24",
       "2026-04-27",
-      "2026-04-28"
+      "2026-04-28",
+      "2026-04-29"
     ],
     "portfolio": [
       100000.0,
       100000.0,
       100000.0,
-      100193.23
+      100193.23,
+      100154.08
     ],
     "benchmark": [
       null,
       null,
       null,
-      100457.33
+      100457.33,
+      100292.19
     ]
   },
   "positions": [
@@ -289,6 +292,19 @@
       "shares": 1240.0,
       "price": 80.53,
       "value": 99857.2,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "AVBC",
+      "insider_name": "BALL JAMES N",
+      "insider_title": "Director",
+      "trade_date": "2026-04-27",
+      "shares": 5000.0,
+      "price": 20.6,
+      "value": 103000.0,
       "tx_code": "P",
       "score": 58.0,
       "hit_rate": 50.0,
