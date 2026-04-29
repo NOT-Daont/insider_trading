@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-04-29 19:26 UTC",
+  "updated_at": "2026-04-29 22:59 UTC",
   "metrics": {
-    "total_return_pct": -0.38,
-    "ytd_return_pct": -0.38,
-    "sharpe_ratio": -5.23,
-    "max_drawdown_pct": 0.57,
-    "total_trades": 3,
+    "total_return_pct": -0.5,
+    "ytd_return_pct": -0.5,
+    "sharpe_ratio": -5.89,
+    "max_drawdown_pct": 0.7,
+    "total_trades": 5,
     "win_rate": 0.0,
-    "current_value": 99621.94
+    "current_value": 99496.39
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -23,26 +23,17 @@
       100000.0,
       100000.0,
       100193.23,
-      99621.94
+      99496.39
     ],
     "benchmark": [
       null,
       null,
       null,
       100457.33,
-      100379.7
+      100441.81
     ]
   },
   "positions": [
-    {
-      "ticker": "NSRX",
-      "shares": 1712.0,
-      "avg_cost": 2.92,
-      "opened_at": "2026-04-28",
-      "triggering_insider": "Teleman Dan Benjamin",
-      "current_price": null,
-      "pnl_pct": null
-    },
     {
       "ticker": "ABT",
       "shares": 53.0,
@@ -60,9 +51,31 @@
       "triggering_insider": "Panagiotidis Petros Panagiotis",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "PFBX",
+      "shares": 231.0,
+      "avg_cost": 21.5,
+      "opened_at": "2026-04-29",
+      "triggering_insider": "SWETMAN CHEVIS",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
+    {
+      "ticker": "PFBX",
+      "insider_name": "SWETMAN CHEVIS",
+      "insider_title": "CEO/President",
+      "trade_date": "2026-04-29",
+      "shares": 2500.0,
+      "price": 21.5,
+      "value": 53750.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
     {
       "ticker": "ABT",
       "insider_name": "Boudreau Philip P",
@@ -324,6 +337,32 @@
       "cluster": false
     },
     {
+      "ticker": "HBAN",
+      "insider_name": "ROLLINS JAMES D III",
+      "insider_title": "Director",
+      "trade_date": "2026-04-27",
+      "shares": 6500.0,
+      "price": 17.09,
+      "value": 111085.0,
+      "tx_code": "P",
+      "score": 56.9,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "HBAN",
+      "insider_name": "ROLLINS JAMES D III",
+      "insider_title": "Director",
+      "trade_date": "2026-04-28",
+      "shares": 3029.0,
+      "price": 21.05,
+      "value": 63760.45,
+      "tx_code": "P",
+      "score": 53.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "PRLD",
       "insider_name": "ORBIMED ADVISORS LLC",
       "insider_title": "Director",
@@ -333,6 +372,19 @@
       "value": 7499999.16,
       "tx_code": "P",
       "score": 52.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "HBAN",
+      "insider_name": "ROLLINS JAMES D III",
+      "insider_title": "Director",
+      "trade_date": "2026-04-27",
+      "shares": 1971.0,
+      "price": 21.05,
+      "value": 41489.55,
+      "tx_code": "P",
+      "score": 51.6,
       "hit_rate": 50.0,
       "cluster": false
     },
@@ -403,6 +455,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-04-29 22:59:15",
+      "ticker": "PFBX",
+      "action": "BUY",
+      "price": 21.5,
+      "shares": 231.0,
+      "total_value": 4966.5,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "SWETMAN CHEVIS"
+    },
+    {
+      "timestamp": "2026-04-29 22:59:14",
+      "ticker": "NSRX",
+      "action": "SELL",
+      "price": 2.56,
+      "shares": 1712.0,
+      "total_value": 4382.72,
+      "reason": "Stop loss (-12.3% ≤ -12.0%)",
+      "triggering_insider": "Teleman Dan Benjamin"
+    },
     {
       "timestamp": "2026-04-28 16:13:26",
       "ticker": "TORO",
