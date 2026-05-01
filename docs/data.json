@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-01 19:13 UTC",
+  "updated_at": "2026-05-01 22:53 UTC",
   "metrics": {
-    "total_return_pct": -0.23,
-    "ytd_return_pct": -0.23,
-    "sharpe_ratio": -1.95,
+    "total_return_pct": -0.28,
+    "ytd_return_pct": -0.28,
+    "sharpe_ratio": -2.46,
     "max_drawdown_pct": 0.7,
-    "total_trades": 5,
+    "total_trades": 6,
     "win_rate": 0.0,
-    "current_value": 99773.51
+    "current_value": 99719.84
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -27,7 +27,7 @@
       100193.23,
       99496.39,
       99650.02,
-      99773.51
+      99719.84
     ],
     "benchmark": [
       null,
@@ -36,7 +36,7 @@
       100457.33,
       100441.81,
       101441.17,
-      101906.98
+      101722.07
     ]
   },
   "positions": [
@@ -66,9 +66,31 @@
       "triggering_insider": "SWETMAN CHEVIS",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "SBMT",
+      "shares": 463.0,
+      "avg_cost": 10.75,
+      "opened_at": "2026-05-01",
+      "triggering_insider": "Naugle Charles Travis",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
+    {
+      "ticker": "SBMT",
+      "insider_name": "Naugle Charles Travis",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-04-30",
+      "shares": 5000.0,
+      "price": 9.88,
+      "value": 49409.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
     {
       "ticker": "PFBX",
       "insider_name": "SWETMAN CHEVIS",
@@ -278,6 +300,19 @@
       "cluster": false
     },
     {
+      "ticker": "AVLN",
+      "insider_name": "Carroll Jill",
+      "insider_title": "Director",
+      "trade_date": "2026-05-01",
+      "shares": 277778.0,
+      "price": 18.0,
+      "value": 5000004.0,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "BHRB",
       "insider_name": "McLaughlin Shawn Patrick",
       "insider_title": "Director",
@@ -409,6 +444,19 @@
     },
     {
       "ticker": "NONE",
+      "insider_name": "ASSURED GUARANTY LTD",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-04-30",
+      "shares": 242718.447,
+      "price": 24.72,
+      "value": 6000000.01,
+      "tx_code": "P",
+      "score": 50.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "NONE",
       "insider_name": "PRUDENTIAL INSURANCE CO OF AMERICA",
       "insider_title": "10% Owner",
       "trade_date": "2026-04-29",
@@ -487,6 +535,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-01 22:53:17",
+      "ticker": "SBMT",
+      "action": "BUY",
+      "price": 10.75,
+      "shares": 463.0,
+      "total_value": 4977.25,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Naugle Charles Travis"
+    },
     {
       "timestamp": "2026-04-29 22:59:15",
       "ticker": "PFBX",
