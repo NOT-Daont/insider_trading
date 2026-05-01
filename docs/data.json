@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-01 14:45 UTC",
+  "updated_at": "2026-05-01 19:13 UTC",
   "metrics": {
     "total_return_pct": -0.23,
     "ytd_return_pct": -0.23,
-    "sharpe_ratio": -1.99,
+    "sharpe_ratio": -1.95,
     "max_drawdown_pct": 0.7,
     "total_trades": 5,
     "win_rate": 0.0,
-    "current_value": 99770.07
+    "current_value": 99773.51
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -27,7 +27,7 @@
       100193.23,
       99496.39,
       99650.02,
-      99770.07
+      99773.51
     ],
     "benchmark": [
       null,
@@ -36,7 +36,7 @@
       100457.33,
       100441.81,
       101441.17,
-      102049.54
+      101906.98
     ]
   },
   "positions": [
@@ -404,6 +404,19 @@
       "value": 41489.55,
       "tx_code": "P",
       "score": 51.6,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "NONE",
+      "insider_name": "PRUDENTIAL INSURANCE CO OF AMERICA",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-04-29",
+      "shares": 270092.227,
+      "price": 30.36,
+      "value": 8200000.01,
+      "tx_code": "P",
+      "score": 50.0,
       "hit_rate": 50.0,
       "cluster": false
     },
