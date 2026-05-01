@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-04-30 22:55 UTC",
+  "updated_at": "2026-05-01 14:45 UTC",
   "metrics": {
-    "total_return_pct": -0.35,
-    "ytd_return_pct": -0.35,
-    "sharpe_ratio": -3.42,
+    "total_return_pct": -0.23,
+    "ytd_return_pct": -0.23,
+    "sharpe_ratio": -1.99,
     "max_drawdown_pct": 0.7,
     "total_trades": 5,
     "win_rate": 0.0,
-    "current_value": 99650.02
+    "current_value": 99770.07
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -17,7 +17,8 @@
       "2026-04-27",
       "2026-04-28",
       "2026-04-29",
-      "2026-04-30"
+      "2026-04-30",
+      "2026-05-01"
     ],
     "portfolio": [
       100000.0,
@@ -25,7 +26,8 @@
       100000.0,
       100193.23,
       99496.39,
-      99650.02
+      99650.02,
+      99770.07
     ],
     "benchmark": [
       null,
@@ -33,7 +35,8 @@
       null,
       100457.33,
       100441.81,
-      101441.17
+      101441.17,
+      102049.54
     ]
   },
   "positions": [
@@ -362,6 +365,19 @@
       "value": 63760.45,
       "tx_code": "P",
       "score": 53.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "FNLC",
+      "insider_name": "Swan Kimberly",
+      "insider_title": "Director",
+      "trade_date": "2026-04-30",
+      "shares": 1000.0,
+      "price": 28.71,
+      "value": 28710.0,
+      "tx_code": "P",
+      "score": 52.3,
       "hit_rate": 50.0,
       "cluster": false
     },
