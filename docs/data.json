@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-04 19:41 UTC",
+  "updated_at": "2026-05-04 22:58 UTC",
   "metrics": {
-    "total_return_pct": -1.7,
-    "ytd_return_pct": -1.7,
-    "sharpe_ratio": -6.94,
-    "max_drawdown_pct": 1.89,
-    "total_trades": 7,
+    "total_return_pct": -1.66,
+    "ytd_return_pct": -1.66,
+    "sharpe_ratio": -6.93,
+    "max_drawdown_pct": 1.85,
+    "total_trades": 8,
     "win_rate": 0.0,
-    "current_value": 98298.12
+    "current_value": 98340.46
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -29,7 +29,7 @@
       99496.39,
       99650.02,
       99719.84,
-      98298.12
+      98340.46
     ],
     "benchmark": [
       null,
@@ -39,7 +39,7 @@
       100441.81,
       101441.17,
       101722.07,
-      101352.25
+      101349.42
     ]
   },
   "positions": [
@@ -69,9 +69,57 @@
       "triggering_insider": "Naugle Charles Travis",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "FND",
+      "shares": 101.0,
+      "avg_cost": 48.22,
+      "opened_at": "2026-05-04",
+      "triggering_insider": "LANGLEY BRYAN",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
+    {
+      "ticker": "NONE",
+      "insider_name": "COHEN JONATHAN H",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-04-01",
+      "shares": 283929.59,
+      "price": 17.61,
+      "value": 5000000.08,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "NONE",
+      "insider_name": "ROSENTHAL SAUL B",
+      "insider_title": "President",
+      "trade_date": "2026-04-01",
+      "shares": 283929.59,
+      "price": 17.61,
+      "value": 5000000.08,
+      "tx_code": "P",
+      "score": 81.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "FND",
+      "insider_name": "LANGLEY BRYAN",
+      "insider_title": "EVP & CHIEF FINANCIAL OFFICER",
+      "trade_date": "2026-05-04",
+      "shares": 2500.0,
+      "price": 48.69,
+      "value": 121725.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
     {
       "ticker": "SBMT",
       "insider_name": "Naugle Charles Travis",
@@ -253,6 +301,19 @@
       "score": 65.8,
       "hit_rate": 50.0,
       "cluster": false
+    },
+    {
+      "ticker": "NONE",
+      "insider_name": "Oxford Gate Management, LLC",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-04-01",
+      "shares": 283929.59,
+      "price": 17.61,
+      "value": 5000000.08,
+      "tx_code": "P",
+      "score": 65.0,
+      "hit_rate": 50.0,
+      "cluster": true
     },
     {
       "ticker": "TORO",
@@ -542,6 +603,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-04 22:58:44",
+      "ticker": "FND",
+      "action": "BUY",
+      "price": 48.22,
+      "shares": 101.0,
+      "total_value": 4870.22,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "LANGLEY BRYAN"
+    },
     {
       "timestamp": "2026-05-04 15:54:33",
       "ticker": "TORO",
