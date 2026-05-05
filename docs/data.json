@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-04 22:58 UTC",
+  "updated_at": "2026-05-05 15:37 UTC",
   "metrics": {
-    "total_return_pct": -1.66,
-    "ytd_return_pct": -1.66,
-    "sharpe_ratio": -6.93,
-    "max_drawdown_pct": 1.85,
+    "total_return_pct": -1.8,
+    "ytd_return_pct": -1.8,
+    "sharpe_ratio": -7.02,
+    "max_drawdown_pct": 1.99,
     "total_trades": 8,
     "win_rate": 0.0,
-    "current_value": 98340.46
+    "current_value": 98200.4
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -19,7 +19,8 @@
       "2026-04-29",
       "2026-04-30",
       "2026-05-01",
-      "2026-05-04"
+      "2026-05-04",
+      "2026-05-05"
     ],
     "portfolio": [
       100000.0,
@@ -29,7 +30,8 @@
       99496.39,
       99650.02,
       99719.84,
-      98340.46
+      98340.46,
+      98200.4
     ],
     "benchmark": [
       null,
@@ -39,7 +41,8 @@
       100441.81,
       101441.17,
       101722.07,
-      101349.42
+      101349.42,
+      102082.01
     ]
   },
   "positions": [
@@ -472,6 +475,19 @@
       "cluster": false
     },
     {
+      "ticker": "CCFN",
+      "insider_name": "Glunk Robert J",
+      "insider_title": "Director",
+      "trade_date": "2026-05-04",
+      "shares": 13.0,
+      "price": 74.75,
+      "value": 971.75,
+      "tx_code": "P",
+      "score": 52.5,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "FNLC",
       "insider_name": "Swan Kimberly",
       "insider_title": "Director",
@@ -498,6 +514,19 @@
       "cluster": false
     },
     {
+      "ticker": "CCFN",
+      "insider_name": "Glunk Robert J",
+      "insider_title": "Director",
+      "trade_date": "2026-05-04",
+      "shares": 12.0,
+      "price": 74.75,
+      "value": 897.0,
+      "tx_code": "P",
+      "score": 52.1,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "HBAN",
       "insider_name": "ROLLINS JAMES D III",
       "insider_title": "Director",
@@ -507,6 +536,19 @@
       "value": 41489.55,
       "tx_code": "P",
       "score": 51.6,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "TPL",
+      "insider_name": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "insider_title": "10% Owner",
+      "trade_date": "2026-05-04",
+      "shares": 1.0,
+      "price": 438.69,
+      "value": 438.69,
+      "tx_code": "P",
+      "score": 50.0,
       "hit_rate": 50.0,
       "cluster": false
     },
