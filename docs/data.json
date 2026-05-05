@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-05 15:37 UTC",
+  "updated_at": "2026-05-05 19:20 UTC",
   "metrics": {
-    "total_return_pct": -1.8,
-    "ytd_return_pct": -1.8,
-    "sharpe_ratio": -7.02,
-    "max_drawdown_pct": 1.99,
+    "total_return_pct": -2.1,
+    "ytd_return_pct": -2.1,
+    "sharpe_ratio": -8.14,
+    "max_drawdown_pct": 2.29,
     "total_trades": 8,
     "win_rate": 0.0,
-    "current_value": 98200.4
+    "current_value": 97902.66
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -31,7 +31,7 @@
       99650.02,
       99719.84,
       98340.46,
-      98200.4
+      97902.66
     ],
     "benchmark": [
       null,
@@ -42,7 +42,7 @@
       101441.17,
       101722.07,
       101349.42,
-      102082.01
+      102324.79
     ]
   },
   "positions": [
@@ -367,6 +367,19 @@
       "value": 1947.0,
       "tx_code": "P",
       "score": 63.5,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "CLMB",
+      "insider_name": "MCCARTHY JOHN R",
+      "insider_title": "Director",
+      "trade_date": "2026-05-04",
+      "shares": 4000.0,
+      "price": 18.83,
+      "value": 75320.0,
+      "tx_code": "P",
+      "score": 58.0,
       "hit_rate": 50.0,
       "cluster": false
     },
