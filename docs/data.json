@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-05 22:58 UTC",
+  "updated_at": "2026-05-06 15:57 UTC",
   "metrics": {
-    "total_return_pct": -2.08,
-    "ytd_return_pct": -2.08,
-    "sharpe_ratio": -8.08,
+    "total_return_pct": -1.62,
+    "ytd_return_pct": -1.62,
+    "sharpe_ratio": -5.36,
     "max_drawdown_pct": 2.27,
-    "total_trades": 8,
+    "total_trades": 9,
     "win_rate": 0.0,
-    "current_value": 97923.73
+    "current_value": 98376.9
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -20,7 +20,8 @@
       "2026-04-30",
       "2026-05-01",
       "2026-05-04",
-      "2026-05-05"
+      "2026-05-05",
+      "2026-05-06"
     ],
     "portfolio": [
       100000.0,
@@ -31,7 +32,8 @@
       99650.02,
       99719.84,
       98340.46,
-      97923.73
+      97923.73,
+      98376.9
     ],
     "benchmark": [
       null,
@@ -42,7 +44,8 @@
       101441.17,
       101722.07,
       101349.42,
-      102162.47
+      102162.47,
+      103298.75
     ]
   },
   "positions": [
@@ -81,6 +84,15 @@
       "triggering_insider": "LANGLEY BRYAN",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "ASRV",
+      "shares": 1284.0,
+      "avg_cost": 3.83,
+      "opened_at": "2026-05-06",
+      "triggering_insider": "STOPKO JEFFREY A",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
@@ -109,6 +121,19 @@
       "score": 81.0,
       "hit_rate": 50.0,
       "cluster": true
+    },
+    {
+      "ticker": "ASRV",
+      "insider_name": "STOPKO JEFFREY A",
+      "insider_title": "President & CEO ASRV & Bank",
+      "trade_date": "2026-05-05",
+      "shares": 3000.0,
+      "price": 3.85,
+      "value": 11550.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
     },
     {
       "ticker": "FND",
@@ -371,6 +396,32 @@
       "cluster": false
     },
     {
+      "ticker": "SAFTX",
+      "insider_name": "Smith Brian P.",
+      "insider_title": "President",
+      "trade_date": "2026-04-20",
+      "shares": 13380.75,
+      "price": 20.0,
+      "value": 267615.0,
+      "tx_code": "P",
+      "score": 62.5,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "SAFTX",
+      "insider_name": "Smith Brian P.",
+      "insider_title": "President",
+      "trade_date": "2026-04-21",
+      "shares": 3762.7,
+      "price": 20.0,
+      "value": 75254.0,
+      "tx_code": "P",
+      "score": 58.1,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "CLMB",
       "insider_name": "MCCARTHY JOHN R",
       "insider_title": "Director",
@@ -458,6 +509,19 @@
       "value": 50000.0,
       "tx_code": "P",
       "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "SAFTX",
+      "insider_name": "Smith Brian P.",
+      "insider_title": "President",
+      "trade_date": "2026-04-28",
+      "shares": 2500.0,
+      "price": 20.0,
+      "value": 50000.0,
+      "tx_code": "P",
+      "score": 57.5,
       "hit_rate": 50.0,
       "cluster": false
     },
@@ -658,6 +722,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-06 15:57:04",
+      "ticker": "ASRV",
+      "action": "BUY",
+      "price": 3.83,
+      "shares": 1284.0,
+      "total_value": 4917.72,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "STOPKO JEFFREY A"
+    },
     {
       "timestamp": "2026-05-04 22:58:44",
       "ticker": "FND",
