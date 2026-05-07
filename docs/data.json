@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-07 15:58 UTC",
+  "updated_at": "2026-05-07 19:43 UTC",
   "metrics": {
-    "total_return_pct": -1.84,
-    "ytd_return_pct": -1.84,
-    "sharpe_ratio": -5.79,
+    "total_return_pct": -1.77,
+    "ytd_return_pct": -1.77,
+    "sharpe_ratio": -5.56,
     "max_drawdown_pct": 2.27,
-    "total_trades": 9,
+    "total_trades": 10,
     "win_rate": 0.0,
-    "current_value": 98159.7
+    "current_value": 98232.66
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -35,7 +35,7 @@
       98340.46,
       97923.73,
       98367.26,
-      98159.7
+      98232.66
     ],
     "benchmark": [
       null,
@@ -48,7 +48,7 @@
       101349.42,
       102162.47,
       103582.47,
-      103645.99
+      103185.83
     ]
   },
   "positions": [
@@ -96,6 +96,15 @@
       "triggering_insider": "STOPKO JEFFREY A",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "IVR",
+      "shares": 611.0,
+      "avg_cost": 8.03,
+      "opened_at": "2026-05-07",
+      "triggering_insider": "Gregson Mark William",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
@@ -133,6 +142,19 @@
       "shares": 3000.0,
       "price": 3.85,
       "value": 11550.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "IVR",
+      "insider_name": "Gregson Mark William",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-05-05",
+      "shares": 1750.0,
+      "price": 8.03,
+      "value": 14043.75,
       "tx_code": "P",
       "score": 74.0,
       "hit_rate": 50.0,
@@ -738,6 +760,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-07 19:43:29",
+      "ticker": "IVR",
+      "action": "BUY",
+      "price": 8.03,
+      "shares": 611.0,
+      "total_value": 4906.33,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Gregson Mark William"
+    },
     {
       "timestamp": "2026-05-06 15:57:04",
       "ticker": "ASRV",
