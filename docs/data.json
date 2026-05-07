@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-06 22:55 UTC",
+  "updated_at": "2026-05-07 15:58 UTC",
   "metrics": {
-    "total_return_pct": -1.63,
-    "ytd_return_pct": -1.63,
-    "sharpe_ratio": -5.41,
+    "total_return_pct": -1.84,
+    "ytd_return_pct": -1.84,
+    "sharpe_ratio": -5.79,
     "max_drawdown_pct": 2.27,
     "total_trades": 9,
     "win_rate": 0.0,
-    "current_value": 98367.26
+    "current_value": 98159.7
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -21,7 +21,8 @@
       "2026-05-01",
       "2026-05-04",
       "2026-05-05",
-      "2026-05-06"
+      "2026-05-06",
+      "2026-05-07"
     ],
     "portfolio": [
       100000.0,
@@ -33,7 +34,8 @@
       99719.84,
       98340.46,
       97923.73,
-      98367.26
+      98367.26,
+      98159.7
     ],
     "benchmark": [
       null,
@@ -45,7 +47,8 @@
       101722.07,
       101349.42,
       102162.47,
-      103582.47
+      103582.47,
+      103645.99
     ]
   },
   "positions": [
@@ -407,6 +410,19 @@
       "score": 62.5,
       "hit_rate": 50.0,
       "cluster": false
+    },
+    {
+      "ticker": "NONE",
+      "insider_name": "GS FUND HOLDINGS, L.L.C.",
+      "insider_title": "Other",
+      "trade_date": "2026-05-01",
+      "shares": 1001201.442,
+      "price": 24.97,
+      "value": 25000000.01,
+      "tx_code": "P",
+      "score": 61.0,
+      "hit_rate": 50.0,
+      "cluster": true
     },
     {
       "ticker": "SAFTX",
