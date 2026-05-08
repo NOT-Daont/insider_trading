@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-08 19:18 UTC",
+  "updated_at": "2026-05-08 22:57 UTC",
   "metrics": {
-    "total_return_pct": -1.56,
-    "ytd_return_pct": -1.56,
-    "sharpe_ratio": -4.58,
+    "total_return_pct": -1.67,
+    "ytd_return_pct": -1.67,
+    "sharpe_ratio": -4.95,
     "max_drawdown_pct": 2.27,
-    "total_trades": 10,
+    "total_trades": 11,
     "win_rate": 0.0,
-    "current_value": 98444.85
+    "current_value": 98328.62
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -37,7 +37,7 @@
       97923.73,
       98367.26,
       98440.3,
-      98444.85
+      98328.62
     ],
     "benchmark": [
       null,
@@ -51,7 +51,7 @@
       102162.47,
       103582.47,
       103264.87,
-      104041.21
+      104117.44
     ]
   },
   "positions": [
@@ -108,6 +108,15 @@
       "triggering_insider": "Gregson Mark William",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "SMRT",
+      "shares": 4389.0,
+      "avg_cost": 1.12,
+      "opened_at": "2026-05-08",
+      "triggering_insider": "Martell Frank",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
@@ -136,6 +145,19 @@
       "score": 81.0,
       "hit_rate": 50.0,
       "cluster": true
+    },
+    {
+      "ticker": "SMRT",
+      "insider_name": "Martell Frank",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-05-08",
+      "shares": 50000.0,
+      "price": 1.12,
+      "value": 56220.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
     },
     {
       "ticker": "ASRV",
@@ -489,6 +511,19 @@
       "cluster": false
     },
     {
+      "ticker": "SONO",
+      "insider_name": "Arabia Carmine",
+      "insider_title": "Director",
+      "trade_date": "2026-05-06",
+      "shares": 50.0,
+      "price": 14.49,
+      "value": 724.5,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "CLMB",
       "insider_name": "MCCARTHY JOHN R",
       "insider_title": "Director",
@@ -734,35 +769,19 @@
       "score": 50.0,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "PFBX",
-      "insider_name": "Stilwell Joseph",
-      "insider_title": "10% Owner",
-      "trade_date": "2026-04-24",
-      "shares": 620.0,
-      "price": 21.5,
-      "value": 13330.0,
-      "tx_code": "P",
-      "score": 50.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "JYNT",
-      "insider_name": "JOBSON CHARLES E",
-      "insider_title": "10% Owner",
-      "trade_date": "2026-04-21",
-      "shares": 509.0,
-      "price": 8.58,
-      "value": 4367.22,
-      "tx_code": "P",
-      "score": 50.0,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-08 22:57:41",
+      "ticker": "SMRT",
+      "action": "BUY",
+      "price": 1.12,
+      "shares": 4389.0,
+      "total_value": 4915.68,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Martell Frank"
+    },
     {
       "timestamp": "2026-05-07 19:43:29",
       "ticker": "IVR",
