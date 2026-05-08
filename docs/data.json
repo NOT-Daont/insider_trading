@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-08 15:13 UTC",
+  "updated_at": "2026-05-08 19:18 UTC",
   "metrics": {
-    "total_return_pct": -1.4,
-    "ytd_return_pct": -1.4,
-    "sharpe_ratio": -4.05,
+    "total_return_pct": -1.56,
+    "ytd_return_pct": -1.56,
+    "sharpe_ratio": -4.58,
     "max_drawdown_pct": 2.27,
     "total_trades": 10,
     "win_rate": 0.0,
-    "current_value": 98604.32
+    "current_value": 98444.85
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -37,7 +37,7 @@
       97923.73,
       98367.26,
       98440.3,
-      98604.32
+      98444.85
     ],
     "benchmark": [
       null,
@@ -51,7 +51,7 @@
       102162.47,
       103582.47,
       103264.87,
-      103996.05
+      104041.21
     ]
   },
   "positions": [
@@ -463,6 +463,32 @@
       "cluster": false
     },
     {
+      "ticker": "BOTJ",
+      "insider_name": "JAMERSON PHILLIP C",
+      "insider_title": "Director",
+      "trade_date": "2026-05-07",
+      "shares": 1000.0,
+      "price": 23.4,
+      "value": 23396.9,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "PIIVX",
+      "insider_name": "Morgan Herbert William",
+      "insider_title": "Director",
+      "trade_date": "2026-05-06",
+      "shares": 411.523,
+      "price": 48.6,
+      "value": 20000.02,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "CLMB",
       "insider_name": "MCCARTHY JOHN R",
       "insider_title": "Director",
@@ -730,32 +756,6 @@
       "shares": 509.0,
       "price": 8.58,
       "value": 4367.22,
-      "tx_code": "P",
-      "score": 50.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "ZIVO",
-      "insider_name": "STROME MARK E",
-      "insider_title": "10% Owner",
-      "trade_date": "2026-04-17",
-      "shares": 100000.0,
-      "price": 2.0,
-      "value": 200000.0,
-      "tx_code": "P",
-      "score": 50.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "AB-LEND",
-      "insider_name": "PM Alpha DAC",
-      "insider_title": "10% Owner",
-      "trade_date": "2025-09-30",
-      "shares": 232618.0,
-      "price": 25.3,
-      "value": 5886165.87,
       "tx_code": "P",
       "score": 50.0,
       "hit_rate": 50.0,
