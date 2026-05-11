@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-08 22:57 UTC",
+  "updated_at": "2026-05-11 16:23 UTC",
   "metrics": {
-    "total_return_pct": -1.67,
-    "ytd_return_pct": -1.67,
-    "sharpe_ratio": -4.95,
+    "total_return_pct": -1.71,
+    "ytd_return_pct": -1.71,
+    "sharpe_ratio": -4.85,
     "max_drawdown_pct": 2.27,
-    "total_trades": 11,
+    "total_trades": 12,
     "win_rate": 0.0,
-    "current_value": 98328.62
+    "current_value": 98285.29
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -23,7 +23,8 @@
       "2026-05-05",
       "2026-05-06",
       "2026-05-07",
-      "2026-05-08"
+      "2026-05-08",
+      "2026-05-11"
     ],
     "portfolio": [
       100000.0,
@@ -37,7 +38,8 @@
       97923.73,
       98367.26,
       98440.3,
-      98328.62
+      98328.62,
+      98285.29
     ],
     "benchmark": [
       null,
@@ -51,19 +53,11 @@
       102162.47,
       103582.47,
       103264.87,
-      104117.44
+      104117.44,
+      104453.38
     ]
   },
   "positions": [
-    {
-      "ticker": "ABT",
-      "shares": 53.0,
-      "avg_cost": 93.88,
-      "opened_at": "2026-04-28",
-      "triggering_insider": "Boudreau Philip P",
-      "current_price": null,
-      "pnl_pct": null
-    },
     {
       "ticker": "PFBX",
       "shares": 231.0,
@@ -772,6 +766,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-11 16:23:23",
+      "ticker": "ABT",
+      "action": "SELL",
+      "price": 82.52,
+      "shares": 53.0,
+      "total_value": 4373.56,
+      "reason": "Stop loss (-12.1% ≤ -12.0%)",
+      "triggering_insider": "Boudreau Philip P"
+    },
     {
       "timestamp": "2026-05-08 22:57:41",
       "ticker": "SMRT",
