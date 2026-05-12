@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-11 22:57 UTC",
+  "updated_at": "2026-05-12 16:12 UTC",
   "metrics": {
-    "total_return_pct": -1.84,
-    "ytd_return_pct": -1.84,
-    "sharpe_ratio": -5.22,
+    "total_return_pct": -1.1,
+    "ytd_return_pct": -1.1,
+    "sharpe_ratio": -2.62,
     "max_drawdown_pct": 2.27,
     "total_trades": 14,
     "win_rate": 0.0,
-    "current_value": 98159.85
+    "current_value": 98896.69
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -24,7 +24,8 @@
       "2026-05-06",
       "2026-05-07",
       "2026-05-08",
-      "2026-05-11"
+      "2026-05-11",
+      "2026-05-12"
     ],
     "portfolio": [
       100000.0,
@@ -39,7 +40,8 @@
       98367.26,
       98440.3,
       98328.62,
-      98159.85
+      98159.85,
+      98896.69
     ],
     "benchmark": [
       null,
@@ -54,7 +56,8 @@
       103582.47,
       103264.87,
       104117.44,
-      104354.58
+      104354.58,
+      103430.02
     ]
   },
   "positions": [
@@ -536,6 +539,19 @@
       "cluster": false
     },
     {
+      "ticker": "PLBC",
+      "insider_name": "Foster Michael Kevin",
+      "insider_title": "Director",
+      "trade_date": "2026-05-11",
+      "shares": 470.0,
+      "price": 51.25,
+      "value": 24087.5,
+      "tx_code": "P",
+      "score": 58.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "BOTJ",
       "insider_name": "JAMERSON PHILLIP C",
       "insider_title": "Director",
@@ -766,19 +782,6 @@
       "value": 41489.55,
       "tx_code": "P",
       "score": 51.6,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "TPL",
-      "insider_name": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-      "insider_title": "10% Owner",
-      "trade_date": "2026-05-04",
-      "shares": 1.0,
-      "price": 438.69,
-      "value": 438.69,
-      "tx_code": "P",
-      "score": 50.0,
       "hit_rate": 50.0,
       "cluster": false
     }
