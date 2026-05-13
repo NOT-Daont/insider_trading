@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-12 23:05 UTC",
+  "updated_at": "2026-05-13 16:13 UTC",
   "metrics": {
-    "total_return_pct": -0.96,
-    "ytd_return_pct": -0.96,
-    "sharpe_ratio": -2.18,
+    "total_return_pct": -1.21,
+    "ytd_return_pct": -1.21,
+    "sharpe_ratio": -2.65,
     "max_drawdown_pct": 2.27,
     "total_trades": 15,
     "win_rate": 0.0,
-    "current_value": 99042.21
+    "current_value": 98793.6
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -25,7 +25,8 @@
       "2026-05-07",
       "2026-05-08",
       "2026-05-11",
-      "2026-05-12"
+      "2026-05-12",
+      "2026-05-13"
     ],
     "portfolio": [
       100000.0,
@@ -41,7 +42,8 @@
       98440.3,
       98328.62,
       98159.85,
-      99042.21
+      99042.21,
+      98793.6
     ],
     "benchmark": [
       null,
@@ -57,7 +59,8 @@
       103264.87,
       104117.44,
       104354.58,
-      104196.48
+      104196.48,
+      104512.67
     ]
   },
   "positions": [
@@ -769,26 +772,26 @@
       "cluster": false
     },
     {
-      "ticker": "PLSE",
-      "insider_name": "DUGGAN ROBERT W",
+      "ticker": "TFSL",
+      "insider_name": "Weir Daniel F",
       "insider_title": "Director",
-      "trade_date": "2026-05-11",
-      "shares": 660233.0,
-      "price": 19.69,
-      "value": 12999987.77,
+      "trade_date": "2026-05-12",
+      "shares": 21000.0,
+      "price": 14.91,
+      "value": 313110.0,
       "tx_code": "P",
       "score": 58.0,
       "hit_rate": 50.0,
       "cluster": false
     },
     {
-      "ticker": "PLBC",
-      "insider_name": "Foster Michael Kevin",
+      "ticker": "CHCO",
+      "insider_name": "Parsons James M.",
       "insider_title": "Director",
-      "trade_date": "2026-05-11",
-      "shares": 470.0,
-      "price": 51.25,
-      "value": 24087.5,
+      "trade_date": "2026-05-12",
+      "shares": 100.0,
+      "price": 121.6,
+      "value": 12160.0,
       "tx_code": "P",
       "score": 58.0,
       "hit_rate": 50.0,
