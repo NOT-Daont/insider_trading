@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-13 19:55 UTC",
+  "updated_at": "2026-05-13 23:06 UTC",
   "metrics": {
-    "total_return_pct": -1.13,
-    "ytd_return_pct": -1.13,
-    "sharpe_ratio": -2.48,
+    "total_return_pct": -1.2,
+    "ytd_return_pct": -1.2,
+    "sharpe_ratio": -2.64,
     "max_drawdown_pct": 2.27,
-    "total_trades": 15,
-    "win_rate": 0.0,
-    "current_value": 98870.8
+    "total_trades": 17,
+    "win_rate": 25.0,
+    "current_value": 98797.25
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -43,7 +43,7 @@
       98328.62,
       98159.85,
       99042.21,
-      98870.8
+      98797.25
     ],
     "benchmark": [
       null,
@@ -60,7 +60,7 @@
       104117.44,
       104354.58,
       104196.48,
-      104800.62
+      104779.45
     ]
   },
   "positions": [
@@ -128,20 +128,20 @@
       "pnl_pct": null
     },
     {
-      "ticker": "PLSE",
-      "shares": 257.0,
-      "avg_cost": 19.08,
-      "opened_at": "2026-05-11",
-      "triggering_insider": "LAVIOLETTE PAUL A",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "IBP",
       "shares": 24.0,
       "avg_cost": 202.65,
       "opened_at": "2026-05-12",
       "triggering_insider": "Miller Michael Thomas",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "XRN",
+      "shares": 143.0,
+      "avg_cost": 34.32,
+      "opened_at": "2026-05-13",
+      "triggering_insider": "Wittman Lori",
       "current_price": null,
       "pnl_pct": null
     }
@@ -473,6 +473,19 @@
       "cluster": false
     },
     {
+      "ticker": "XRN",
+      "insider_name": "Wittman Lori",
+      "insider_title": "Director",
+      "trade_date": "2026-05-12",
+      "shares": 2940.0,
+      "price": 33.85,
+      "value": 99515.18,
+      "tx_code": "P",
+      "score": 73.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
       "ticker": "IBP",
       "insider_name": "Hilsheimer Lawrence A.",
       "insider_title": "Director",
@@ -510,6 +523,19 @@
       "score": 69.6,
       "hit_rate": 50.0,
       "cluster": false
+    },
+    {
+      "ticker": "XRN",
+      "insider_name": "Marston Ronald",
+      "insider_title": "Director",
+      "trade_date": "2026-05-12",
+      "shares": 1011.0,
+      "price": 34.06,
+      "value": 34433.85,
+      "tx_code": "P",
+      "score": 68.0,
+      "hit_rate": 50.0,
+      "cluster": true
     },
     {
       "ticker": "NBBK",
@@ -655,6 +681,19 @@
       "cluster": false
     },
     {
+      "ticker": "XRN",
+      "insider_name": "Marston Ronald",
+      "insider_title": "Director",
+      "trade_date": "2026-05-12",
+      "shares": 300.0,
+      "price": 34.14,
+      "value": 10241.97,
+      "tx_code": "P",
+      "score": 63.7,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
       "ticker": "NBBK",
       "insider_name": "CAMPANELLI JOSEPH P",
       "insider_title": "President & CEO",
@@ -668,6 +707,19 @@
       "cluster": false
     },
     {
+      "ticker": "XRN",
+      "insider_name": "Marston Ronald",
+      "insider_title": "Director",
+      "trade_date": "2026-05-12",
+      "shares": 189.0,
+      "price": 34.05,
+      "value": 6434.51,
+      "tx_code": "P",
+      "score": 63.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
       "ticker": "SAFTX",
       "insider_name": "Smith Brian P.",
       "insider_title": "President",
@@ -679,6 +731,19 @@
       "score": 62.5,
       "hit_rate": 50.0,
       "cluster": false
+    },
+    {
+      "ticker": "XRN",
+      "insider_name": "Barber Jamie Allen",
+      "insider_title": "General Counsel and Secretary",
+      "trade_date": "2026-05-12",
+      "shares": 1481.0,
+      "price": 33.5,
+      "value": 49613.5,
+      "tx_code": "P",
+      "score": 61.0,
+      "hit_rate": 50.0,
+      "cluster": true
     },
     {
       "ticker": "IBP",
@@ -731,74 +796,29 @@
       "score": 58.1,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "CZFS",
-      "insider_name": "Painter John P II",
-      "insider_title": "Director",
-      "trade_date": "2026-05-12",
-      "shares": 140.0,
-      "price": 63.67,
-      "value": 8913.8,
-      "tx_code": "P",
-      "score": 58.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "OVLY",
-      "insider_name": "HOLDER H RANDOLPH JR",
-      "insider_title": "Director",
-      "trade_date": "2026-05-12",
-      "shares": 200.0,
-      "price": 32.5,
-      "value": 6500.0,
-      "tx_code": "P",
-      "score": 58.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "ACON",
-      "insider_name": "Breidbart Scott",
-      "insider_title": "Director",
-      "trade_date": "2026-05-12",
-      "shares": 5664.0,
-      "price": 3.18,
-      "value": 18011.52,
-      "tx_code": "P",
-      "score": 58.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "TFSL",
-      "insider_name": "Weir Daniel F",
-      "insider_title": "Director",
-      "trade_date": "2026-05-12",
-      "shares": 21000.0,
-      "price": 14.91,
-      "value": 313110.0,
-      "tx_code": "P",
-      "score": 58.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "CHCO",
-      "insider_name": "Parsons James M.",
-      "insider_title": "Director",
-      "trade_date": "2026-05-12",
-      "shares": 100.0,
-      "price": 121.6,
-      "value": 12160.0,
-      "tx_code": "P",
-      "score": 58.0,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-13 23:06:58",
+      "ticker": "XRN",
+      "action": "BUY",
+      "price": 34.32,
+      "shares": 143.0,
+      "total_value": 4907.76,
+      "reason": "Score 73.0 ≥ 70",
+      "triggering_insider": "Wittman Lori"
+    },
+    {
+      "timestamp": "2026-05-13 23:06:57",
+      "ticker": "PLSE",
+      "action": "SELL",
+      "price": 23.96,
+      "shares": 257.0,
+      "total_value": 6157.72,
+      "reason": "Take profit (+25.6% ≥ +25.0%)",
+      "triggering_insider": "LAVIOLETTE PAUL A"
+    },
     {
       "timestamp": "2026-05-12 23:05:00",
       "ticker": "IBP",
