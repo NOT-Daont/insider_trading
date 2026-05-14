@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-14 16:04 UTC",
+  "updated_at": "2026-05-14 19:45 UTC",
   "metrics": {
-    "total_return_pct": -0.3,
-    "ytd_return_pct": -0.3,
-    "sharpe_ratio": -0.52,
+    "total_return_pct": -0.7,
+    "ytd_return_pct": -0.7,
+    "sharpe_ratio": -1.4,
     "max_drawdown_pct": 2.27,
-    "total_trades": 17,
-    "win_rate": 25.0,
-    "current_value": 99703.17
+    "total_trades": 18,
+    "win_rate": 20.0,
+    "current_value": 99301.25
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -45,7 +45,7 @@
       98159.85,
       99042.21,
       98797.25,
-      99703.17
+      99301.25
     ],
     "benchmark": [
       null,
@@ -63,7 +63,7 @@
       104354.58,
       104196.48,
       104779.45,
-      105771.75
+      105653.18
     ]
   },
   "positions": [
@@ -73,15 +73,6 @@
       "avg_cost": 21.5,
       "opened_at": "2026-04-29",
       "triggering_insider": "SWETMAN CHEVIS",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "SBMT",
-      "shares": 463.0,
-      "avg_cost": 10.75,
-      "opened_at": "2026-05-01",
-      "triggering_insider": "Naugle Charles Travis",
       "current_price": null,
       "pnl_pct": null
     },
@@ -788,20 +779,30 @@
       "cluster": true
     },
     {
-      "ticker": "SAFTX",
-      "insider_name": "Smith Brian P.",
-      "insider_title": "President",
-      "trade_date": "2026-04-21",
-      "shares": 3762.7,
-      "price": 20.0,
-      "value": 75254.0,
+      "ticker": "N/A",
+      "insider_name": "Mattson Michelle Ann",
+      "insider_title": "Secretary",
+      "trade_date": "2026-05-01",
+      "shares": 1682.815,
+      "price": 98.05,
+      "value": 165000.01,
       "tx_code": "P",
-      "score": 58.1,
+      "score": 61.0,
       "hit_rate": 50.0,
-      "cluster": false
+      "cluster": true
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-14 19:45:56",
+      "ticker": "SBMT",
+      "action": "SELL",
+      "price": 9.22,
+      "shares": 463.0,
+      "total_value": 4268.86,
+      "reason": "Stop loss (-14.2% ≤ -12.0%)",
+      "triggering_insider": "Naugle Charles Travis"
+    },
     {
       "timestamp": "2026-05-13 23:06:58",
       "ticker": "XRN",
