@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-15 19:39 UTC",
+  "updated_at": "2026-05-15 22:57 UTC",
   "metrics": {
-    "total_return_pct": -0.97,
-    "ytd_return_pct": -0.97,
-    "sharpe_ratio": -1.87,
+    "total_return_pct": -1.35,
+    "ytd_return_pct": -1.35,
+    "sharpe_ratio": -2.52,
     "max_drawdown_pct": 2.27,
     "total_trades": 18,
     "win_rate": 20.0,
-    "current_value": 99027.82
+    "current_value": 98645.17
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -47,7 +47,7 @@
       99042.21,
       98797.25,
       99343.06,
-      99027.82
+      98645.17
     ],
     "benchmark": [
       null,
@@ -66,7 +66,7 @@
       104196.48,
       104779.45,
       105606.6,
-      104519.72
+      104336.23
     ]
   },
   "positions": [
@@ -522,6 +522,19 @@
       "cluster": false
     },
     {
+      "ticker": "PAL",
+      "insider_name": "Wright Bradley J.",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-05-15",
+      "shares": 3132.0,
+      "price": 5.15,
+      "value": 16129.8,
+      "tx_code": "P",
+      "score": 68.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "XRN",
       "insider_name": "Marston Ronald",
       "insider_title": "Director",
@@ -678,6 +691,19 @@
       "cluster": false
     },
     {
+      "ticker": "PAL",
+      "insider_name": "Wright Bradley J.",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-05-15",
+      "shares": 668.0,
+      "price": 5.15,
+      "value": 3440.2,
+      "tx_code": "P",
+      "score": 63.7,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "XRN",
       "insider_name": "Marston Ronald",
       "insider_title": "Director",
@@ -763,32 +789,6 @@
       "shares": 455.0,
       "price": 214.8,
       "value": 97734.0,
-      "tx_code": "P",
-      "score": 61.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "NONE",
-      "insider_name": "GS FUND HOLDINGS, L.L.C.",
-      "insider_title": "Other",
-      "trade_date": "2026-05-01",
-      "shares": 1001201.442,
-      "price": 24.97,
-      "value": 25000000.01,
-      "tx_code": "P",
-      "score": 61.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "N/A",
-      "insider_name": "Mattson Michelle Ann",
-      "insider_title": "Secretary",
-      "trade_date": "2026-05-01",
-      "shares": 1682.815,
-      "price": 98.05,
-      "value": 165000.01,
       "tx_code": "P",
       "score": 61.0,
       "hit_rate": 50.0,
