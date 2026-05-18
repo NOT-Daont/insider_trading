@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-18 19:44 UTC",
+  "updated_at": "2026-05-18 23:05 UTC",
   "metrics": {
-    "total_return_pct": -0.73,
-    "ytd_return_pct": -0.73,
-    "sharpe_ratio": -1.23,
+    "total_return_pct": -0.86,
+    "ytd_return_pct": -0.86,
+    "sharpe_ratio": -1.48,
     "max_drawdown_pct": 2.27,
     "total_trades": 19,
     "win_rate": 20.0,
-    "current_value": 99269.39
+    "current_value": 99140.03
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -49,7 +49,7 @@
       98797.25,
       99343.06,
       98645.17,
-      99269.39
+      99140.03
     ],
     "benchmark": [
       null,
@@ -69,7 +69,7 @@
       104779.45,
       105606.6,
       104336.23,
-      104113.2
+      104262.83
     ]
   },
   "positions": [
@@ -547,6 +547,19 @@
       "cluster": false
     },
     {
+      "ticker": "BETR",
+      "insider_name": "Garg Vishal",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-05-18",
+      "shares": 6510.0,
+      "price": 25.0,
+      "value": 162750.0,
+      "tx_code": "P",
+      "score": 69.4,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "PAL",
       "insider_name": "Wright Bradley J.",
       "insider_title": "Chief Financial Officer",
@@ -586,6 +599,19 @@
       "cluster": false
     },
     {
+      "ticker": "BETR",
+      "insider_name": "Garg Vishal",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-05-18",
+      "shares": 3900.0,
+      "price": 24.74,
+      "value": 96486.0,
+      "tx_code": "P",
+      "score": 66.9,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "TORO",
       "insider_name": "Panagiotidis Petros Panagiotis",
       "insider_title": "Chief Executive Officer",
@@ -595,6 +621,19 @@
       "value": 2606064.76,
       "tx_code": "P",
       "score": 66.4,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "BETR",
+      "insider_name": "Garg Vishal",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-05-18",
+      "shares": 3333.0,
+      "price": 24.71,
+      "value": 82358.43,
+      "tx_code": "P",
+      "score": 66.2,
       "hit_rate": 50.0,
       "cluster": false
     },
@@ -716,6 +755,19 @@
       "cluster": false
     },
     {
+      "ticker": "BETR",
+      "insider_name": "Garg Vishal",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-05-18",
+      "shares": 1257.0,
+      "price": 24.99,
+      "value": 31412.43,
+      "tx_code": "P",
+      "score": 63.9,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "PAL",
       "insider_name": "Wright Bradley J.",
       "insider_title": "Chief Financial Officer",
@@ -753,58 +805,6 @@
       "score": 63.5,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "XRN",
-      "insider_name": "Marston Ronald",
-      "insider_title": "Director",
-      "trade_date": "2026-05-12",
-      "shares": 189.0,
-      "price": 34.05,
-      "value": 6434.51,
-      "tx_code": "P",
-      "score": 63.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "SAFTX",
-      "insider_name": "Smith Brian P.",
-      "insider_title": "President",
-      "trade_date": "2026-04-20",
-      "shares": 13380.75,
-      "price": 20.0,
-      "value": 267615.0,
-      "tx_code": "P",
-      "score": 62.5,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "XRN",
-      "insider_name": "Barber Jamie Allen",
-      "insider_title": "General Counsel and Secretary",
-      "trade_date": "2026-05-12",
-      "shares": 1481.0,
-      "price": 33.5,
-      "value": 49613.5,
-      "tx_code": "P",
-      "score": 61.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "IBP",
-      "insider_name": "Wheeler Brad A",
-      "insider_title": "Chief Operating Officer",
-      "trade_date": "2026-05-11",
-      "shares": 716.0,
-      "price": 209.13,
-      "value": 149737.08,
-      "tx_code": "P",
-      "score": 61.0,
-      "hit_rate": 50.0,
-      "cluster": true
     }
   ],
   "trades": [
