@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-19 19:52 UTC",
+  "updated_at": "2026-05-19 23:04 UTC",
   "metrics": {
-    "total_return_pct": -1.24,
-    "ytd_return_pct": -1.24,
-    "sharpe_ratio": -2.07,
+    "total_return_pct": -1.39,
+    "ytd_return_pct": -1.39,
+    "sharpe_ratio": -2.3,
     "max_drawdown_pct": 2.27,
-    "total_trades": 19,
+    "total_trades": 20,
     "win_rate": 20.0,
-    "current_value": 98758.29
+    "current_value": 98607.92
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -51,7 +51,7 @@
       99343.06,
       98645.17,
       99140.03,
-      98758.29
+      98607.92
     ],
     "benchmark": [
       null,
@@ -72,7 +72,7 @@
       105606.6,
       104336.23,
       104262.83,
-      103589.52
+      103568.35
     ]
   },
   "positions": [
@@ -154,6 +154,15 @@
       "avg_cost": 20.3,
       "opened_at": "2026-05-18",
       "triggering_insider": "Lobach David M Jr",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "EROK",
+      "shares": 211.0,
+      "avg_cost": 23.29,
+      "opened_at": "2026-05-19",
+      "triggering_insider": "Lott Jeff Slaughter",
       "current_price": null,
       "pnl_pct": null
     }
@@ -498,6 +507,71 @@
       "cluster": false
     },
     {
+      "ticker": "EROK",
+      "insider_name": "Lott Jeff Slaughter",
+      "insider_title": "Director",
+      "trade_date": "2026-05-15",
+      "shares": 250000.0,
+      "price": 18.5,
+      "value": 4625000.0,
+      "tx_code": "P",
+      "score": 73.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "EROK",
+      "insider_name": "Kumar Raj",
+      "insider_title": "Director",
+      "trade_date": "2026-05-15",
+      "shares": 5405.0,
+      "price": 18.5,
+      "value": 99992.5,
+      "tx_code": "P",
+      "score": 73.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "EROK",
+      "insider_name": "Reed Stephanie L",
+      "insider_title": "Director",
+      "trade_date": "2026-05-15",
+      "shares": 13513.0,
+      "price": 18.5,
+      "value": 249990.5,
+      "tx_code": "P",
+      "score": 73.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "EROK",
+      "insider_name": "Wallace Michael Wayne",
+      "insider_title": "Director",
+      "trade_date": "2026-05-15",
+      "shares": 250000.0,
+      "price": 18.5,
+      "value": 4625000.0,
+      "tx_code": "P",
+      "score": 73.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "EROK",
+      "insider_name": "Nelson James Carl",
+      "insider_title": "Director",
+      "trade_date": "2026-05-15",
+      "shares": 50000.0,
+      "price": 18.5,
+      "value": 925000.0,
+      "tx_code": "P",
+      "score": 73.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
       "ticker": "XRN",
       "insider_name": "Wittman Lori",
       "insider_title": "Director",
@@ -743,74 +817,19 @@
       "score": 64.3,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "NBBK",
-      "insider_name": "CAMPANELLI JOSEPH P",
-      "insider_title": "President & CEO",
-      "trade_date": "2026-04-24",
-      "shares": 178.0,
-      "price": 19.46,
-      "value": 3463.88,
-      "tx_code": "P",
-      "score": 64.3,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "BETR",
-      "insider_name": "Garg Vishal",
-      "insider_title": "Chief Executive Officer",
-      "trade_date": "2026-05-18",
-      "shares": 1257.0,
-      "price": 24.99,
-      "value": 31412.43,
-      "tx_code": "P",
-      "score": 63.9,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "PAL",
-      "insider_name": "Wright Bradley J.",
-      "insider_title": "Chief Financial Officer",
-      "trade_date": "2026-05-15",
-      "shares": 668.0,
-      "price": 5.15,
-      "value": 3440.2,
-      "tx_code": "P",
-      "score": 63.7,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "XRN",
-      "insider_name": "Marston Ronald",
-      "insider_title": "Director",
-      "trade_date": "2026-05-12",
-      "shares": 300.0,
-      "price": 34.14,
-      "value": 10241.97,
-      "tx_code": "P",
-      "score": 63.7,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "NBBK",
-      "insider_name": "CAMPANELLI JOSEPH P",
-      "insider_title": "President & CEO",
-      "trade_date": "2026-04-24",
-      "shares": 100.0,
-      "price": 19.47,
-      "value": 1947.0,
-      "tx_code": "P",
-      "score": 63.5,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-19 23:04:46",
+      "ticker": "EROK",
+      "action": "BUY",
+      "price": 23.29,
+      "shares": 211.0,
+      "total_value": 4914.19,
+      "reason": "Score 73.0 ≥ 70",
+      "triggering_insider": "Lott Jeff Slaughter"
+    },
     {
       "timestamp": "2026-05-18 19:44:57",
       "ticker": "EMYB",
