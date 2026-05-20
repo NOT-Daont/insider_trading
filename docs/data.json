@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-20 16:44 UTC",
+  "updated_at": "2026-05-20 20:15 UTC",
   "metrics": {
-    "total_return_pct": -0.55,
-    "ytd_return_pct": -0.55,
-    "sharpe_ratio": -0.79,
+    "total_return_pct": -0.17,
+    "ytd_return_pct": -0.17,
+    "sharpe_ratio": -0.19,
     "max_drawdown_pct": 2.27,
     "total_trades": 20,
     "win_rate": 20.0,
-    "current_value": 99449.51
+    "current_value": 99833.5
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -53,7 +53,7 @@
       98645.17,
       99140.03,
       98607.92,
-      99449.51
+      99833.5
     ],
     "benchmark": [
       null,
@@ -75,7 +75,7 @@
       104336.23,
       104262.83,
       103568.35,
-      104377.16
+      104629.82
     ]
   },
   "positions": [
@@ -640,6 +640,19 @@
       "cluster": false
     },
     {
+      "ticker": "CRVS",
+      "insider_name": "MILLER RICHARD A MD",
+      "insider_title": "President and CEO",
+      "trade_date": "2026-05-18",
+      "shares": 5000.0,
+      "price": 12.05,
+      "value": 60250.0,
+      "tx_code": "P",
+      "score": 68.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "PAL",
       "insider_name": "Wright Bradley J.",
       "insider_title": "Chief Financial Officer",
@@ -805,19 +818,6 @@
       "value": 457592.42,
       "tx_code": "P",
       "score": 65.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "NBBK",
-      "insider_name": "CAMPANELLI JOSEPH P",
-      "insider_title": "President & CEO",
-      "trade_date": "2026-04-24",
-      "shares": 180.0,
-      "price": 19.34,
-      "value": 3481.2,
-      "tx_code": "P",
-      "score": 64.3,
       "hit_rate": 50.0,
       "cluster": false
     }
