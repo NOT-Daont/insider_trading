@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-21 16:34 UTC",
+  "updated_at": "2026-05-21 19:54 UTC",
   "metrics": {
-    "total_return_pct": -0.42,
-    "ytd_return_pct": -0.42,
-    "sharpe_ratio": -0.53,
+    "total_return_pct": 0.58,
+    "ytd_return_pct": 0.58,
+    "sharpe_ratio": 0.82,
     "max_drawdown_pct": 2.27,
-    "total_trades": 21,
+    "total_trades": 22,
     "win_rate": 20.0,
-    "current_value": 99579.4
+    "current_value": 100581.82
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -55,7 +55,7 @@
       99140.03,
       98607.92,
       99833.5,
-      99579.4
+      100581.82
     ],
     "benchmark": [
       null,
@@ -78,7 +78,7 @@
       104262.83,
       103568.35,
       104629.82,
-      104299.53
+      104841.55
     ]
   },
   "positions": [
@@ -178,6 +178,15 @@
       "avg_cost": 5.03,
       "opened_at": "2026-05-21",
       "triggering_insider": "Gloe Oliver C.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "LEEEF",
+      "shares": 33527.0,
+      "avg_cost": 0.15,
+      "opened_at": "2026-05-21",
+      "triggering_insider": "Anderson Micah Payne",
       "current_price": null,
       "pnl_pct": null
     }
@@ -386,6 +395,32 @@
       "shares": 106.0,
       "price": 20.3,
       "value": 2151.8,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "LEEEF",
+      "insider_name": "Anderson Micah Payne",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-05-18",
+      "shares": 135870.0,
+      "price": 0.25,
+      "value": 33967.5,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "LEEEF",
+      "insider_name": "Wilson Kevin John",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-05-18",
+      "shares": 54348.0,
+      "price": 0.25,
+      "value": 13587.0,
       "tx_code": "P",
       "score": 74.0,
       "hit_rate": 50.0,
@@ -806,35 +841,19 @@
       "score": 65.8,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "TORO",
-      "insider_name": "Panagiotidis Petros Panagiotis",
-      "insider_title": "Chief Executive Officer",
-      "trade_date": "2026-04-23",
-      "shares": 265836.0,
-      "price": 6.52,
-      "value": 1734473.57,
-      "tx_code": "P",
-      "score": 65.8,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "NONE",
-      "insider_name": "Oxford Gate Management, LLC",
-      "insider_title": "10% Owner",
-      "trade_date": "2026-04-01",
-      "shares": 283929.59,
-      "price": 17.61,
-      "value": 5000000.08,
-      "tx_code": "P",
-      "score": 65.0,
-      "hit_rate": 50.0,
-      "cluster": true
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-21 19:54:00",
+      "ticker": "LEEEF",
+      "action": "BUY",
+      "price": 0.15,
+      "shares": 33527.0,
+      "total_value": 5029.05,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Anderson Micah Payne"
+    },
     {
       "timestamp": "2026-05-21 16:34:03",
       "ticker": "SWIM",
