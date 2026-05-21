@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-20 23:15 UTC",
+  "updated_at": "2026-05-21 16:34 UTC",
   "metrics": {
-    "total_return_pct": -0.17,
-    "ytd_return_pct": -0.17,
-    "sharpe_ratio": -0.19,
+    "total_return_pct": -0.42,
+    "ytd_return_pct": -0.42,
+    "sharpe_ratio": -0.53,
     "max_drawdown_pct": 2.27,
-    "total_trades": 20,
+    "total_trades": 21,
     "win_rate": 20.0,
-    "current_value": 99833.5
+    "current_value": 99579.4
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -31,7 +31,8 @@
       "2026-05-15",
       "2026-05-18",
       "2026-05-19",
-      "2026-05-20"
+      "2026-05-20",
+      "2026-05-21"
     ],
     "portfolio": [
       100000.0,
@@ -53,7 +54,8 @@
       98645.17,
       99140.03,
       98607.92,
-      99833.5
+      99833.5,
+      99579.4
     ],
     "benchmark": [
       null,
@@ -75,7 +77,8 @@
       104336.23,
       104262.83,
       103568.35,
-      104629.82
+      104629.82,
+      104299.53
     ]
   },
   "positions": [
@@ -166,6 +169,15 @@
       "avg_cost": 23.29,
       "opened_at": "2026-05-19",
       "triggering_insider": "Lott Jeff Slaughter",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "SWIM",
+      "shares": 989.0,
+      "avg_cost": 5.03,
+      "opened_at": "2026-05-21",
+      "triggering_insider": "Gloe Oliver C.",
       "current_price": null,
       "pnl_pct": null
     }
@@ -352,6 +364,19 @@
       "score": 79.2,
       "hit_rate": 50.0,
       "cluster": true
+    },
+    {
+      "ticker": "SWIM",
+      "insider_name": "Gloe Oliver C.",
+      "insider_title": "CHIEF FINANCIAL OFFICER",
+      "trade_date": "2026-05-20",
+      "shares": 15050.0,
+      "price": 4.9,
+      "value": 73745.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
+      "cluster": false
     },
     {
       "ticker": "EMYB",
@@ -807,22 +832,19 @@
       "score": 65.0,
       "hit_rate": 50.0,
       "cluster": true
-    },
-    {
-      "ticker": "TORO",
-      "insider_name": "Panagiotidis Petros Panagiotis",
-      "insider_title": "Chief Executive Officer",
-      "trade_date": "2026-04-24",
-      "shares": 67407.0,
-      "price": 6.79,
-      "value": 457592.42,
-      "tx_code": "P",
-      "score": 65.0,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-21 16:34:03",
+      "ticker": "SWIM",
+      "action": "BUY",
+      "price": 5.03,
+      "shares": 989.0,
+      "total_value": 4974.67,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Gloe Oliver C."
+    },
     {
       "timestamp": "2026-05-19 23:04:46",
       "ticker": "EROK",
