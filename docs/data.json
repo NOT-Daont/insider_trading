@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-22 16:14 UTC",
+  "updated_at": "2026-05-22 19:45 UTC",
   "metrics": {
-    "total_return_pct": 0.91,
-    "ytd_return_pct": 0.91,
-    "sharpe_ratio": 1.21,
+    "total_return_pct": 1.11,
+    "ytd_return_pct": 1.11,
+    "sharpe_ratio": 1.45,
     "max_drawdown_pct": 2.27,
     "total_trades": 23,
     "win_rate": 20.0,
-    "current_value": 100906.76
+    "current_value": 101108.94
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -57,7 +57,7 @@
       98607.92,
       99833.5,
       100284.98,
-      100906.76
+      101108.94
     ],
     "benchmark": [
       null,
@@ -81,7 +81,7 @@
       103568.35,
       104629.82,
       104837.32,
-      105506.39
+      105246.66
     ]
   },
   "positions": [
@@ -816,6 +816,19 @@
       "cluster": false
     },
     {
+      "ticker": "CWGL",
+      "insider_name": "Quille Nicolas Michel Eric",
+      "insider_title": "Chief Winemaking & COO",
+      "trade_date": "2026-05-21",
+      "shares": 1000.0,
+      "price": 4.03,
+      "value": 4030.0,
+      "tx_code": "P",
+      "score": 66.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "GOOD",
       "insider_name": "Carter Ryan Stuart",
       "insider_title": "Executive Vice President",
@@ -836,19 +849,6 @@
       "shares": 10000.0,
       "price": 4.52,
       "value": 45180.0,
-      "tx_code": "P",
-      "score": 66.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "KYN",
-      "insider_name": "Baker James C",
-      "insider_title": "President",
-      "trade_date": "2026-04-27",
-      "shares": 25000.0,
-      "price": 13.57,
-      "value": 339250.0,
       "tx_code": "P",
       "score": 66.0,
       "hit_rate": 50.0,
