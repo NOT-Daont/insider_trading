@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26 20:09 UTC",
+  "updated_at": "2026-05-26 23:12 UTC",
   "metrics": {
     "total_return_pct": 0.71,
     "ytd_return_pct": 0.71,
@@ -770,6 +770,19 @@
       "cluster": false
     },
     {
+      "ticker": "ENPH",
+      "insider_name": "Kothandaraman Badrinarayanan",
+      "insider_title": "President & CEO",
+      "trade_date": "2026-05-26",
+      "shares": 4400.0,
+      "price": 67.37,
+      "value": 296449.56,
+      "tx_code": "P",
+      "score": 68.3,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "CRVS",
       "insider_name": "MILLER RICHARD A MD",
       "insider_title": "President and CEO",
@@ -844,19 +857,6 @@
       "value": 96486.0,
       "tx_code": "P",
       "score": 66.9,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "TORO",
-      "insider_name": "Panagiotidis Petros Panagiotis",
-      "insider_title": "Chief Executive Officer",
-      "trade_date": "2026-04-22",
-      "shares": 516738.0,
-      "price": 5.04,
-      "value": 2606064.76,
-      "tx_code": "P",
-      "score": 66.4,
       "hit_rate": 50.0,
       "cluster": false
     }
