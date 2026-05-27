@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-27 16:57 UTC",
+  "updated_at": "2026-05-27 20:18 UTC",
   "metrics": {
-    "total_return_pct": 1.14,
-    "ytd_return_pct": 1.14,
-    "sharpe_ratio": 1.36,
+    "total_return_pct": 0.71,
+    "ytd_return_pct": 0.71,
+    "sharpe_ratio": 0.87,
     "max_drawdown_pct": 2.27,
-    "total_trades": 23,
+    "total_trades": 24,
     "win_rate": 20.0,
-    "current_value": 101137.15
+    "current_value": 100706.7
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -63,7 +63,7 @@
       101120.54,
       100751.74,
       100714.53,
-      101137.15
+      100706.7
     ],
     "benchmark": [
       null,
@@ -90,7 +90,7 @@
       105249.49,
       105249.49,
       105948.19,
-      105859.27
+      105929.85
     ]
   },
   "positions": [
@@ -208,6 +208,15 @@
       "avg_cost": 12.78,
       "opened_at": "2026-05-22",
       "triggering_insider": "Carroll John A",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "XZO",
+      "shares": 366.0,
+      "avg_cost": 13.74,
+      "opened_at": "2026-05-27",
+      "triggering_insider": "Patel Paresh",
       "current_price": null,
       "pnl_pct": null
     }
@@ -406,6 +415,19 @@
       "tx_code": "P",
       "score": 78.0,
       "hit_rate": 100.0,
+      "cluster": false
+    },
+    {
+      "ticker": "XZO",
+      "insider_name": "Patel Paresh",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-05-26",
+      "shares": 2000.0,
+      "price": 13.26,
+      "value": 26520.0,
+      "tx_code": "P",
+      "score": 74.0,
+      "hit_rate": 50.0,
       "cluster": false
     },
     {
@@ -849,22 +871,19 @@
       "score": 67.8,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "BETR",
-      "insider_name": "Garg Vishal",
-      "insider_title": "Chief Executive Officer",
-      "trade_date": "2026-05-18",
-      "shares": 3900.0,
-      "price": 24.74,
-      "value": 96486.0,
-      "tx_code": "P",
-      "score": 66.9,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-27 20:18:34",
+      "ticker": "XZO",
+      "action": "BUY",
+      "price": 13.74,
+      "shares": 366.0,
+      "total_value": 5028.84,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Patel Paresh"
+    },
     {
       "timestamp": "2026-05-22 16:14:16",
       "ticker": "WSBK",
