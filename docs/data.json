@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-09 16:24 UTC",
+  "updated_at": "2026-06-09 20:07 UTC",
   "metrics": {
-    "total_return_pct": -0.48,
-    "ytd_return_pct": -0.48,
-    "sharpe_ratio": -0.31,
+    "total_return_pct": -0.09,
+    "ytd_return_pct": -0.09,
+    "sharpe_ratio": -0.02,
     "max_drawdown_pct": 2.93,
-    "total_trades": 30,
+    "total_trades": 31,
     "win_rate": 16.67,
-    "current_value": 99516.55
+    "current_value": 99905.0
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -81,7 +81,7 @@
       99708.71,
       98379.37,
       98900.27,
-      99516.55
+      99905.0
     ],
     "benchmark": [
       null,
@@ -117,7 +117,7 @@
       106865.69,
       104107.56,
       104343.28,
-      102563.34
+      104045.45
     ]
   },
   "positions": [
@@ -280,6 +280,15 @@
       "avg_cost": 14.0,
       "opened_at": "2026-06-08",
       "triggering_insider": "White Heather Eileen",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "CUEN",
+      "shares": 17567.0,
+      "avg_cost": 0.28,
+      "opened_at": "2026-06-09",
+      "triggering_insider": "OAS ENERGY LLC",
       "current_price": null,
       "pnl_pct": null
     }
@@ -937,6 +946,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-06-09 20:07:19",
+      "ticker": "CUEN",
+      "action": "BUY",
+      "price": 0.28,
+      "shares": 17567.0,
+      "total_value": 4995.0,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "OAS ENERGY LLC"
+    },
     {
       "timestamp": "2026-06-09 16:24:42",
       "ticker": "WATT",
