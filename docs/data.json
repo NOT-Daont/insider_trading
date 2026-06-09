@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-08 23:13 UTC",
+  "updated_at": "2026-06-09 16:24 UTC",
   "metrics": {
-    "total_return_pct": -1.1,
-    "ytd_return_pct": -1.1,
-    "sharpe_ratio": -0.79,
+    "total_return_pct": -0.48,
+    "ytd_return_pct": -0.48,
+    "sharpe_ratio": -0.31,
     "max_drawdown_pct": 2.93,
-    "total_trades": 29,
-    "win_rate": 20.0,
-    "current_value": 98900.27
+    "total_trades": 30,
+    "win_rate": 16.67,
+    "current_value": 99516.55
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -44,7 +44,8 @@
       "2026-06-03",
       "2026-06-04",
       "2026-06-05",
-      "2026-06-08"
+      "2026-06-08",
+      "2026-06-09"
     ],
     "portfolio": [
       100000.0,
@@ -79,7 +80,8 @@
       99467.37,
       99708.71,
       98379.37,
-      98900.27
+      98900.27,
+      99516.55
     ],
     "benchmark": [
       null,
@@ -114,7 +116,8 @@
       106463.4,
       106865.69,
       104107.56,
-      104343.28
+      104343.28,
+      102563.34
     ]
   },
   "positions": [
@@ -241,15 +244,6 @@
       "avg_cost": 13.74,
       "opened_at": "2026-05-27",
       "triggering_insider": "Patel Paresh",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "WATT",
-      "shares": 184.0,
-      "avg_cost": 27.45,
-      "opened_at": "2026-05-28",
-      "triggering_insider": "Burak Mallorie Sara",
       "current_price": null,
       "pnl_pct": null
     },
@@ -943,6 +937,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-06-09 16:24:42",
+      "ticker": "WATT",
+      "action": "SELL",
+      "price": 23.05,
+      "shares": 184.0,
+      "total_value": 4241.2,
+      "reason": "Stop loss (-16.0% ≤ -12.0%)",
+      "triggering_insider": "Burak Mallorie Sara"
+    },
     {
       "timestamp": "2026-06-08 23:12:56",
       "ticker": "SSMR",
