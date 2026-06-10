@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-10 16:53 UTC",
+  "updated_at": "2026-06-10 20:30 UTC",
   "metrics": {
-    "total_return_pct": 0.17,
-    "ytd_return_pct": 0.17,
-    "sharpe_ratio": 0.18,
+    "total_return_pct": -0.54,
+    "ytd_return_pct": -0.54,
+    "sharpe_ratio": -0.33,
     "max_drawdown_pct": 2.93,
-    "total_trades": 33,
+    "total_trades": 34,
     "win_rate": 14.29,
-    "current_value": 100174.02
+    "current_value": 99456.24
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -83,7 +83,7 @@
       98379.37,
       98900.27,
       99905.0,
-      100174.02
+      99456.24
     ],
     "benchmark": [
       null,
@@ -120,7 +120,7 @@
       104107.56,
       104343.28,
       104036.98,
-      103153.36
+      102396.78
     ]
   },
   "positions": [
@@ -294,9 +294,31 @@
       "triggering_insider": "Smith Weber Lara",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "HRZN",
+      "shares": 972.0,
+      "avg_cost": 4.44,
+      "opened_at": "2026-06-10",
+      "triggering_insider": "Trolio Daniel R.",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
+    {
+      "ticker": "HRZN",
+      "insider_name": "Trolio Daniel R.",
+      "insider_title": "Executive VP and CFO",
+      "trade_date": "2026-06-10",
+      "shares": 11500.0,
+      "price": 4.34,
+      "value": 49910.0,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
     {
       "ticker": "NONE",
       "insider_name": "COHEN JONATHAN H",
@@ -933,22 +955,19 @@
       "score": 78.0,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 2.0,
-      "price": 1899.0,
-      "value": 3798.0,
-      "tx_code": "P",
-      "score": 78.0,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-06-10 20:30:52",
+      "ticker": "HRZN",
+      "action": "BUY",
+      "price": 4.44,
+      "shares": 972.0,
+      "total_value": 4315.68,
+      "reason": "Score 89.0 ≥ 70",
+      "triggering_insider": "Trolio Daniel R."
+    },
     {
       "timestamp": "2026-06-10 16:53:19",
       "ticker": "EROK",
