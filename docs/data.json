@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-12 16:37 UTC",
+  "updated_at": "2026-06-12 20:11 UTC",
   "metrics": {
-    "total_return_pct": 2.68,
-    "ytd_return_pct": 2.68,
-    "sharpe_ratio": 1.63,
+    "total_return_pct": 2.39,
+    "ytd_return_pct": 2.39,
+    "sharpe_ratio": 1.49,
     "max_drawdown_pct": 2.93,
-    "total_trades": 34,
-    "win_rate": 14.29,
-    "current_value": 102684.95
+    "total_trades": 36,
+    "win_rate": 25.0,
+    "current_value": 102386.5
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -87,7 +87,7 @@
       99905.0,
       99456.24,
       101169.34,
-      102684.95
+      102386.5
     ],
     "benchmark": [
       null,
@@ -126,7 +126,7 @@
       104036.98,
       102396.78,
       104137.2,
-      104543.72
+      104703.23
     ]
   },
   "positions": [
@@ -293,20 +293,20 @@
       "pnl_pct": null
     },
     {
-      "ticker": "GUTS",
-      "shares": 7035.0,
-      "avg_cost": 0.66,
-      "opened_at": "2026-06-09",
-      "triggering_insider": "Smith Weber Lara",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "HRZN",
       "shares": 972.0,
       "avg_cost": 4.44,
       "opened_at": "2026-06-10",
       "triggering_insider": "Trolio Daniel R.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "MOBI",
+      "shares": 415.0,
+      "avg_cost": 12.31,
+      "opened_at": "2026-06-12",
+      "triggering_insider": "Curnes Nelson Bunker",
       "current_price": null,
       "pnl_pct": null
     }
@@ -964,6 +964,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-06-12 20:11:28",
+      "ticker": "MOBI",
+      "action": "BUY",
+      "price": 12.31,
+      "shares": 415.0,
+      "total_value": 5108.65,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Curnes Nelson Bunker"
+    },
+    {
+      "timestamp": "2026-06-12 20:11:25",
+      "ticker": "GUTS",
+      "action": "SELL",
+      "price": 0.85,
+      "shares": 7035.0,
+      "total_value": 5979.75,
+      "reason": "Take profit (+28.0% ≥ +25.0%)",
+      "triggering_insider": "Smith Weber Lara"
+    },
     {
       "timestamp": "2026-06-10 20:30:52",
       "ticker": "HRZN",
