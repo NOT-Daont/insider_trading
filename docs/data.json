@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-15 18:20 UTC",
+  "updated_at": "2026-06-15 20:55 UTC",
   "metrics": {
-    "total_return_pct": 2.74,
-    "ytd_return_pct": 2.74,
-    "sharpe_ratio": 1.67,
+    "total_return_pct": 1.96,
+    "ytd_return_pct": 1.96,
+    "sharpe_ratio": 1.21,
     "max_drawdown_pct": 2.93,
-    "total_trades": 36,
+    "total_trades": 37,
     "win_rate": 25.0,
-    "current_value": 102735.79
+    "current_value": 101957.28
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -89,7 +89,7 @@
       99456.24,
       101169.34,
       102386.5,
-      102735.79
+      101957.28
     ],
     "benchmark": [
       null,
@@ -129,7 +129,7 @@
       102396.78,
       104137.2,
       104700.4,
-      106589.03
+      106546.69
     ]
   },
   "positions": [
@@ -310,6 +310,15 @@
       "avg_cost": 12.31,
       "opened_at": "2026-06-12",
       "triggering_insider": "Curnes Nelson Bunker",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "SXTP",
+      "shares": 587.0,
+      "avg_cost": 1.49,
+      "opened_at": "2026-06-15",
+      "triggering_insider": "DOW GEOFFREY S",
       "current_price": null,
       "pnl_pct": null
     }
@@ -967,6 +976,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-06-15 20:55:19",
+      "ticker": "SXTP",
+      "action": "BUY",
+      "price": 1.49,
+      "shares": 587.0,
+      "total_value": 874.63,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "DOW GEOFFREY S"
+    },
     {
       "timestamp": "2026-06-12 20:11:28",
       "ticker": "MOBI",
