@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23 20:06 UTC",
+  "updated_at": "2026-06-23 23:10 UTC",
   "metrics": {
     "total_return_pct": 3.78,
     "ytd_return_pct": 3.78,
@@ -7,7 +7,7 @@
     "max_drawdown_pct": 2.93,
     "total_trades": 37,
     "win_rate": 25.0,
-    "current_value": 103776.29
+    "current_value": 103780.14
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -101,7 +101,7 @@
       103777.31,
       103056.76,
       103051.03,
-      103776.29
+      103780.14
     ],
     "benchmark": [
       null,
@@ -147,7 +147,7 @@
       105404.75,
       105404.75,
       105073.05,
-      103568.35
+      103547.18
     ]
   },
   "positions": [
@@ -342,6 +342,19 @@
     }
   ],
   "transactions": [
+    {
+      "ticker": "NONE",
+      "insider_name": "Hunt Earl",
+      "insider_title": "CEO",
+      "trade_date": "2026-06-22",
+      "shares": 12566.182,
+      "price": 23.87,
+      "value": 300000.0,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
     {
       "ticker": "FCBM",
       "insider_name": "Day Ronald Arvin",
@@ -976,19 +989,6 @@
       "value": 5138.97,
       "tx_code": "P",
       "score": 78.1,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 2.0,
-      "price": 1998.68,
-      "value": 3997.36,
-      "tx_code": "P",
-      "score": 78.0,
       "hit_rate": 50.0,
       "cluster": false
     }
