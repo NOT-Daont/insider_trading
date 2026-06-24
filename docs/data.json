@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-24 19:46 UTC",
+  "updated_at": "2026-06-24 23:06 UTC",
   "metrics": {
-    "total_return_pct": 4.61,
-    "ytd_return_pct": 4.61,
-    "sharpe_ratio": 2.26,
+    "total_return_pct": 4.52,
+    "ytd_return_pct": 4.52,
+    "sharpe_ratio": 2.23,
     "max_drawdown_pct": 2.93,
     "total_trades": 37,
     "win_rate": 25.0,
-    "current_value": 104606.71
+    "current_value": 104519.2
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -103,7 +103,7 @@
       103056.76,
       103051.03,
       103780.14,
-      104606.71
+      104519.2
     ],
     "benchmark": [
       null,
@@ -150,7 +150,7 @@
       105404.75,
       105073.05,
       103547.18,
-      103346.04
+      103499.19
     ]
   },
   "positions": [
@@ -450,6 +450,19 @@
       "cluster": false
     },
     {
+      "ticker": "FTH",
+      "insider_name": "STEPHENSON BRIAN C",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-06-23",
+      "shares": 6836.0,
+      "price": 24.12,
+      "value": 164884.32,
+      "tx_code": "P",
+      "score": 84.2,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "IBP",
       "insider_name": "Miller Michael Thomas",
       "insider_title": "Executive VP & CFO",
@@ -535,6 +548,19 @@
       "shares": 50.0,
       "price": 1743.8,
       "value": 87190.0,
+      "tx_code": "P",
+      "score": 81.4,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "FTH",
+      "insider_name": "STEPHENSON BRIAN C",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-06-22",
+      "shares": 3329.0,
+      "price": 23.28,
+      "value": 77499.12,
       "tx_code": "P",
       "score": 81.4,
       "hit_rate": 50.0,
@@ -680,6 +706,19 @@
       "value": 51740.0,
       "tx_code": "P",
       "score": 80.0,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "FTH",
+      "insider_name": "STEPHENSON BRIAN C",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-06-23",
+      "shares": 1969.0,
+      "price": 24.84,
+      "value": 48909.96,
+      "tx_code": "P",
+      "score": 79.9,
       "hit_rate": 50.0,
       "cluster": false
     },
@@ -840,6 +879,32 @@
       "cluster": true
     },
     {
+      "ticker": "FTH",
+      "insider_name": "STEPHENSON BRIAN C",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-06-22",
+      "shares": 1797.0,
+      "price": 20.23,
+      "value": 36353.31,
+      "tx_code": "P",
+      "score": 79.2,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
+      "ticker": "FTH",
+      "insider_name": "STEPHENSON BRIAN C",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-06-22",
+      "shares": 1583.0,
+      "price": 22.4,
+      "value": 35459.2,
+      "tx_code": "P",
+      "score": 79.2,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "IBP",
       "insider_name": "Miller Michael Thomas",
       "insider_title": "Executive VP & CFO",
@@ -927,71 +992,6 @@
       "value": 19746.32,
       "tx_code": "P",
       "score": 78.6,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 8.0,
-      "price": 2010.0,
-      "value": 16080.0,
-      "tx_code": "P",
-      "score": 78.5,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-04",
-      "shares": 6.0,
-      "price": 1775.0,
-      "value": 10650.0,
-      "tx_code": "P",
-      "score": 78.3,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 5.0,
-      "price": 2070.0,
-      "value": 10350.0,
-      "tx_code": "P",
-      "score": 78.3,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 3.0,
-      "price": 1890.0,
-      "value": 5670.0,
-      "tx_code": "P",
-      "score": 78.1,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-04",
-      "shares": 3.0,
-      "price": 1712.99,
-      "value": 5138.97,
-      "tx_code": "P",
-      "score": 78.1,
       "hit_rate": 50.0,
       "cluster": false
     }
