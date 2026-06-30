@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-30 16:15 UTC",
+  "updated_at": "2026-06-30 19:58 UTC",
   "metrics": {
-    "total_return_pct": 6.26,
-    "ytd_return_pct": 6.26,
-    "sharpe_ratio": 2.61,
+    "total_return_pct": 6.2,
+    "ytd_return_pct": 6.2,
+    "sharpe_ratio": 2.59,
     "max_drawdown_pct": 2.93,
     "total_trades": 41,
     "win_rate": 33.33,
-    "current_value": 106257.77
+    "current_value": 106204.79
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -111,7 +111,7 @@
       104733.43,
       107239.7,
       106445.39,
-      106257.77
+      106204.79
     ],
     "benchmark": [
       null,
@@ -162,7 +162,7 @@
       103648.81,
       102899.28,
       104594.54,
-      105338.42
+      105536.03
     ]
   },
   "positions": [
