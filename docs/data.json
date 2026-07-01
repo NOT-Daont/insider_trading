@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-30 23:16 UTC",
+  "updated_at": "2026-07-01 16:14 UTC",
   "metrics": {
-    "total_return_pct": 5.95,
-    "ytd_return_pct": 5.95,
-    "sharpe_ratio": 2.48,
+    "total_return_pct": 9.63,
+    "ytd_return_pct": 9.63,
+    "sharpe_ratio": 3.33,
     "max_drawdown_pct": 2.93,
-    "total_trades": 41,
-    "win_rate": 33.33,
-    "current_value": 105946.02
+    "total_trades": 47,
+    "win_rate": 50.0,
+    "current_value": 109629.68
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -60,7 +60,8 @@
       "2026-06-25",
       "2026-06-26",
       "2026-06-29",
-      "2026-06-30"
+      "2026-06-30",
+      "2026-07-01"
     ],
     "portfolio": [
       100000.0,
@@ -111,7 +112,8 @@
       104733.43,
       107239.7,
       106445.39,
-      105946.02
+      105946.02,
+      109629.68
     ],
     "benchmark": [
       null,
@@ -162,7 +164,8 @@
       103648.81,
       102899.28,
       104594.54,
-      105408.99
+      105408.99,
+      105722.35
     ]
   },
   "positions": [
@@ -266,15 +269,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "XZO",
-      "shares": 366.0,
-      "avg_cost": 13.74,
-      "opened_at": "2026-05-27",
-      "triggering_insider": "Patel Paresh",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "GRNT",
       "shares": 1046.0,
       "avg_cost": 4.86,
@@ -311,15 +305,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "CUEN",
-      "shares": 17567.0,
-      "avg_cost": 0.28,
-      "opened_at": "2026-06-09",
-      "triggering_insider": "OAS ENERGY LLC",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "HRZN",
       "shares": 972.0,
       "avg_cost": 4.44,
@@ -334,15 +319,6 @@
       "avg_cost": 12.31,
       "opened_at": "2026-06-12",
       "triggering_insider": "Curnes Nelson Bunker",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "SXTP",
-      "shares": 587.0,
-      "avg_cost": 1.49,
-      "opened_at": "2026-06-15",
-      "triggering_insider": "DOW GEOFFREY S",
       "current_price": null,
       "pnl_pct": null
     },
@@ -370,6 +346,33 @@
       "avg_cost": 7.15,
       "opened_at": "2026-06-25",
       "triggering_insider": "Goldthorpe Edward J.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "STRR",
+      "shares": 492.0,
+      "avg_cost": 11.03,
+      "opened_at": "2026-07-01",
+      "triggering_insider": "Eberwein Jeffrey E.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "CTGO",
+      "shares": 331.0,
+      "avg_cost": 16.39,
+      "opened_at": "2026-07-01",
+      "triggering_insider": "Van Nieuwenhuyse Rick",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "FNWD",
+      "shares": 82.0,
+      "avg_cost": 36.73,
+      "opened_at": "2026-07-01",
+      "triggering_insider": "Bochnowski Benjamin J",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1027,6 +1030,66 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-01 16:14:38",
+      "ticker": "FNWD",
+      "action": "BUY",
+      "price": 36.73,
+      "shares": 82.0,
+      "total_value": 3011.86,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Bochnowski Benjamin J"
+    },
+    {
+      "timestamp": "2026-07-01 16:14:34",
+      "ticker": "CTGO",
+      "action": "BUY",
+      "price": 16.39,
+      "shares": 331.0,
+      "total_value": 5425.09,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Van Nieuwenhuyse Rick"
+    },
+    {
+      "timestamp": "2026-07-01 16:14:32",
+      "ticker": "STRR",
+      "action": "BUY",
+      "price": 11.03,
+      "shares": 492.0,
+      "total_value": 5426.76,
+      "reason": "Score 74.5 ≥ 70",
+      "triggering_insider": "Eberwein Jeffrey E."
+    },
+    {
+      "timestamp": "2026-07-01 16:14:29",
+      "ticker": "XZO",
+      "action": "SELL",
+      "price": 17.66,
+      "shares": 366.0,
+      "total_value": 6463.56,
+      "reason": "Take profit (+28.5% ≥ +25.0%)",
+      "triggering_insider": "Patel Paresh"
+    },
+    {
+      "timestamp": "2026-07-01 16:14:29",
+      "ticker": "CUEN",
+      "action": "SELL",
+      "price": 0.36,
+      "shares": 17567.0,
+      "total_value": 6315.34,
+      "reason": "Take profit (+26.4% ≥ +25.0%)",
+      "triggering_insider": "OAS ENERGY LLC"
+    },
+    {
+      "timestamp": "2026-07-01 16:14:29",
+      "ticker": "SXTP",
+      "action": "SELL",
+      "price": 1.87,
+      "shares": 587.0,
+      "total_value": 1097.69,
+      "reason": "Take profit (+25.5% ≥ +25.0%)",
+      "triggering_insider": "DOW GEOFFREY S"
+    },
     {
       "timestamp": "2026-06-25 20:01:04",
       "ticker": "BCIC",
