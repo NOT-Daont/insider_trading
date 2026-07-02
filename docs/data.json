@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-01 23:18 UTC",
+  "updated_at": "2026-07-02 15:59 UTC",
   "metrics": {
-    "total_return_pct": 7.24,
-    "ytd_return_pct": 7.24,
-    "sharpe_ratio": 2.9,
+    "total_return_pct": 9.68,
+    "ytd_return_pct": 9.68,
+    "sharpe_ratio": 3.54,
     "max_drawdown_pct": 2.93,
-    "total_trades": 47,
-    "win_rate": 50.0,
-    "current_value": 107237.13
+    "total_trades": 48,
+    "win_rate": 53.85,
+    "current_value": 109680.8
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -61,7 +61,8 @@
       "2026-06-26",
       "2026-06-29",
       "2026-06-30",
-      "2026-07-01"
+      "2026-07-01",
+      "2026-07-02"
     ],
     "portfolio": [
       100000.0,
@@ -113,7 +114,8 @@
       107239.7,
       106445.39,
       105946.02,
-      107237.13
+      107237.13,
+      109680.8
     ],
     "benchmark": [
       null,
@@ -165,7 +167,8 @@
       102899.28,
       104594.54,
       105408.99,
-      105266.42
+      105266.42,
+      105132.33
     ]
   },
   "positions": [
@@ -247,15 +250,6 @@
       "avg_cost": 20.3,
       "opened_at": "2026-05-18",
       "triggering_insider": "Lobach David M Jr",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "LEEEF",
-      "shares": 33527.0,
-      "avg_cost": 0.15,
-      "opened_at": "2026-05-21",
-      "triggering_insider": "Anderson Micah Payne",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1030,6 +1024,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-02 15:59:22",
+      "ticker": "LEEEF",
+      "action": "SELL",
+      "price": 0.21,
+      "shares": 33527.0,
+      "total_value": 6956.85,
+      "reason": "Take profit (+38.3% ≥ +25.0%)",
+      "triggering_insider": "Anderson Micah Payne"
+    },
     {
       "timestamp": "2026-07-01 16:14:38",
       "ticker": "FNWD",
