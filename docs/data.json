@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-03 23:06 UTC",
+  "updated_at": "2026-07-06 16:47 UTC",
   "metrics": {
-    "total_return_pct": 10.21,
-    "ytd_return_pct": 10.21,
-    "sharpe_ratio": 3.57,
+    "total_return_pct": 9.9,
+    "ytd_return_pct": 9.9,
+    "sharpe_ratio": 3.42,
     "max_drawdown_pct": 2.93,
-    "total_trades": 48,
-    "win_rate": 53.85,
-    "current_value": 110214.14
+    "total_trades": 49,
+    "win_rate": 57.14,
+    "current_value": 109902.01
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -63,7 +63,8 @@
       "2026-06-30",
       "2026-07-01",
       "2026-07-02",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-07-06"
     ],
     "portfolio": [
       100000.0,
@@ -117,7 +118,8 @@
       105946.02,
       107237.13,
       110240.05,
-      110214.14
+      110214.14,
+      109902.01
     ],
     "benchmark": [
       null,
@@ -171,7 +173,8 @@
       105408.99,
       105266.42,
       105128.09,
-      105128.09
+      105128.09,
+      105953.84
     ]
   },
   "positions": [
@@ -271,15 +274,6 @@
       "avg_cost": 4.86,
       "opened_at": "2026-05-29",
       "triggering_insider": "Kettler Ronald Kyle",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "ARDT",
-      "shares": 571.0,
-      "avg_cost": 8.63,
-      "opened_at": "2026-06-08",
-      "triggering_insider": "LUMSDAINE ALFRED",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1027,6 +1021,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-06 16:46:58",
+      "ticker": "ARDT",
+      "action": "SELL",
+      "price": 10.94,
+      "shares": 571.0,
+      "total_value": 6246.74,
+      "reason": "Take profit (+26.8% ≥ +25.0%)",
+      "triggering_insider": "LUMSDAINE ALFRED"
+    },
     {
       "timestamp": "2026-07-02 15:59:22",
       "ticker": "LEEEF",
