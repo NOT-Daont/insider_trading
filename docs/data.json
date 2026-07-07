@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-07 19:55 UTC",
+  "updated_at": "2026-07-07 23:04 UTC",
   "metrics": {
-    "total_return_pct": 8.71,
-    "ytd_return_pct": 8.71,
-    "sharpe_ratio": 2.96,
+    "total_return_pct": 8.53,
+    "ytd_return_pct": 8.53,
+    "sharpe_ratio": 2.89,
     "max_drawdown_pct": 2.93,
-    "total_trades": 49,
+    "total_trades": 50,
     "win_rate": 57.14,
-    "current_value": 108713.11
+    "current_value": 108528.91
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -121,7 +121,7 @@
       110240.05,
       110214.14,
       109605.18,
-      108713.11
+      108528.91
     ],
     "benchmark": [
       null,
@@ -177,7 +177,7 @@
       105128.09,
       105128.09,
       106045.59,
-      105509.21
+      105541.68
     ]
   },
   "positions": [
@@ -367,6 +367,15 @@
       "avg_cost": 36.73,
       "opened_at": "2026-07-01",
       "triggering_insider": "Bochnowski Benjamin J",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "VENU",
+      "shares": 2328.0,
+      "avg_cost": 2.33,
+      "opened_at": "2026-07-07",
+      "triggering_insider": "ROTH JAY W",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1024,6 +1033,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-07 23:04:11",
+      "ticker": "VENU",
+      "action": "BUY",
+      "price": 2.33,
+      "shares": 2328.0,
+      "total_value": 5424.24,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "ROTH JAY W"
+    },
     {
       "timestamp": "2026-07-06 16:46:58",
       "ticker": "ARDT",
