@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-08 15:56 UTC",
+  "updated_at": "2026-07-08 19:24 UTC",
   "metrics": {
-    "total_return_pct": 7.52,
-    "ytd_return_pct": 7.52,
-    "sharpe_ratio": 2.51,
+    "total_return_pct": 8.01,
+    "ytd_return_pct": 8.01,
+    "sharpe_ratio": 2.68,
     "max_drawdown_pct": 2.93,
-    "total_trades": 50,
+    "total_trades": 51,
     "win_rate": 57.14,
-    "current_value": 107518.46
+    "current_value": 108005.94
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -123,7 +123,7 @@
       110214.14,
       109605.18,
       108528.91,
-      107518.46
+      108005.94
     ],
     "benchmark": [
       null,
@@ -180,7 +180,7 @@
       105128.09,
       106045.59,
       105541.68,
-      104535.25
+      105160.56
     ]
   },
   "positions": [
@@ -379,6 +379,15 @@
       "avg_cost": 2.33,
       "opened_at": "2026-07-07",
       "triggering_insider": "ROTH JAY W",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "PRQR",
+      "shares": 3177.0,
+      "avg_cost": 1.7,
+      "opened_at": "2026-07-08",
+      "triggering_insider": "de Boer Daniel Anton",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1036,6 +1045,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-08 19:24:56",
+      "ticker": "PRQR",
+      "action": "BUY",
+      "price": 1.7,
+      "shares": 3177.0,
+      "total_value": 5400.9,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "de Boer Daniel Anton"
+    },
     {
       "timestamp": "2026-07-07 23:04:11",
       "ticker": "VENU",
