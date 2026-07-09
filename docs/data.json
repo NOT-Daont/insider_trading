@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-09 16:21 UTC",
+  "updated_at": "2026-07-09 19:46 UTC",
   "metrics": {
-    "total_return_pct": 8.99,
-    "ytd_return_pct": 8.99,
-    "sharpe_ratio": 2.94,
+    "total_return_pct": 9.56,
+    "ytd_return_pct": 9.56,
+    "sharpe_ratio": 3.08,
     "max_drawdown_pct": 2.93,
-    "total_trades": 51,
-    "win_rate": 57.14,
-    "current_value": 108990.14
+    "total_trades": 53,
+    "win_rate": 60.0,
+    "current_value": 109559.22
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -125,7 +125,7 @@
       109605.18,
       108528.91,
       107971.67,
-      108990.14
+      109559.22
     ],
     "benchmark": [
       null,
@@ -183,7 +183,7 @@
       106045.59,
       105541.68,
       105215.61,
-      105949.61
+      106055.47
     ]
   },
   "positions": [
@@ -332,15 +332,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "FTH",
-      "shares": 42.0,
-      "avg_cost": 24.5,
-      "opened_at": "2026-06-25",
-      "triggering_insider": "STEPHENSON BRIAN C",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "BCIC",
       "shares": 2.0,
       "avg_cost": 7.15,
@@ -391,6 +382,15 @@
       "avg_cost": 1.7,
       "opened_at": "2026-07-08",
       "triggering_insider": "de Boer Daniel Anton",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "EHSI",
+      "shares": 3735.0,
+      "avg_cost": 1.01,
+      "opened_at": "2026-07-09",
+      "triggering_insider": "jeereddi Prasad Anjaneya",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1048,6 +1048,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-09 19:46:09",
+      "ticker": "EHSI",
+      "action": "BUY",
+      "price": 1.01,
+      "shares": 3735.0,
+      "total_value": 3772.35,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "jeereddi Prasad Anjaneya"
+    },
+    {
+      "timestamp": "2026-07-09 19:46:07",
+      "ticker": "FTH",
+      "action": "SELL",
+      "price": 32.72,
+      "shares": 42.0,
+      "total_value": 1374.24,
+      "reason": "Take profit (+33.6% ≥ +25.0%)",
+      "triggering_insider": "STEPHENSON BRIAN C"
+    },
     {
       "timestamp": "2026-07-08 19:24:56",
       "ticker": "PRQR",
