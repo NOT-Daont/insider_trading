@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-08 23:10 UTC",
+  "updated_at": "2026-07-09 16:21 UTC",
   "metrics": {
-    "total_return_pct": 7.97,
-    "ytd_return_pct": 7.97,
-    "sharpe_ratio": 2.67,
+    "total_return_pct": 8.99,
+    "ytd_return_pct": 8.99,
+    "sharpe_ratio": 2.94,
     "max_drawdown_pct": 2.93,
     "total_trades": 51,
     "win_rate": 57.14,
-    "current_value": 107971.67
+    "current_value": 108990.14
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -66,7 +66,8 @@
       "2026-07-03",
       "2026-07-06",
       "2026-07-07",
-      "2026-07-08"
+      "2026-07-08",
+      "2026-07-09"
     ],
     "portfolio": [
       100000.0,
@@ -123,7 +124,8 @@
       110214.14,
       109605.18,
       108528.91,
-      107971.67
+      107971.67,
+      108990.14
     ],
     "benchmark": [
       null,
@@ -180,7 +182,8 @@
       105128.09,
       106045.59,
       105541.68,
-      105215.61
+      105215.61,
+      105949.61
     ]
   },
   "positions": [
@@ -655,6 +658,19 @@
     },
     {
       "ticker": "NONE",
+      "insider_name": "Sarti Jeffrey",
+      "insider_title": "Vice President",
+      "trade_date": "2026-07-01",
+      "shares": 12242.9,
+      "price": 10.21,
+      "value": 125000.01,
+      "tx_code": "P",
+      "score": 81.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "NONE",
       "insider_name": "ROSENTHAL SAUL B",
       "insider_title": "President",
       "trade_date": "2026-04-01",
@@ -1027,19 +1043,6 @@
       "value": 20928.0,
       "tx_code": "P",
       "score": 78.7,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 11.0,
-      "price": 1795.12,
-      "value": 19746.32,
-      "tx_code": "P",
-      "score": 78.6,
       "hit_rate": 50.0,
       "cluster": false
     }
