@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-13 19:23 UTC",
+  "updated_at": "2026-07-13 22:57 UTC",
   "metrics": {
-    "total_return_pct": 8.53,
-    "ytd_return_pct": 8.53,
-    "sharpe_ratio": 2.69,
+    "total_return_pct": 8.54,
+    "ytd_return_pct": 8.54,
+    "sharpe_ratio": 2.7,
     "max_drawdown_pct": 2.93,
-    "total_trades": 53,
-    "win_rate": 60.0,
-    "current_value": 108527.22
+    "total_trades": 56,
+    "win_rate": 56.25,
+    "current_value": 108542.71
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -129,7 +129,7 @@
       107971.67,
       109526.65,
       109282.69,
-      108527.22
+      108542.71
     ],
     "benchmark": [
       null,
@@ -189,7 +189,7 @@
       105215.61,
       106106.29,
       106563.62,
-      105730.82
+      105747.75
     ]
   },
   "positions": [
@@ -226,15 +226,6 @@
       "avg_cost": 8.03,
       "opened_at": "2026-05-07",
       "triggering_insider": "Gregson Mark William",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "SMRT",
-      "shares": 4389.0,
-      "avg_cost": 1.12,
-      "opened_at": "2026-05-08",
-      "triggering_insider": "Martell Frank",
       "current_price": null,
       "pnl_pct": null
     },
@@ -397,6 +388,24 @@
       "avg_cost": 1.01,
       "opened_at": "2026-07-09",
       "triggering_insider": "jeereddi Prasad Anjaneya",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "CNXC",
+      "shares": 173.0,
+      "avg_cost": 24.88,
+      "opened_at": "2026-07-13",
+      "triggering_insider": "Caldwell Christopher A",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "WRAP",
+      "shares": 3.0,
+      "avg_cost": 2.11,
+      "opened_at": "2026-07-13",
+      "triggering_insider": "Cohen Scot",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1054,6 +1063,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-13 22:57:18",
+      "ticker": "WRAP",
+      "action": "BUY",
+      "price": 2.11,
+      "shares": 3.0,
+      "total_value": 6.33,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Cohen Scot"
+    },
+    {
+      "timestamp": "2026-07-13 22:57:15",
+      "ticker": "CNXC",
+      "action": "BUY",
+      "price": 24.88,
+      "shares": 173.0,
+      "total_value": 4304.24,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Caldwell Christopher A"
+    },
+    {
+      "timestamp": "2026-07-13 22:57:13",
+      "ticker": "SMRT",
+      "action": "SELL",
+      "price": 0.98,
+      "shares": 4389.0,
+      "total_value": 4311.31,
+      "reason": "Stop loss (-12.3% ≤ -12.0%)",
+      "triggering_insider": "Martell Frank"
+    },
     {
       "timestamp": "2026-07-09 19:46:09",
       "ticker": "EHSI",
