@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-16 19:10 UTC",
+  "updated_at": "2026-07-16 22:58 UTC",
   "metrics": {
-    "total_return_pct": 9.53,
-    "ytd_return_pct": 9.53,
-    "sharpe_ratio": 2.9,
+    "total_return_pct": 9.62,
+    "ytd_return_pct": 9.62,
+    "sharpe_ratio": 2.93,
     "max_drawdown_pct": 2.93,
     "total_trades": 56,
     "win_rate": 56.25,
-    "current_value": 109533.13
+    "current_value": 109615.1
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -135,7 +135,7 @@
       108542.71,
       109298.69,
       109303.53,
-      109533.13
+      109615.1
     ],
     "benchmark": [
       null,
@@ -198,7 +198,7 @@
       105747.75,
       106123.23,
       106543.86,
-      105836.68
+      105966.54
     ]
   },
   "positions": [
@@ -682,6 +682,19 @@
     },
     {
       "ticker": "NONE",
+      "insider_name": "Goodwin Scott Kreitler",
+      "insider_title": "Co-President",
+      "trade_date": "2026-07-14",
+      "shares": 124254.473,
+      "price": 10.06,
+      "value": 1250000.0,
+      "tx_code": "P",
+      "score": 81.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "NONE",
       "insider_name": "Sarti Jeffrey",
       "insider_title": "Vice President",
       "trade_date": "2026-07-01",
@@ -1054,19 +1067,6 @@
       "value": 22632.0,
       "tx_code": "P",
       "score": 78.8,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-04",
-      "shares": 12.0,
-      "price": 1744.0,
-      "value": 20928.0,
-      "tx_code": "P",
-      "score": 78.7,
       "hit_rate": 50.0,
       "cluster": false
     }
