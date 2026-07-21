@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-21 19:21 UTC",
+  "updated_at": "2026-07-21 22:59 UTC",
   "metrics": {
-    "total_return_pct": 9.02,
-    "ytd_return_pct": 9.02,
-    "sharpe_ratio": 2.61,
+    "total_return_pct": 9.2,
+    "ytd_return_pct": 9.2,
+    "sharpe_ratio": 2.65,
     "max_drawdown_pct": 2.93,
-    "total_trades": 56,
+    "total_trades": 57,
     "win_rate": 56.25,
-    "current_value": 109015.26
+    "current_value": 109195.93
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -141,7 +141,7 @@
       109615.1,
       108726.94,
       107819.88,
-      109015.26
+      109195.93
     ],
     "benchmark": [
       null,
@@ -207,7 +207,7 @@
       105966.54,
       104917.77,
       104748.39,
-      105639.07
+      105622.14
     ]
   },
   "positions": [
@@ -424,6 +424,15 @@
       "avg_cost": 2.11,
       "opened_at": "2026-07-13",
       "triggering_insider": "Cohen Scot",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "RANI",
+      "shares": 1.0,
+      "avg_cost": 0.69,
+      "opened_at": "2026-07-21",
+      "triggering_insider": "Imran Talat",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1081,6 +1090,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-21 22:59:20",
+      "ticker": "RANI",
+      "action": "BUY",
+      "price": 0.69,
+      "shares": 1.0,
+      "total_value": 0.69,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Imran Talat"
+    },
     {
       "timestamp": "2026-07-13 22:57:18",
       "ticker": "WRAP",
