@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-22 15:25 UTC",
+  "updated_at": "2026-07-22 19:19 UTC",
   "metrics": {
-    "total_return_pct": 10.42,
-    "ytd_return_pct": 10.42,
-    "sharpe_ratio": 2.92,
+    "total_return_pct": 9.82,
+    "ytd_return_pct": 9.82,
+    "sharpe_ratio": 2.79,
     "max_drawdown_pct": 2.93,
-    "total_trades": 57,
-    "win_rate": 56.25,
-    "current_value": 110415.47
+    "total_trades": 59,
+    "win_rate": 55.56,
+    "current_value": 109822.77
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -143,7 +143,7 @@
       108726.94,
       107819.88,
       109195.93,
-      110415.47
+      109822.77
     ],
     "benchmark": [
       null,
@@ -210,7 +210,7 @@
       104917.77,
       104748.39,
       105622.14,
-      105774.57
+      105598.84
     ]
   },
   "positions": [
@@ -418,24 +418,6 @@
       "avg_cost": 24.88,
       "opened_at": "2026-07-13",
       "triggering_insider": "Caldwell Christopher A",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "WRAP",
-      "shares": 3.0,
-      "avg_cost": 2.11,
-      "opened_at": "2026-07-13",
-      "triggering_insider": "Cohen Scot",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "RANI",
-      "shares": 1.0,
-      "avg_cost": 0.69,
-      "opened_at": "2026-07-21",
-      "triggering_insider": "Imran Talat",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1093,6 +1075,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-22 19:18:46",
+      "ticker": "WRAP",
+      "action": "SELL",
+      "price": 1.82,
+      "shares": 3.0,
+      "total_value": 5.46,
+      "reason": "Stop loss (-13.7% ≤ -12.0%)",
+      "triggering_insider": "Cohen Scot"
+    },
+    {
+      "timestamp": "2026-07-22 19:18:46",
+      "ticker": "RANI",
+      "action": "SELL",
+      "price": 0.88,
+      "shares": 1.0,
+      "total_value": 0.88,
+      "reason": "Take profit (+27.1% ≥ +25.0%)",
+      "triggering_insider": "Imran Talat"
+    },
     {
       "timestamp": "2026-07-21 22:59:20",
       "ticker": "RANI",
