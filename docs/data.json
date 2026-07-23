@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-22 23:06 UTC",
+  "updated_at": "2026-07-23 15:46 UTC",
   "metrics": {
-    "total_return_pct": 9.93,
-    "ytd_return_pct": 9.93,
-    "sharpe_ratio": 2.82,
+    "total_return_pct": 8.85,
+    "ytd_return_pct": 8.85,
+    "sharpe_ratio": 2.48,
     "max_drawdown_pct": 2.93,
-    "total_trades": 59,
-    "win_rate": 55.56,
-    "current_value": 109934.86
+    "total_trades": 61,
+    "win_rate": 52.63,
+    "current_value": 108848.37
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -76,7 +76,8 @@
       "2026-07-17",
       "2026-07-20",
       "2026-07-21",
-      "2026-07-22"
+      "2026-07-22",
+      "2026-07-23"
     ],
     "portfolio": [
       100000.0,
@@ -143,7 +144,8 @@
       108726.94,
       107819.88,
       109195.93,
-      109934.86
+      109934.86,
+      108848.37
     ],
     "benchmark": [
       null,
@@ -210,7 +212,8 @@
       104917.77,
       104748.39,
       105622.14,
-      105499.32
+      105499.32,
+      103977.7
     ]
   },
   "positions": [
@@ -332,15 +335,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "MOBI",
-      "shares": 415.0,
-      "avg_cost": 12.31,
-      "opened_at": "2026-06-12",
-      "triggering_insider": "Curnes Nelson Bunker",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "FCBM",
       "shares": 405.0,
       "avg_cost": 12.89,
@@ -418,6 +412,15 @@
       "avg_cost": 24.88,
       "opened_at": "2026-07-13",
       "triggering_insider": "Caldwell Christopher A",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "CAG",
+      "shares": 303.0,
+      "avg_cost": 14.49,
+      "opened_at": "2026-07-23",
+      "triggering_insider": "Brase John P",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1075,6 +1078,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-23 15:46:43",
+      "ticker": "CAG",
+      "action": "BUY",
+      "price": 14.49,
+      "shares": 303.0,
+      "total_value": 4390.47,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Brase John P"
+    },
+    {
+      "timestamp": "2026-07-23 15:46:39",
+      "ticker": "MOBI",
+      "action": "SELL",
+      "price": 10.57,
+      "shares": 415.0,
+      "total_value": 4386.55,
+      "reason": "Stop loss (-14.1% ≤ -12.0%)",
+      "triggering_insider": "Curnes Nelson Bunker"
+    },
     {
       "timestamp": "2026-07-22 19:18:46",
       "ticker": "WRAP",
