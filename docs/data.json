@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-24 23:03 UTC",
+  "updated_at": "2026-07-27 16:06 UTC",
   "metrics": {
-    "total_return_pct": 9.03,
-    "ytd_return_pct": 9.03,
-    "sharpe_ratio": 2.52,
+    "total_return_pct": 9.53,
+    "ytd_return_pct": 9.53,
+    "sharpe_ratio": 2.62,
     "max_drawdown_pct": 2.93,
-    "total_trades": 61,
-    "win_rate": 52.63,
-    "current_value": 109033.14
+    "total_trades": 63,
+    "win_rate": 55.0,
+    "current_value": 109533.43
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -78,7 +78,8 @@
       "2026-07-21",
       "2026-07-22",
       "2026-07-23",
-      "2026-07-24"
+      "2026-07-24",
+      "2026-07-27"
     ],
     "portfolio": [
       100000.0,
@@ -147,7 +148,8 @@
       109195.93,
       109934.86,
       109084.41,
-      109033.14
+      109033.14,
+      109533.43
     ],
     "benchmark": [
       null,
@@ -216,7 +218,8 @@
       105622.14,
       105499.32,
       104196.48,
-      104302.35
+      104302.35,
+      104149.9
     ]
   },
   "positions": [
@@ -253,15 +256,6 @@
       "avg_cost": 8.03,
       "opened_at": "2026-05-07",
       "triggering_insider": "Gregson Mark William",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "LW",
-      "shares": 121.0,
-      "avg_cost": 40.34,
-      "opened_at": "2026-05-11",
-      "triggering_insider": "Gray James D",
       "current_price": null,
       "pnl_pct": null
     },
@@ -424,6 +418,15 @@
       "avg_cost": 14.49,
       "opened_at": "2026-07-23",
       "triggering_insider": "Brase John P",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "BYRN",
+      "shares": 1451.0,
+      "avg_cost": 3.78,
+      "opened_at": "2026-07-27",
+      "triggering_insider": "Davis Conn Q.",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1081,6 +1084,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-27 16:06:30",
+      "ticker": "BYRN",
+      "action": "BUY",
+      "price": 3.78,
+      "shares": 1451.0,
+      "total_value": 5484.78,
+      "reason": "Score 77.3 ≥ 70",
+      "triggering_insider": "Davis Conn Q."
+    },
+    {
+      "timestamp": "2026-07-27 16:06:25",
+      "ticker": "LW",
+      "action": "SELL",
+      "price": 51.93,
+      "shares": 121.0,
+      "total_value": 6283.53,
+      "reason": "Take profit (+28.7% ≥ +25.0%)",
+      "triggering_insider": "Gray James D"
+    },
     {
       "timestamp": "2026-07-23 15:46:43",
       "ticker": "CAG",
