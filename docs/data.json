@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-27 16:06 UTC",
+  "updated_at": "2026-07-27 19:26 UTC",
   "metrics": {
-    "total_return_pct": 9.53,
-    "ytd_return_pct": 9.53,
-    "sharpe_ratio": 2.62,
+    "total_return_pct": 9.6,
+    "ytd_return_pct": 9.6,
+    "sharpe_ratio": 2.64,
     "max_drawdown_pct": 2.93,
-    "total_trades": 63,
+    "total_trades": 64,
     "win_rate": 55.0,
-    "current_value": 109533.43
+    "current_value": 109600.69
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -149,7 +149,7 @@
       109934.86,
       109084.41,
       109033.14,
-      109533.43
+      109600.69
     ],
     "benchmark": [
       null,
@@ -219,7 +219,7 @@
       105499.32,
       104196.48,
       104302.35,
-      104149.9
+      104363.04
     ]
   },
   "positions": [
@@ -427,6 +427,15 @@
       "avg_cost": 3.78,
       "opened_at": "2026-07-27",
       "triggering_insider": "Davis Conn Q.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "ANIX",
+      "shares": 235.0,
+      "avg_cost": 3.4,
+      "opened_at": "2026-07-27",
+      "triggering_insider": "KUMAR AMIT",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1084,6 +1093,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-27 19:26:46",
+      "ticker": "ANIX",
+      "action": "BUY",
+      "price": 3.4,
+      "shares": 235.0,
+      "total_value": 799.0,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "KUMAR AMIT"
+    },
     {
       "timestamp": "2026-07-27 16:06:30",
       "ticker": "BYRN",
