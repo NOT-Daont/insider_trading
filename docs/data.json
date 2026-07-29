@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-29 19:15 UTC",
+  "updated_at": "2026-07-29 23:00 UTC",
   "metrics": {
-    "total_return_pct": 10.96,
-    "ytd_return_pct": 10.96,
-    "sharpe_ratio": 2.92,
+    "total_return_pct": 10.04,
+    "ytd_return_pct": 10.04,
+    "sharpe_ratio": 2.68,
     "max_drawdown_pct": 2.93,
-    "total_trades": 64,
+    "total_trades": 65,
     "win_rate": 55.0,
-    "current_value": 110962.65
+    "current_value": 110036.73
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -153,7 +153,7 @@
       109033.14,
       110062.23,
       110701.63,
-      110962.65
+      110036.73
     ],
     "benchmark": [
       null,
@@ -225,7 +225,7 @@
       104302.35,
       104324.94,
       104574.77,
-      104372.92
+      102965.63
     ]
   },
   "positions": [
@@ -442,6 +442,15 @@
       "avg_cost": 3.4,
       "opened_at": "2026-07-27",
       "triggering_insider": "KUMAR AMIT",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "DLPN",
+      "shares": 2.0,
+      "avg_cost": 1.03,
+      "opened_at": "2026-07-29",
+      "triggering_insider": "O'Dowd William IV",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1099,6 +1108,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-29 23:00:30",
+      "ticker": "DLPN",
+      "action": "BUY",
+      "price": 1.03,
+      "shares": 2.0,
+      "total_value": 2.06,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "O'Dowd William IV"
+    },
     {
       "timestamp": "2026-07-27 19:26:46",
       "ticker": "ANIX",
