@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-29 23:00 UTC",
+  "updated_at": "2026-07-30 15:45 UTC",
   "metrics": {
-    "total_return_pct": 10.04,
-    "ytd_return_pct": 10.04,
-    "sharpe_ratio": 2.68,
+    "total_return_pct": 9.15,
+    "ytd_return_pct": 9.15,
+    "sharpe_ratio": 2.42,
     "max_drawdown_pct": 2.93,
-    "total_trades": 65,
+    "total_trades": 66,
     "win_rate": 55.0,
-    "current_value": 110036.73
+    "current_value": 109152.74
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -81,7 +81,8 @@
       "2026-07-24",
       "2026-07-27",
       "2026-07-28",
-      "2026-07-29"
+      "2026-07-29",
+      "2026-07-30"
     ],
     "portfolio": [
       100000.0,
@@ -153,7 +154,8 @@
       109033.14,
       110062.23,
       110701.63,
-      110036.73
+      110036.73,
+      109152.74
     ],
     "benchmark": [
       null,
@@ -225,7 +227,8 @@
       104302.35,
       104324.94,
       104574.77,
-      102965.63
+      102965.63,
+      104003.1
     ]
   },
   "positions": [
@@ -451,6 +454,15 @@
       "avg_cost": 1.03,
       "opened_at": "2026-07-29",
       "triggering_insider": "O'Dowd William IV",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "COSM",
+      "shares": 1.0,
+      "avg_cost": 0.2,
+      "opened_at": "2026-07-30",
+      "triggering_insider": "Siokas Grigorios",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1108,6 +1120,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-30 15:45:02",
+      "ticker": "COSM",
+      "action": "BUY",
+      "price": 0.2,
+      "shares": 1.0,
+      "total_value": 0.2,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Siokas Grigorios"
+    },
     {
       "timestamp": "2026-07-29 23:00:30",
       "ticker": "DLPN",
