@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-31 19:23 UTC",
+  "updated_at": "2026-07-31 23:02 UTC",
   "metrics": {
-    "total_return_pct": 9.95,
-    "ytd_return_pct": 9.95,
-    "sharpe_ratio": 2.6,
+    "total_return_pct": 9.79,
+    "ytd_return_pct": 9.79,
+    "sharpe_ratio": 2.56,
     "max_drawdown_pct": 2.93,
-    "total_trades": 66,
-    "win_rate": 55.0,
-    "current_value": 109953.11
+    "total_trades": 68,
+    "win_rate": 52.38,
+    "current_value": 109792.67
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -157,7 +157,7 @@
       110701.63,
       110036.73,
       110629.41,
-      109953.11
+      109792.67
     ],
     "benchmark": [
       null,
@@ -231,7 +231,7 @@
       104574.77,
       102965.63,
       104691.93,
-      105551.55
+      105445.69
     ]
   },
   "positions": [
@@ -389,15 +389,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "VENU",
-      "shares": 2328.0,
-      "avg_cost": 2.33,
-      "opened_at": "2026-07-07",
-      "triggering_insider": "ROTH JAY W",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "PRQR",
       "shares": 3177.0,
       "avg_cost": 1.7,
@@ -466,6 +457,15 @@
       "avg_cost": 0.2,
       "opened_at": "2026-07-30",
       "triggering_insider": "Siokas Grigorios",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "XAIR",
+      "shares": 895.0,
+      "avg_cost": 5.28,
+      "opened_at": "2026-07-31",
+      "triggering_insider": "MOORHEAD DANIEL J",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1123,6 +1123,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-07-31 23:02:43",
+      "ticker": "XAIR",
+      "action": "BUY",
+      "price": 5.28,
+      "shares": 895.0,
+      "total_value": 4721.12,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "MOORHEAD DANIEL J"
+    },
+    {
+      "timestamp": "2026-07-31 23:02:41",
+      "ticker": "VENU",
+      "action": "SELL",
+      "price": 2.03,
+      "shares": 2328.0,
+      "total_value": 4725.84,
+      "reason": "Stop loss (-12.9% ≤ -12.0%)",
+      "triggering_insider": "ROTH JAY W"
+    },
     {
       "timestamp": "2026-07-30 15:45:02",
       "ticker": "COSM",
