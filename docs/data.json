@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-31 23:02 UTC",
+  "updated_at": "2026-08-03 16:14 UTC",
   "metrics": {
-    "total_return_pct": 9.79,
-    "ytd_return_pct": 9.79,
-    "sharpe_ratio": 2.56,
+    "total_return_pct": 12.58,
+    "ytd_return_pct": 12.58,
+    "sharpe_ratio": 3.04,
     "max_drawdown_pct": 2.93,
-    "total_trades": 68,
-    "win_rate": 52.38,
-    "current_value": 109792.67
+    "total_trades": 72,
+    "win_rate": 52.17,
+    "current_value": 112576.78
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -83,7 +83,8 @@
       "2026-07-28",
       "2026-07-29",
       "2026-07-30",
-      "2026-07-31"
+      "2026-07-31",
+      "2026-08-03"
     ],
     "portfolio": [
       100000.0,
@@ -157,7 +158,8 @@
       110701.63,
       110036.73,
       110629.41,
-      109792.67
+      109792.67,
+      112576.78
     ],
     "benchmark": [
       null,
@@ -231,7 +233,8 @@
       104574.77,
       102965.63,
       104691.93,
-      105445.69
+      105445.69,
+      106690.66
     ]
   },
   "positions": [
@@ -425,15 +428,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "BYRN",
-      "shares": 1451.0,
-      "avg_cost": 3.78,
-      "opened_at": "2026-07-27",
-      "triggering_insider": "Davis Conn Q.",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "ANIX",
       "shares": 235.0,
       "avg_cost": 3.4,
@@ -462,10 +456,19 @@
     },
     {
       "ticker": "XAIR",
-      "shares": 895.0,
-      "avg_cost": 5.28,
-      "opened_at": "2026-07-31",
-      "triggering_insider": "MOORHEAD DANIEL J",
+      "shares": 782.0,
+      "avg_cost": 7.2,
+      "opened_at": "2026-08-03",
+      "triggering_insider": "Goodman Robert Scott",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "CMS",
+      "shares": 78.0,
+      "avg_cost": 71.9,
+      "opened_at": "2026-08-03",
+      "triggering_insider": "MADDIPATI SRIKANTH",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1123,6 +1126,46 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-03 16:14:03",
+      "ticker": "CMS",
+      "action": "BUY",
+      "price": 71.9,
+      "shares": 78.0,
+      "total_value": 5608.2,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "MADDIPATI SRIKANTH"
+    },
+    {
+      "timestamp": "2026-08-03 16:13:53",
+      "ticker": "XAIR",
+      "action": "BUY",
+      "price": 7.2,
+      "shares": 782.0,
+      "total_value": 5630.4,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Goodman Robert Scott"
+    },
+    {
+      "timestamp": "2026-08-03 16:13:50",
+      "ticker": "XAIR",
+      "action": "SELL",
+      "price": 7.2,
+      "shares": 895.0,
+      "total_value": 6444.0,
+      "reason": "Take profit (+36.5% ≥ +25.0%)",
+      "triggering_insider": "MOORHEAD DANIEL J"
+    },
+    {
+      "timestamp": "2026-08-03 16:13:49",
+      "ticker": "BYRN",
+      "action": "SELL",
+      "price": 4.89,
+      "shares": 1451.0,
+      "total_value": 7095.39,
+      "reason": "Take profit (+29.4% ≥ +25.0%)",
+      "triggering_insider": "Davis Conn Q."
+    },
     {
       "timestamp": "2026-07-31 23:02:43",
       "ticker": "XAIR",
