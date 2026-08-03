@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-03 16:14 UTC",
+  "updated_at": "2026-08-03 19:36 UTC",
   "metrics": {
-    "total_return_pct": 12.58,
-    "ytd_return_pct": 12.58,
-    "sharpe_ratio": 3.04,
+    "total_return_pct": 12.38,
+    "ytd_return_pct": 12.38,
+    "sharpe_ratio": 3.02,
     "max_drawdown_pct": 2.93,
-    "total_trades": 72,
-    "win_rate": 52.17,
-    "current_value": 112576.78
+    "total_trades": 73,
+    "win_rate": 50.0,
+    "current_value": 112378.06
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -159,7 +159,7 @@
       110036.73,
       110629.41,
       109792.67,
-      112576.78
+      112378.06
     ],
     "benchmark": [
       null,
@@ -234,7 +234,7 @@
       102965.63,
       104691.93,
       105445.69,
-      106690.66
+      107056.25
     ]
   },
   "positions": [
@@ -451,15 +451,6 @@
       "avg_cost": 0.2,
       "opened_at": "2026-07-30",
       "triggering_insider": "Siokas Grigorios",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "XAIR",
-      "shares": 782.0,
-      "avg_cost": 7.2,
-      "opened_at": "2026-08-03",
-      "triggering_insider": "Goodman Robert Scott",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1126,6 +1117,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-03 19:36:10",
+      "ticker": "XAIR",
+      "action": "SELL",
+      "price": 6.23,
+      "shares": 782.0,
+      "total_value": 4871.86,
+      "reason": "Stop loss (-13.5% ≤ -12.0%)",
+      "triggering_insider": "Goodman Robert Scott"
+    },
     {
       "timestamp": "2026-08-03 16:14:03",
       "ticker": "CMS",
