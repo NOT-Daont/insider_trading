@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-03 23:02 UTC",
+  "updated_at": "2026-08-04 16:05 UTC",
   "metrics": {
-    "total_return_pct": 12.18,
-    "ytd_return_pct": 12.18,
-    "sharpe_ratio": 2.99,
+    "total_return_pct": 14.03,
+    "ytd_return_pct": 14.03,
+    "sharpe_ratio": 3.32,
     "max_drawdown_pct": 2.93,
-    "total_trades": 73,
-    "win_rate": 50.0,
-    "current_value": 112184.52
+    "total_trades": 74,
+    "win_rate": 52.0,
+    "current_value": 114033.66
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -84,7 +84,8 @@
       "2026-07-29",
       "2026-07-30",
       "2026-07-31",
-      "2026-08-03"
+      "2026-08-03",
+      "2026-08-04"
     ],
     "portfolio": [
       100000.0,
@@ -159,7 +160,8 @@
       110036.73,
       110629.41,
       109792.67,
-      112184.52
+      112184.52,
+      114033.66
     ],
     "benchmark": [
       null,
@@ -234,7 +236,8 @@
       102965.63,
       104691.93,
       105445.69,
-      106947.56
+      106947.56,
+      108517.18
     ]
   },
   "positions": [
@@ -244,15 +247,6 @@
       "avg_cost": 21.5,
       "opened_at": "2026-04-29",
       "triggering_insider": "SWETMAN CHEVIS",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "FND",
-      "shares": 101.0,
-      "avg_cost": 48.22,
-      "opened_at": "2026-05-04",
-      "triggering_insider": "LANGLEY BRYAN",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1117,6 +1111,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-04 16:05:47",
+      "ticker": "FND",
+      "action": "SELL",
+      "price": 61.21,
+      "shares": 101.0,
+      "total_value": 6182.21,
+      "reason": "Take profit (+26.9% ≥ +25.0%)",
+      "triggering_insider": "LANGLEY BRYAN"
+    },
     {
       "timestamp": "2026-08-03 19:36:10",
       "ticker": "XAIR",
