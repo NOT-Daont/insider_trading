@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-06 16:04 UTC",
+  "updated_at": "2026-08-06 23:58 UTC",
   "metrics": {
-    "total_return_pct": 15.74,
-    "ytd_return_pct": 15.74,
-    "sharpe_ratio": 3.6,
+    "total_return_pct": 15.63,
+    "ytd_return_pct": 15.63,
+    "sharpe_ratio": 3.58,
     "max_drawdown_pct": 2.93,
-    "total_trades": 74,
-    "win_rate": 52.0,
-    "current_value": 115738.36
+    "total_trades": 75,
+    "win_rate": 53.85,
+    "current_value": 115631.44
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -165,7 +165,7 @@
       112184.52,
       113764.72,
       115556.76,
-      115738.36
+      115631.44
     ],
     "benchmark": [
       null,
@@ -243,7 +243,7 @@
       106947.56,
       108875.71,
       108658.34,
-      108432.49
+      108484.72
     ]
   },
   "positions": [
@@ -253,15 +253,6 @@
       "avg_cost": 21.5,
       "opened_at": "2026-04-29",
       "triggering_insider": "SWETMAN CHEVIS",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "ASRV",
-      "shares": 1284.0,
-      "avg_cost": 3.83,
-      "opened_at": "2026-05-06",
-      "triggering_insider": "STOPKO JEFFREY A",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1117,6 +1108,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-06 23:58:15",
+      "ticker": "ASRV",
+      "action": "SELL",
+      "price": 4.79,
+      "shares": 1284.0,
+      "total_value": 6150.36,
+      "reason": "Take profit (+25.1% ≥ +25.0%)",
+      "triggering_insider": "STOPKO JEFFREY A"
+    },
     {
       "timestamp": "2026-08-04 16:05:47",
       "ticker": "FND",
