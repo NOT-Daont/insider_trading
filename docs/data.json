@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-07 22:37 UTC",
+  "updated_at": "2026-08-10 14:49 UTC",
   "metrics": {
-    "total_return_pct": 16.07,
-    "ytd_return_pct": 16.07,
-    "sharpe_ratio": 3.65,
+    "total_return_pct": 16.13,
+    "ytd_return_pct": 16.13,
+    "sharpe_ratio": 3.63,
     "max_drawdown_pct": 2.93,
-    "total_trades": 75,
+    "total_trades": 76,
     "win_rate": 53.85,
-    "current_value": 116069.32
+    "current_value": 116131.3
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -88,7 +88,8 @@
       "2026-08-04",
       "2026-08-05",
       "2026-08-06",
-      "2026-08-07"
+      "2026-08-07",
+      "2026-08-10"
     ],
     "portfolio": [
       100000.0,
@@ -167,7 +168,8 @@
       113764.72,
       115556.76,
       115631.44,
-      116069.32
+      116069.32,
+      116131.3
     ],
     "benchmark": [
       null,
@@ -246,7 +248,8 @@
       108875.71,
       108658.34,
       108484.72,
-      109148.14
+      109148.14,
+      109390.92
     ]
   },
   "positions": [
@@ -454,6 +457,15 @@
       "avg_cost": 71.9,
       "opened_at": "2026-08-03",
       "triggering_insider": "MADDIPATI SRIKANTH",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "CTTH",
+      "shares": 88058.0,
+      "avg_cost": 0.07,
+      "opened_at": "2026-08-10",
+      "triggering_insider": "CTT PHARMACEUTICAL HOLDINGS, INC.",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1111,6 +1123,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-10 14:49:31",
+      "ticker": "CTTH",
+      "action": "BUY",
+      "price": 0.07,
+      "shares": 88058.0,
+      "total_value": 5811.83,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "CTT PHARMACEUTICAL HOLDINGS, INC."
+    },
     {
       "timestamp": "2026-08-06 23:58:15",
       "ticker": "ASRV",
