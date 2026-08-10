@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-10 18:56 UTC",
+  "updated_at": "2026-08-10 22:39 UTC",
   "metrics": {
-    "total_return_pct": 16.04,
-    "ytd_return_pct": 16.04,
-    "sharpe_ratio": 3.61,
+    "total_return_pct": 16.12,
+    "ytd_return_pct": 16.12,
+    "sharpe_ratio": 3.63,
     "max_drawdown_pct": 2.93,
-    "total_trades": 76,
+    "total_trades": 78,
     "win_rate": 53.85,
-    "current_value": 116035.42
+    "current_value": 116124.34
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -169,7 +169,7 @@
       115556.76,
       115631.44,
       116069.32,
-      116035.42
+      116124.34
     ],
     "benchmark": [
       null,
@@ -249,7 +249,7 @@
       108658.34,
       108484.72,
       109148.14,
-      109118.5
+      109115.68
     ]
   },
   "positions": [
@@ -468,9 +468,40 @@
       "triggering_insider": "CTT PHARMACEUTICAL HOLDINGS, INC.",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "BLSM",
+      "shares": 363.0,
+      "avg_cost": 15.99,
+      "opened_at": "2026-08-10",
+      "triggering_insider": "Keyes Jason A",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "MKZR",
+      "shares": 3819.0,
+      "avg_cost": 1.52,
+      "opened_at": "2026-08-10",
+      "triggering_insider": "DIXON ROBERT E",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
+    {
+      "ticker": "BLSM",
+      "insider_name": "Keyes Jason A",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-08-10",
+      "shares": 700.0,
+      "price": 16.0,
+      "value": 11200.0,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
     {
       "ticker": "NONE",
       "insider_name": "Hunt Earl",
@@ -1107,22 +1138,29 @@
       "score": 78.9,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 12.0,
-      "price": 1886.0,
-      "value": 22632.0,
-      "tx_code": "P",
-      "score": 78.8,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-10 22:39:16",
+      "ticker": "MKZR",
+      "action": "BUY",
+      "price": 1.52,
+      "shares": 3819.0,
+      "total_value": 5804.88,
+      "reason": "Score 77.3 ≥ 70",
+      "triggering_insider": "DIXON ROBERT E"
+    },
+    {
+      "timestamp": "2026-08-10 22:39:12",
+      "ticker": "BLSM",
+      "action": "BUY",
+      "price": 15.99,
+      "shares": 363.0,
+      "total_value": 5804.37,
+      "reason": "Score 89.0 ≥ 70",
+      "triggering_insider": "Keyes Jason A"
+    },
     {
       "timestamp": "2026-08-10 14:49:31",
       "ticker": "CTTH",
