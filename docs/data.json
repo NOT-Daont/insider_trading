@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-11 19:01 UTC",
+  "updated_at": "2026-08-11 22:43 UTC",
   "metrics": {
-    "total_return_pct": 17.37,
-    "ytd_return_pct": 17.37,
-    "sharpe_ratio": 3.84,
+    "total_return_pct": 17.55,
+    "ytd_return_pct": 17.55,
+    "sharpe_ratio": 3.86,
     "max_drawdown_pct": 2.93,
-    "total_trades": 78,
+    "total_trades": 79,
     "win_rate": 53.85,
-    "current_value": 117371.99
+    "current_value": 117550.57
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -171,7 +171,7 @@
       115631.44,
       116069.32,
       116124.34,
-      117371.99
+      117550.57
     ],
     "benchmark": [
       null,
@@ -252,7 +252,7 @@
       108484.72,
       109148.14,
       109115.68,
-      108706.33
+      108767.02
     ]
   },
   "positions": [
@@ -489,9 +489,31 @@
       "triggering_insider": "DIXON ROBERT E",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "KMPR",
+      "shares": 79.0,
+      "avg_cost": 26.18,
+      "opened_at": "2026-08-11",
+      "triggering_insider": "Camden Bradley T",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
+    {
+      "ticker": "KMPR",
+      "insider_name": "Camden Bradley T",
+      "insider_title": "EVP and CFO",
+      "trade_date": "2026-08-11",
+      "shares": 1000.0,
+      "price": 26.34,
+      "value": 26340.0,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
     {
       "ticker": "BLSM",
       "insider_name": "Keyes Jason A",
@@ -1128,22 +1150,19 @@
       "score": 78.9,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-04",
-      "shares": 15.0,
-      "price": 1733.0,
-      "value": 25995.0,
-      "tx_code": "P",
-      "score": 78.9,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-11 22:43:44",
+      "ticker": "KMPR",
+      "action": "BUY",
+      "price": 26.18,
+      "shares": 79.0,
+      "total_value": 2068.22,
+      "reason": "Score 89.0 ≥ 70",
+      "triggering_insider": "Camden Bradley T"
+    },
     {
       "timestamp": "2026-08-10 22:39:16",
       "ticker": "MKZR",
