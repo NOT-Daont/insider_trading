@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-14 14:43 UTC",
+  "updated_at": "2026-08-14 18:53 UTC",
   "metrics": {
-    "total_return_pct": 17.45,
-    "ytd_return_pct": 17.45,
-    "sharpe_ratio": 3.75,
+    "total_return_pct": 16.74,
+    "ytd_return_pct": 16.74,
+    "sharpe_ratio": 3.61,
     "max_drawdown_pct": 2.93,
-    "total_trades": 81,
-    "win_rate": 53.85,
-    "current_value": 117445.9
+    "total_trades": 82,
+    "win_rate": 51.85,
+    "current_value": 116738.97
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -177,7 +177,7 @@
       117550.57,
       116826.92,
       116927.14,
-      117445.9
+      116738.97
     ],
     "benchmark": [
       null,
@@ -261,7 +261,7 @@
       108767.02,
       109039.45,
       109800.27,
-      109694.4
+      109605.47
     ]
   },
   "positions": [
@@ -370,15 +370,6 @@
       "avg_cost": 7.15,
       "opened_at": "2026-06-25",
       "triggering_insider": "Goldthorpe Edward J.",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "STRR",
-      "shares": 492.0,
-      "avg_cost": 11.03,
-      "opened_at": "2026-07-01",
-      "triggering_insider": "Eberwein Jeffrey E.",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1180,6 +1171,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-14 18:53:02",
+      "ticker": "STRR",
+      "action": "SELL",
+      "price": 9.52,
+      "shares": 492.0,
+      "total_value": 4683.84,
+      "reason": "Stop loss (-13.7% ≤ -12.0%)",
+      "triggering_insider": "Eberwein Jeffrey E."
+    },
     {
       "timestamp": "2026-08-12 22:42:57",
       "ticker": "AWRE",
