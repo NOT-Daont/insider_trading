@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-18 18:37 UTC",
+  "updated_at": "2026-08-18 22:25 UTC",
   "metrics": {
-    "total_return_pct": 16.08,
-    "ytd_return_pct": 16.08,
-    "sharpe_ratio": 3.41,
+    "total_return_pct": 15.9,
+    "ytd_return_pct": 15.9,
+    "sharpe_ratio": 3.37,
     "max_drawdown_pct": 2.93,
-    "total_trades": 82,
-    "win_rate": 51.85,
-    "current_value": 116081.6
+    "total_trades": 83,
+    "win_rate": 53.57,
+    "current_value": 115902.25
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -181,7 +181,7 @@
       116927.14,
       116970.25,
       116007.78,
-      116081.6
+      115902.25
     ],
     "benchmark": [
       null,
@@ -267,7 +267,7 @@
       109800.27,
       109582.89,
       109064.86,
-      108456.49
+      108328.04
     ]
   },
   "positions": [
@@ -394,15 +394,6 @@
       "avg_cost": 36.73,
       "opened_at": "2026-07-01",
       "triggering_insider": "Bochnowski Benjamin J",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "PRQR",
-      "shares": 3177.0,
-      "avg_cost": 1.7,
-      "opened_at": "2026-07-08",
-      "triggering_insider": "de Boer Daniel Anton",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1177,6 +1168,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-18 22:25:39",
+      "ticker": "PRQR",
+      "action": "SELL",
+      "price": 2.15,
+      "shares": 3177.0,
+      "total_value": 6830.55,
+      "reason": "Take profit (+26.5% ≥ +25.0%)",
+      "triggering_insider": "de Boer Daniel Anton"
+    },
     {
       "timestamp": "2026-08-14 18:53:02",
       "ticker": "STRR",
