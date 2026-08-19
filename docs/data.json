@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-18 22:25 UTC",
+  "updated_at": "2026-08-19 14:22 UTC",
   "metrics": {
-    "total_return_pct": 15.9,
-    "ytd_return_pct": 15.9,
-    "sharpe_ratio": 3.37,
+    "total_return_pct": 17.82,
+    "ytd_return_pct": 17.82,
+    "sharpe_ratio": 3.66,
     "max_drawdown_pct": 2.93,
-    "total_trades": 83,
-    "win_rate": 53.57,
-    "current_value": 115902.25
+    "total_trades": 86,
+    "win_rate": 55.17,
+    "current_value": 117821.6
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -95,7 +95,8 @@
       "2026-08-13",
       "2026-08-14",
       "2026-08-17",
-      "2026-08-18"
+      "2026-08-18",
+      "2026-08-19"
     ],
     "portfolio": [
       100000.0,
@@ -181,7 +182,8 @@
       116927.14,
       116970.25,
       116007.78,
-      115902.25
+      115902.25,
+      117821.6
     ],
     "benchmark": [
       null,
@@ -267,7 +269,8 @@
       109800.27,
       109582.89,
       109064.86,
-      108328.04
+      108328.04,
+      108610.35
     ]
   },
   "positions": [
@@ -376,15 +379,6 @@
       "avg_cost": 7.15,
       "opened_at": "2026-06-25",
       "triggering_insider": "Goldthorpe Edward J.",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "CTGO",
-      "shares": 331.0,
-      "avg_cost": 16.39,
-      "opened_at": "2026-07-01",
-      "triggering_insider": "Van Nieuwenhuyse Rick",
       "current_price": null,
       "pnl_pct": null
     },
@@ -511,6 +505,24 @@
       "avg_cost": 1.19,
       "opened_at": "2026-08-12",
       "triggering_insider": "Amlani Ajay K",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "NVRI",
+      "shares": 285.0,
+      "avg_cost": 20.64,
+      "opened_at": "2026-08-19",
+      "triggering_insider": "Minan Peter Francis",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "SKYH",
+      "shares": 568.0,
+      "avg_cost": 10.36,
+      "opened_at": "2026-08-19",
+      "triggering_insider": "Gonzalez Francisco",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1168,6 +1180,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-19 14:22:16",
+      "ticker": "SKYH",
+      "action": "BUY",
+      "price": 10.36,
+      "shares": 568.0,
+      "total_value": 5884.48,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Gonzalez Francisco"
+    },
+    {
+      "timestamp": "2026-08-19 14:21:59",
+      "ticker": "NVRI",
+      "action": "BUY",
+      "price": 20.64,
+      "shares": 285.0,
+      "total_value": 5882.4,
+      "reason": "Score 77.0 ≥ 70",
+      "triggering_insider": "Minan Peter Francis"
+    },
+    {
+      "timestamp": "2026-08-19 14:21:50",
+      "ticker": "CTGO",
+      "action": "SELL",
+      "price": 20.88,
+      "shares": 331.0,
+      "total_value": 6911.28,
+      "reason": "Take profit (+27.4% ≥ +25.0%)",
+      "triggering_insider": "Van Nieuwenhuyse Rick"
+    },
     {
       "timestamp": "2026-08-18 22:25:39",
       "ticker": "PRQR",
