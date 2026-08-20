@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-19 22:27 UTC",
+  "updated_at": "2026-08-20 14:24 UTC",
   "metrics": {
-    "total_return_pct": 17.6,
-    "ytd_return_pct": 17.6,
-    "sharpe_ratio": 3.63,
+    "total_return_pct": 16.51,
+    "ytd_return_pct": 16.51,
+    "sharpe_ratio": 3.37,
     "max_drawdown_pct": 2.93,
-    "total_trades": 86,
-    "win_rate": 55.17,
-    "current_value": 117603.48
+    "total_trades": 87,
+    "win_rate": 53.33,
+    "current_value": 116506.42
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -96,7 +96,8 @@
       "2026-08-14",
       "2026-08-17",
       "2026-08-18",
-      "2026-08-19"
+      "2026-08-19",
+      "2026-08-20"
     ],
     "portfolio": [
       100000.0,
@@ -183,7 +184,8 @@
       116970.25,
       116007.78,
       115902.25,
-      117603.48
+      117603.48,
+      116506.42
     ],
     "benchmark": [
       null,
@@ -270,7 +272,8 @@
       109582.89,
       109064.86,
       108328.04,
-      108555.29
+      108555.29,
+      108192.53
     ]
   },
   "positions": [
@@ -451,15 +454,6 @@
       "avg_cost": 71.9,
       "opened_at": "2026-08-03",
       "triggering_insider": "MADDIPATI SRIKANTH",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "CTTH",
-      "shares": 88058.0,
-      "avg_cost": 0.07,
-      "opened_at": "2026-08-10",
-      "triggering_insider": "CTT PHARMACEUTICAL HOLDINGS, INC.",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1180,6 +1174,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-20 14:24:00",
+      "ticker": "CTTH",
+      "action": "SELL",
+      "price": 0.06,
+      "shares": 88058.0,
+      "total_value": 4843.19,
+      "reason": "Stop loss (-16.7% ≤ -12.0%)",
+      "triggering_insider": "CTT PHARMACEUTICAL HOLDINGS, INC."
+    },
     {
       "timestamp": "2026-08-19 14:22:16",
       "ticker": "SKYH",
