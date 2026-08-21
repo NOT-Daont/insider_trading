@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-20 22:29 UTC",
+  "updated_at": "2026-08-21 14:23 UTC",
   "metrics": {
-    "total_return_pct": 16.38,
-    "ytd_return_pct": 16.38,
-    "sharpe_ratio": 3.34,
+    "total_return_pct": 16.9,
+    "ytd_return_pct": 16.9,
+    "sharpe_ratio": 3.42,
     "max_drawdown_pct": 2.93,
-    "total_trades": 87,
-    "win_rate": 53.33,
-    "current_value": 116381.16
+    "total_trades": 88,
+    "win_rate": 54.84,
+    "current_value": 116903.54
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -97,7 +97,8 @@
       "2026-08-17",
       "2026-08-18",
       "2026-08-19",
-      "2026-08-20"
+      "2026-08-20",
+      "2026-08-21"
     ],
     "portfolio": [
       100000.0,
@@ -185,7 +186,8 @@
       116007.78,
       115902.25,
       117603.48,
-      116381.16
+      116381.16,
+      116903.54
     ],
     "benchmark": [
       null,
@@ -273,7 +275,8 @@
       109064.86,
       108328.04,
       108555.29,
-      107643.45
+      107643.45,
+      107937.04
     ]
   },
   "positions": [
@@ -346,15 +349,6 @@
       "avg_cost": 2074.25,
       "opened_at": "2026-06-08",
       "triggering_insider": "HOLDING FRANK B JR",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "SSMR",
-      "shares": 351.0,
-      "avg_cost": 14.0,
-      "opened_at": "2026-06-08",
-      "triggering_insider": "White Heather Eileen",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1174,6 +1168,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-21 14:22:59",
+      "ticker": "SSMR",
+      "action": "SELL",
+      "price": 18.49,
+      "shares": 351.0,
+      "total_value": 6489.99,
+      "reason": "Take profit (+32.1% ≥ +25.0%)",
+      "triggering_insider": "White Heather Eileen"
+    },
     {
       "timestamp": "2026-08-20 14:24:00",
       "ticker": "CTTH",
