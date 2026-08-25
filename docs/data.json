@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-24 22:28 UTC",
+  "updated_at": "2026-08-25 14:33 UTC",
   "metrics": {
-    "total_return_pct": 17.65,
-    "ytd_return_pct": 17.65,
-    "sharpe_ratio": 3.53,
+    "total_return_pct": 17.59,
+    "ytd_return_pct": 17.59,
+    "sharpe_ratio": 3.5,
     "max_drawdown_pct": 2.93,
-    "total_trades": 88,
+    "total_trades": 89,
     "win_rate": 54.84,
-    "current_value": 117645.45
+    "current_value": 117591.51
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -99,7 +99,8 @@
       "2026-08-19",
       "2026-08-20",
       "2026-08-21",
-      "2026-08-24"
+      "2026-08-24",
+      "2026-08-25"
     ],
     "portfolio": [
       100000.0,
@@ -189,7 +190,8 @@
       117603.48,
       116381.16,
       117245.42,
-      117645.45
+      117645.45,
+      117591.51
     ],
     "benchmark": [
       null,
@@ -279,7 +281,8 @@
       108555.29,
       107643.45,
       108083.84,
-      107766.25
+      107766.25,
+      107942.69
     ]
   },
   "positions": [
@@ -514,6 +517,15 @@
       "avg_cost": 10.36,
       "opened_at": "2026-08-19",
       "triggering_insider": "Gonzalez Francisco",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "GRML",
+      "shares": 543.0,
+      "avg_cost": 10.82,
+      "opened_at": "2026-08-25",
+      "triggering_insider": "LeBlanc Jeff",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1171,6 +1183,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-25 14:33:27",
+      "ticker": "GRML",
+      "action": "BUY",
+      "price": 10.82,
+      "shares": 543.0,
+      "total_value": 5875.26,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "LeBlanc Jeff"
+    },
     {
       "timestamp": "2026-08-21 14:22:59",
       "ticker": "SSMR",
