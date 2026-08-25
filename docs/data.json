@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-25 18:38 UTC",
+  "updated_at": "2026-08-25 22:29 UTC",
   "metrics": {
-    "total_return_pct": 17.91,
-    "ytd_return_pct": 17.91,
-    "sharpe_ratio": 3.55,
+    "total_return_pct": 17.99,
+    "ytd_return_pct": 17.99,
+    "sharpe_ratio": 3.57,
     "max_drawdown_pct": 2.93,
-    "total_trades": 89,
+    "total_trades": 91,
     "win_rate": 54.84,
-    "current_value": 117909.2
+    "current_value": 117994.35
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -191,7 +191,7 @@
       116381.16,
       117245.42,
       117645.45,
-      117909.2
+      117994.35
     ],
     "benchmark": [
       null,
@@ -282,7 +282,7 @@
       107643.45,
       108083.84,
       107766.25,
-      108028.79
+      108110.66
     ]
   },
   "positions": [
@@ -526,6 +526,24 @@
       "avg_cost": 10.82,
       "opened_at": "2026-08-25",
       "triggering_insider": "LeBlanc Jeff",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "OPFI",
+      "shares": 808.0,
+      "avg_cost": 7.3,
+      "opened_at": "2026-08-25",
+      "triggering_insider": "Schwartz Todd G.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "ASYS",
+      "shares": 414.0,
+      "avg_cost": 14.25,
+      "opened_at": "2026-08-25",
+      "triggering_insider": "Shechter Guy",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1183,6 +1201,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-25 22:29:13",
+      "ticker": "ASYS",
+      "action": "BUY",
+      "price": 14.25,
+      "shares": 414.0,
+      "total_value": 5899.5,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Shechter Guy"
+    },
+    {
+      "timestamp": "2026-08-25 22:29:07",
+      "ticker": "OPFI",
+      "action": "BUY",
+      "price": 7.3,
+      "shares": 808.0,
+      "total_value": 5898.4,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Schwartz Todd G."
+    },
     {
       "timestamp": "2026-08-25 14:33:27",
       "ticker": "GRML",
