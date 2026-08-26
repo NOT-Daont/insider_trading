@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-25 22:29 UTC",
+  "updated_at": "2026-08-26 14:33 UTC",
   "metrics": {
-    "total_return_pct": 17.99,
-    "ytd_return_pct": 17.99,
-    "sharpe_ratio": 3.57,
+    "total_return_pct": 16.03,
+    "ytd_return_pct": 16.03,
+    "sharpe_ratio": 3.12,
     "max_drawdown_pct": 2.93,
-    "total_trades": 91,
-    "win_rate": 54.84,
-    "current_value": 117994.35
+    "total_trades": 92,
+    "win_rate": 53.12,
+    "current_value": 116029.43
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -100,7 +100,8 @@
       "2026-08-20",
       "2026-08-21",
       "2026-08-24",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-08-26"
     ],
     "portfolio": [
       100000.0,
@@ -191,7 +192,8 @@
       116381.16,
       117245.42,
       117645.45,
-      117994.35
+      117994.35,
+      116029.43
     ],
     "benchmark": [
       null,
@@ -282,7 +284,8 @@
       107643.45,
       108083.84,
       107766.25,
-      108110.66
+      108110.66,
+      108003.39
     ]
   },
   "positions": [
@@ -517,15 +520,6 @@
       "avg_cost": 10.36,
       "opened_at": "2026-08-19",
       "triggering_insider": "Gonzalez Francisco",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "GRML",
-      "shares": 543.0,
-      "avg_cost": 10.82,
-      "opened_at": "2026-08-25",
-      "triggering_insider": "LeBlanc Jeff",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1201,6 +1195,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-26 14:33:31",
+      "ticker": "GRML",
+      "action": "SELL",
+      "price": 5.34,
+      "shares": 543.0,
+      "total_value": 2899.62,
+      "reason": "Stop loss (-50.6% ≤ -12.0%)",
+      "triggering_insider": "LeBlanc Jeff"
+    },
     {
       "timestamp": "2026-08-25 22:29:13",
       "ticker": "ASYS",
