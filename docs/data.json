@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-27 02:59 UTC",
+  "updated_at": "2026-08-27 23:20 UTC",
   "metrics": {
-    "total_return_pct": 16.46,
-    "ytd_return_pct": 16.46,
-    "sharpe_ratio": 3.21,
+    "total_return_pct": 16.86,
+    "ytd_return_pct": 16.86,
+    "sharpe_ratio": 3.29,
     "max_drawdown_pct": 2.93,
-    "total_trades": 92,
+    "total_trades": 93,
     "win_rate": 53.12,
-    "current_value": 116459.32
+    "current_value": 116863.06
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -195,7 +195,7 @@
       117645.45,
       117994.35,
       116700.84,
-      116459.32
+      116863.06
     ],
     "benchmark": [
       null,
@@ -288,7 +288,7 @@
       107766.25,
       108110.66,
       108219.35,
-      108134.66
+      108843.24
     ]
   },
   "positions": [
@@ -541,6 +541,15 @@
       "avg_cost": 14.25,
       "opened_at": "2026-08-25",
       "triggering_insider": "Shechter Guy",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "SLNH",
+      "shares": 2704.0,
+      "avg_cost": 1.19,
+      "opened_at": "2026-08-27",
+      "triggering_insider": "Belizaire John",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1198,6 +1207,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-08-27 23:20:11",
+      "ticker": "SLNH",
+      "action": "BUY",
+      "price": 1.19,
+      "shares": 2704.0,
+      "total_value": 3217.76,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Belizaire John"
+    },
     {
       "timestamp": "2026-08-26 14:33:31",
       "ticker": "GRML",
