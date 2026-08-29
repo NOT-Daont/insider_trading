@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-28 23:16 UTC",
+  "updated_at": "2026-08-29 01:29 UTC",
   "metrics": {
     "total_return_pct": 16.6,
     "ytd_return_pct": 16.6,
-    "sharpe_ratio": 3.22,
+    "sharpe_ratio": 3.2,
     "max_drawdown_pct": 2.93,
     "total_trades": 93,
     "win_rate": 53.12,
@@ -103,7 +103,8 @@
       "2026-08-25",
       "2026-08-26",
       "2026-08-27",
-      "2026-08-28"
+      "2026-08-28",
+      "2026-08-29"
     ],
     "portfolio": [
       100000.0,
@@ -197,6 +198,7 @@
       117994.35,
       116700.84,
       116863.06,
+      116597.57,
       116597.57
     ],
     "benchmark": [
@@ -291,6 +293,7 @@
       108110.66,
       108219.35,
       108843.24,
+      108596.23,
       108596.23
     ]
   },
@@ -558,6 +561,19 @@
     }
   ],
   "transactions": [
+    {
+      "ticker": "BIVI",
+      "insider_name": "KIM JOANNE WENDY",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-08-28",
+      "shares": 2500.0,
+      "price": 2.18,
+      "value": 5450.0,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
     {
       "ticker": "KMPR",
       "insider_name": "Camden Bradley T",
@@ -1194,19 +1210,6 @@
       "score": 79.2,
       "hit_rate": 50.0,
       "cluster": true
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 15.0,
-      "price": 1780.0,
-      "value": 26700.0,
-      "tx_code": "P",
-      "score": 78.9,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
