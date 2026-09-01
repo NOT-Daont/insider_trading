@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-01 17:30 UTC",
+  "updated_at": "2026-09-01 20:39 UTC",
   "metrics": {
-    "total_return_pct": 14.97,
-    "ytd_return_pct": 14.97,
-    "sharpe_ratio": 2.85,
+    "total_return_pct": 14.83,
+    "ytd_return_pct": 14.83,
+    "sharpe_ratio": 2.83,
     "max_drawdown_pct": 2.93,
-    "total_trades": 95,
+    "total_trades": 96,
     "win_rate": 54.55,
-    "current_value": 114966.43
+    "current_value": 114826.47
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -203,7 +203,7 @@
       116597.57,
       116368.88,
       115511.88,
-      114966.43
+      114826.47
     ],
     "benchmark": [
       null,
@@ -300,7 +300,7 @@
       108596.23,
       108596.23,
       108271.58,
-      107525.46
+      107527.7
     ]
   },
   "positions": [
@@ -562,6 +562,15 @@
       "avg_cost": 2.28,
       "opened_at": "2026-09-01",
       "triggering_insider": "KIM JOANNE WENDY",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "BLNE",
+      "shares": 1.0,
+      "avg_cost": 1.05,
+      "opened_at": "2026-09-01",
+      "triggering_insider": "Liuzza Nicholas Reyland JR",
       "current_price": null,
       "pnl_pct": null
     }
@@ -880,6 +889,32 @@
       "cluster": true
     },
     {
+      "ticker": "CWBC",
+      "insider_name": "LIVINGSTON SHANNON R",
+      "insider_title": "EXECUTIVE VICE PRESIDENT",
+      "trade_date": "2026-08-31",
+      "shares": 107.0,
+      "price": 21.51,
+      "value": 2301.57,
+      "tx_code": "P",
+      "score": 81.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "CWBC",
+      "insider_name": "CAGLE DAWN M",
+      "insider_title": "EXECUTIVE VICE PRESIDENT",
+      "trade_date": "2026-08-31",
+      "shares": 188.0,
+      "price": 21.51,
+      "value": 4043.88,
+      "tx_code": "P",
+      "score": 81.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
       "ticker": "NONE",
       "insider_name": "Goodwin Scott Kreitler",
       "insider_title": "Co-President",
@@ -1190,35 +1225,19 @@
       "score": 79.2,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "FTH",
-      "insider_name": "STEPHENSON BRIAN C",
-      "insider_title": "Chief Financial Officer",
-      "trade_date": "2026-06-22",
-      "shares": 1583.0,
-      "price": 22.4,
-      "value": 35459.2,
-      "tx_code": "P",
-      "score": 79.2,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "IBP",
-      "insider_name": "Miller Michael Thomas",
-      "insider_title": "Executive VP & CFO",
-      "trade_date": "2026-05-11",
-      "shares": 10.0,
-      "price": 217.91,
-      "value": 2179.05,
-      "tx_code": "P",
-      "score": 79.2,
-      "hit_rate": 50.0,
-      "cluster": true
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-01 20:39:28",
+      "ticker": "BLNE",
+      "action": "BUY",
+      "price": 1.05,
+      "shares": 1.0,
+      "total_value": 1.05,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Liuzza Nicholas Reyland JR"
+    },
     {
       "timestamp": "2026-09-01 17:30:12",
       "ticker": "BIVI",
