@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-01 23:52 UTC",
+  "updated_at": "2026-09-02 17:30 UTC",
   "metrics": {
-    "total_return_pct": 14.83,
-    "ytd_return_pct": 14.83,
-    "sharpe_ratio": 2.83,
+    "total_return_pct": 15.69,
+    "ytd_return_pct": 15.69,
+    "sharpe_ratio": 2.95,
     "max_drawdown_pct": 2.93,
-    "total_trades": 96,
-    "win_rate": 54.55,
-    "current_value": 114826.47
+    "total_trades": 100,
+    "win_rate": 52.94,
+    "current_value": 115686.76
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -106,7 +106,8 @@
       "2026-08-28",
       "2026-08-29",
       "2026-08-31",
-      "2026-09-01"
+      "2026-09-01",
+      "2026-09-02"
     ],
     "portfolio": [
       100000.0,
@@ -203,7 +204,8 @@
       116597.57,
       116368.88,
       115511.88,
-      114826.47
+      114826.47,
+      115686.76
     ],
     "benchmark": [
       null,
@@ -300,7 +302,8 @@
       108596.23,
       108596.23,
       108271.58,
-      107527.7
+      107527.7,
+      107948.34
     ]
   },
   "positions": [
@@ -548,15 +551,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "SLNH",
-      "shares": 2704.0,
-      "avg_cost": 1.19,
-      "opened_at": "2026-08-27",
-      "triggering_insider": "Belizaire John",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "BIVI",
       "shares": 2423.0,
       "avg_cost": 2.28,
@@ -571,6 +565,33 @@
       "avg_cost": 1.05,
       "opened_at": "2026-09-01",
       "triggering_insider": "Liuzza Nicholas Reyland JR",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "CWBC",
+      "shares": 105.0,
+      "avg_cost": 26.3,
+      "opened_at": "2026-09-02",
+      "triggering_insider": "LIVINGSTON SHANNON R",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "UAMY",
+      "shares": 4.0,
+      "avg_cost": 5.06,
+      "opened_at": "2026-09-02",
+      "triggering_insider": "EVANS GARY C",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "CURI",
+      "shares": 1.0,
+      "avg_cost": 2.88,
+      "opened_at": "2026-09-02",
+      "triggering_insider": "Stinchcomb Clinton Larry",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1228,6 +1249,46 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-02 17:30:15",
+      "ticker": "CURI",
+      "action": "BUY",
+      "price": 2.88,
+      "shares": 1.0,
+      "total_value": 2.88,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Stinchcomb Clinton Larry"
+    },
+    {
+      "timestamp": "2026-09-02 17:30:00",
+      "ticker": "UAMY",
+      "action": "BUY",
+      "price": 5.06,
+      "shares": 4.0,
+      "total_value": 20.24,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "EVANS GARY C"
+    },
+    {
+      "timestamp": "2026-09-02 17:29:40",
+      "ticker": "CWBC",
+      "action": "BUY",
+      "price": 26.3,
+      "shares": 105.0,
+      "total_value": 2761.5,
+      "reason": "Score 81.0 ≥ 70",
+      "triggering_insider": "LIVINGSTON SHANNON R"
+    },
+    {
+      "timestamp": "2026-09-02 17:29:29",
+      "ticker": "SLNH",
+      "action": "SELL",
+      "price": 1.03,
+      "shares": 2704.0,
+      "total_value": 2785.12,
+      "reason": "Stop loss (-13.4% ≤ -12.0%)",
+      "triggering_insider": "Belizaire John"
+    },
     {
       "timestamp": "2026-09-01 20:39:28",
       "ticker": "BLNE",
