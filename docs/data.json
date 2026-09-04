@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-04 17:14 UTC",
+  "updated_at": "2026-09-04 20:21 UTC",
   "metrics": {
-    "total_return_pct": 16.71,
-    "ytd_return_pct": 16.71,
-    "sharpe_ratio": 3.09,
+    "total_return_pct": 16.43,
+    "ytd_return_pct": 16.43,
+    "sharpe_ratio": 3.04,
     "max_drawdown_pct": 2.93,
-    "total_trades": 104,
-    "win_rate": 55.56,
-    "current_value": 116707.5
+    "total_trades": 106,
+    "win_rate": 54.05,
+    "current_value": 116428.04
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -209,7 +209,7 @@
       114826.47,
       115863.96,
       116176.44,
-      116707.5
+      116428.04
     ],
     "benchmark": [
       null,
@@ -309,7 +309,7 @@
       107527.7,
       108004.79,
       109135.43,
-      108738.79
+      108714.8
     ]
   },
   "positions": [
@@ -539,15 +539,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "BIVI",
-      "shares": 2423.0,
-      "avg_cost": 2.28,
-      "opened_at": "2026-09-01",
-      "triggering_insider": "KIM JOANNE WENDY",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "BLNE",
       "shares": 1.0,
       "avg_cost": 1.05,
@@ -598,6 +589,15 @@
       "avg_cost": 26.12,
       "opened_at": "2026-09-04",
       "triggering_insider": "SMITH ASHLEY B",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "BIVI",
+      "shares": 2423.0,
+      "avg_cost": 2.0,
+      "opened_at": "2026-09-04",
+      "triggering_insider": "Chappell Amy Suzon",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1255,6 +1255,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-04 20:21:12",
+      "ticker": "BIVI",
+      "action": "BUY",
+      "price": 2.0,
+      "shares": 2423.0,
+      "total_value": 4846.0,
+      "reason": "Score 73.0 ≥ 70",
+      "triggering_insider": "Chappell Amy Suzon"
+    },
+    {
+      "timestamp": "2026-09-04 20:21:08",
+      "ticker": "BIVI",
+      "action": "SELL",
+      "price": 2.0,
+      "shares": 2423.0,
+      "total_value": 4846.0,
+      "reason": "Stop loss (-12.3% ≤ -12.0%)",
+      "triggering_insider": "KIM JOANNE WENDY"
+    },
     {
       "timestamp": "2026-09-04 17:14:47",
       "ticker": "SMID",
@@ -2234,26 +2254,6 @@
       "total_value": 4381.29,
       "reason": "Stop loss (-12.3% ≤ -12.0%)",
       "triggering_insider": "Panagiotidis Petros Panagiotis"
-    },
-    {
-      "timestamp": "2026-05-01 22:53:17",
-      "ticker": "SBMT",
-      "action": "BUY",
-      "price": 10.75,
-      "shares": 463.0,
-      "total_value": 4977.25,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Naugle Charles Travis"
-    },
-    {
-      "timestamp": "2026-04-29 22:59:15",
-      "ticker": "PFBX",
-      "action": "BUY",
-      "price": 21.5,
-      "shares": 231.0,
-      "total_value": 4966.5,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "SWETMAN CHEVIS"
     }
   ]
 }
