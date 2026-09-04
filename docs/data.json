@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-03 23:50 UTC",
+  "updated_at": "2026-09-04 17:14 UTC",
   "metrics": {
-    "total_return_pct": 16.18,
-    "ytd_return_pct": 16.18,
-    "sharpe_ratio": 3.02,
+    "total_return_pct": 16.71,
+    "ytd_return_pct": 16.71,
+    "sharpe_ratio": 3.09,
     "max_drawdown_pct": 2.93,
-    "total_trades": 103,
+    "total_trades": 104,
     "win_rate": 55.56,
-    "current_value": 116176.44
+    "current_value": 116707.5
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -108,7 +108,8 @@
       "2026-08-31",
       "2026-09-01",
       "2026-09-02",
-      "2026-09-03"
+      "2026-09-03",
+      "2026-09-04"
     ],
     "portfolio": [
       100000.0,
@@ -207,7 +208,8 @@
       115511.88,
       114826.47,
       115863.96,
-      116176.44
+      116176.44,
+      116707.5
     ],
     "benchmark": [
       null,
@@ -306,7 +308,8 @@
       108271.58,
       107527.7,
       108004.79,
-      109135.43
+      109135.43,
+      108738.79
     ]
   },
   "positions": [
@@ -586,6 +589,15 @@
       "avg_cost": 4.49,
       "opened_at": "2026-09-03",
       "triggering_insider": "Gold Kelly",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "SMID",
+      "shares": 56.0,
+      "avg_cost": 26.12,
+      "opened_at": "2026-09-04",
+      "triggering_insider": "SMITH ASHLEY B",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1243,6 +1255,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-04 17:14:47",
+      "ticker": "SMID",
+      "action": "BUY",
+      "price": 26.12,
+      "shares": 56.0,
+      "total_value": 1462.72,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "SMITH ASHLEY B"
+    },
     {
       "timestamp": "2026-09-03 20:34:49",
       "ticker": "CAMP",
@@ -2232,16 +2254,6 @@
       "total_value": 4966.5,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "SWETMAN CHEVIS"
-    },
-    {
-      "timestamp": "2026-04-29 22:59:14",
-      "ticker": "NSRX",
-      "action": "SELL",
-      "price": 2.56,
-      "shares": 1712.0,
-      "total_value": 4382.72,
-      "reason": "Stop loss (-12.3% ≤ -12.0%)",
-      "triggering_insider": "Teleman Dan Benjamin"
     }
   ]
 }
