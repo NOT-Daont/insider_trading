@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-08 00:02 UTC",
+  "updated_at": "2026-09-08 17:39 UTC",
   "metrics": {
-    "total_return_pct": 16.43,
-    "ytd_return_pct": 16.43,
-    "sharpe_ratio": 3.01,
+    "total_return_pct": 16.51,
+    "ytd_return_pct": 16.51,
+    "sharpe_ratio": 3.03,
     "max_drawdown_pct": 2.93,
-    "total_trades": 106,
-    "win_rate": 54.05,
-    "current_value": 116430.52
+    "total_trades": 109,
+    "win_rate": 52.63,
+    "current_value": 116512.01
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -213,7 +213,7 @@
       116176.44,
       116430.48,
       116430.52,
-      116430.52
+      116512.01
     ],
     "benchmark": [
       null,
@@ -315,7 +315,7 @@
       109135.43,
       108714.8,
       108714.8,
-      108714.8
+      108373.21
     ]
   },
   "positions": [
@@ -442,15 +442,6 @@
       "avg_cost": 14.49,
       "opened_at": "2026-07-23",
       "triggering_insider": "Brase John P",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "ANIX",
-      "shares": 235.0,
-      "avg_cost": 3.4,
-      "opened_at": "2026-07-27",
-      "triggering_insider": "KUMAR AMIT",
       "current_price": null,
       "pnl_pct": null
     },
@@ -604,6 +595,24 @@
       "avg_cost": 2.0,
       "opened_at": "2026-09-04",
       "triggering_insider": "Chappell Amy Suzon",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "ENOV",
+      "shares": 35.0,
+      "avg_cost": 19.53,
+      "opened_at": "2026-09-08",
+      "triggering_insider": "McDonald Damien",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "BCDA",
+      "shares": 15.0,
+      "avg_cost": 1.1,
+      "opened_at": "2026-09-08",
+      "triggering_insider": "Altman Peter",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1261,6 +1270,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-08 17:39:19",
+      "ticker": "BCDA",
+      "action": "BUY",
+      "price": 1.1,
+      "shares": 15.0,
+      "total_value": 16.5,
+      "reason": "Score 72.0 ≥ 70",
+      "triggering_insider": "Altman Peter"
+    },
+    {
+      "timestamp": "2026-09-08 17:39:06",
+      "ticker": "ENOV",
+      "action": "BUY",
+      "price": 19.53,
+      "shares": 35.0,
+      "total_value": 683.55,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "McDonald Damien"
+    },
+    {
+      "timestamp": "2026-09-08 17:38:56",
+      "ticker": "ANIX",
+      "action": "SELL",
+      "price": 2.98,
+      "shares": 235.0,
+      "total_value": 700.3,
+      "reason": "Stop loss (-12.4% ≤ -12.0%)",
+      "triggering_insider": "KUMAR AMIT"
+    },
     {
       "timestamp": "2026-09-04 20:21:12",
       "ticker": "BIVI",
@@ -2230,36 +2269,6 @@
       "total_value": 4906.33,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Gregson Mark William"
-    },
-    {
-      "timestamp": "2026-05-06 15:57:04",
-      "ticker": "ASRV",
-      "action": "BUY",
-      "price": 3.83,
-      "shares": 1284.0,
-      "total_value": 4917.72,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "STOPKO JEFFREY A"
-    },
-    {
-      "timestamp": "2026-05-04 22:58:44",
-      "ticker": "FND",
-      "action": "BUY",
-      "price": 48.22,
-      "shares": 101.0,
-      "total_value": 4870.22,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "LANGLEY BRYAN"
-    },
-    {
-      "timestamp": "2026-05-04 15:54:33",
-      "ticker": "TORO",
-      "action": "SELL",
-      "price": 6.01,
-      "shares": 729.0,
-      "total_value": 4381.29,
-      "reason": "Stop loss (-12.3% ≤ -12.0%)",
-      "triggering_insider": "Panagiotidis Petros Panagiotis"
     }
   ]
 }
