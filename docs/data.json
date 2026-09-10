@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-09 23:53 UTC",
+  "updated_at": "2026-09-10 17:23 UTC",
   "metrics": {
-    "total_return_pct": 14.62,
-    "ytd_return_pct": 14.62,
-    "sharpe_ratio": 2.66,
-    "max_drawdown_pct": 2.93,
-    "total_trades": 109,
-    "win_rate": 52.63,
-    "current_value": 114620.58
+    "total_return_pct": 14.05,
+    "ytd_return_pct": 14.05,
+    "sharpe_ratio": 2.55,
+    "max_drawdown_pct": 3.34,
+    "total_trades": 112,
+    "win_rate": 51.28,
+    "current_value": 114051.46
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -112,7 +112,8 @@
       "2026-09-04",
       "2026-09-07",
       "2026-09-08",
-      "2026-09-09"
+      "2026-09-09",
+      "2026-09-10"
     ],
     "portfolio": [
       100000.0,
@@ -215,7 +216,8 @@
       116430.48,
       116430.52,
       115790.48,
-      114620.58
+      114620.58,
+      114051.46
     ],
     "benchmark": [
       null,
@@ -318,7 +320,8 @@
       108714.8,
       108714.8,
       108117.72,
-      107615.22
+      107615.22,
+      107111.3
     ]
   },
   "positions": [
@@ -328,15 +331,6 @@
       "avg_cost": 21.5,
       "opened_at": "2026-04-29",
       "triggering_insider": "SWETMAN CHEVIS",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "IVR",
-      "shares": 611.0,
-      "avg_cost": 8.03,
-      "opened_at": "2026-05-07",
-      "triggering_insider": "Gregson Mark William",
       "current_price": null,
       "pnl_pct": null
     },
@@ -616,6 +610,24 @@
       "avg_cost": 1.1,
       "opened_at": "2026-09-08",
       "triggering_insider": "Altman Peter",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "UBER",
+      "shares": 58.0,
+      "avg_cost": 72.88,
+      "opened_at": "2026-09-10",
+      "triggering_insider": "KHOSROWSHAHI DARA",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "MDRR",
+      "shares": 2.0,
+      "avg_cost": 11.99,
+      "opened_at": "2026-09-10",
+      "triggering_insider": "Winn Charles Brent Jr.",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1273,6 +1285,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-10 17:23:31",
+      "ticker": "MDRR",
+      "action": "BUY",
+      "price": 11.99,
+      "shares": 2.0,
+      "total_value": 23.98,
+      "reason": "Score 71.6 ≥ 70",
+      "triggering_insider": "Winn Charles Brent Jr."
+    },
+    {
+      "timestamp": "2026-09-10 17:23:13",
+      "ticker": "UBER",
+      "action": "BUY",
+      "price": 72.88,
+      "shares": 58.0,
+      "total_value": 4227.04,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "KHOSROWSHAHI DARA"
+    },
+    {
+      "timestamp": "2026-09-10 17:23:01",
+      "ticker": "IVR",
+      "action": "SELL",
+      "price": 6.96,
+      "shares": 611.0,
+      "total_value": 4252.56,
+      "reason": "Stop loss (-13.3% ≤ -12.0%)",
+      "triggering_insider": "Gregson Mark William"
+    },
     {
       "timestamp": "2026-09-08 17:39:19",
       "ticker": "BCDA",
@@ -2242,36 +2284,6 @@
       "total_value": 4881.14,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Gray James D"
-    },
-    {
-      "timestamp": "2026-05-11 16:23:23",
-      "ticker": "ABT",
-      "action": "SELL",
-      "price": 82.52,
-      "shares": 53.0,
-      "total_value": 4373.56,
-      "reason": "Stop loss (-12.1% ≤ -12.0%)",
-      "triggering_insider": "Boudreau Philip P"
-    },
-    {
-      "timestamp": "2026-05-08 22:57:41",
-      "ticker": "SMRT",
-      "action": "BUY",
-      "price": 1.12,
-      "shares": 4389.0,
-      "total_value": 4915.68,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Martell Frank"
-    },
-    {
-      "timestamp": "2026-05-07 19:43:29",
-      "ticker": "IVR",
-      "action": "BUY",
-      "price": 8.03,
-      "shares": 611.0,
-      "total_value": 4906.33,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Gregson Mark William"
     }
   ]
 }
