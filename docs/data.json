@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-10 23:50 UTC",
+  "updated_at": "2026-09-11 17:25 UTC",
   "metrics": {
-    "total_return_pct": 13.42,
-    "ytd_return_pct": 13.42,
-    "sharpe_ratio": 2.43,
+    "total_return_pct": 13.91,
+    "ytd_return_pct": 13.91,
+    "sharpe_ratio": 2.49,
     "max_drawdown_pct": 3.88,
-    "total_trades": 112,
-    "win_rate": 51.28,
-    "current_value": 113421.85
+    "total_trades": 115,
+    "win_rate": 50.0,
+    "current_value": 113908.75
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -113,7 +113,8 @@
       "2026-09-07",
       "2026-09-08",
       "2026-09-09",
-      "2026-09-10"
+      "2026-09-10",
+      "2026-09-11"
     ],
     "portfolio": [
       100000.0,
@@ -217,7 +218,8 @@
       116430.52,
       115790.48,
       114620.58,
-      113421.85
+      113421.85,
+      113908.75
     ],
     "benchmark": [
       null,
@@ -321,7 +323,8 @@
       108714.8,
       108117.72,
       107615.22,
-      106970.15
+      106970.15,
+      108150.19
     ]
   },
   "positions": [
@@ -421,15 +424,6 @@
       "avg_cost": 36.73,
       "opened_at": "2026-07-01",
       "triggering_insider": "Bochnowski Benjamin J",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "EHSI",
-      "shares": 3735.0,
-      "avg_cost": 1.01,
-      "opened_at": "2026-07-09",
-      "triggering_insider": "jeereddi Prasad Anjaneya",
       "current_price": null,
       "pnl_pct": null
     },
@@ -628,6 +622,24 @@
       "avg_cost": 11.99,
       "opened_at": "2026-09-10",
       "triggering_insider": "Winn Charles Brent Jr.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "CSBB",
+      "shares": 37.0,
+      "avg_cost": 76.0,
+      "opened_at": "2026-09-11",
+      "triggering_insider": "STEINER EDDIE L",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "UPST",
+      "shares": 1.0,
+      "avg_cost": 25.74,
+      "opened_at": "2026-09-11",
+      "triggering_insider": "Gu Paul",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1285,6 +1297,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-11 17:24:57",
+      "ticker": "UPST",
+      "action": "BUY",
+      "price": 25.74,
+      "shares": 1.0,
+      "total_value": 25.74,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Gu Paul"
+    },
+    {
+      "timestamp": "2026-09-11 17:24:33",
+      "ticker": "CSBB",
+      "action": "BUY",
+      "price": 76.0,
+      "shares": 37.0,
+      "total_value": 2812.0,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "STEINER EDDIE L"
+    },
+    {
+      "timestamp": "2026-09-11 17:24:12",
+      "ticker": "EHSI",
+      "action": "SELL",
+      "price": 0.76,
+      "shares": 3735.0,
+      "total_value": 2838.6,
+      "reason": "Stop loss (-24.8% ≤ -12.0%)",
+      "triggering_insider": "jeereddi Prasad Anjaneya"
+    },
     {
       "timestamp": "2026-09-10 17:23:31",
       "ticker": "MDRR",
@@ -2254,36 +2296,6 @@
       "total_value": 6157.72,
       "reason": "Take profit (+25.6% ≥ +25.0%)",
       "triggering_insider": "LAVIOLETTE PAUL A"
-    },
-    {
-      "timestamp": "2026-05-12 23:05:00",
-      "ticker": "IBP",
-      "action": "BUY",
-      "price": 202.65,
-      "shares": 24.0,
-      "total_value": 4863.6,
-      "reason": "Score 85.3 ≥ 70",
-      "triggering_insider": "Miller Michael Thomas"
-    },
-    {
-      "timestamp": "2026-05-11 22:57:38",
-      "ticker": "PLSE",
-      "action": "BUY",
-      "price": 19.08,
-      "shares": 257.0,
-      "total_value": 4903.56,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "LAVIOLETTE PAUL A"
-    },
-    {
-      "timestamp": "2026-05-11 22:57:37",
-      "ticker": "LW",
-      "action": "BUY",
-      "price": 40.34,
-      "shares": 121.0,
-      "total_value": 4881.14,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Gray James D"
     }
   ]
 }
