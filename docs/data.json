@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-16 17:49 UTC",
+  "updated_at": "2026-09-16 20:56 UTC",
   "metrics": {
-    "total_return_pct": 10.76,
-    "ytd_return_pct": 10.76,
-    "sharpe_ratio": 1.9,
-    "max_drawdown_pct": 6.13,
-    "total_trades": 117,
-    "win_rate": 48.78,
-    "current_value": 110762.97
+    "total_return_pct": 9.59,
+    "ytd_return_pct": 9.59,
+    "sharpe_ratio": 1.69,
+    "max_drawdown_pct": 7.12,
+    "total_trades": 120,
+    "win_rate": 47.62,
+    "current_value": 109592.37
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -225,7 +225,7 @@
       113511.7,
       113017.19,
       111463.93,
-      110762.97
+      109592.37
     ],
     "benchmark": [
       null,
@@ -333,7 +333,7 @@
       107881.99,
       107400.66,
       106908.04,
-      107225.63
+      106436.58
     ]
   },
   "positions": [
@@ -572,15 +572,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "CAMP",
-      "shares": 1293.0,
-      "avg_cost": 4.49,
-      "opened_at": "2026-09-03",
-      "triggering_insider": "Gold Kelly",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "SMID",
       "shares": 56.0,
       "avg_cost": 26.12,
@@ -649,6 +640,24 @@
       "avg_cost": 5.06,
       "opened_at": "2026-09-15",
       "triggering_insider": "WINMILL MARK CAMPBELL",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "PVH",
+      "shares": 69.0,
+      "avg_cost": 71.7,
+      "opened_at": "2026-09-16",
+      "triggering_insider": "Larsson Stefan",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "RWT",
+      "shares": 12.0,
+      "avg_cost": 3.89,
+      "opened_at": "2026-09-16",
+      "triggering_insider": "Carillo Brooke",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1306,6 +1315,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-16 20:56:27",
+      "ticker": "RWT",
+      "action": "BUY",
+      "price": 3.89,
+      "shares": 12.0,
+      "total_value": 46.68,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Carillo Brooke"
+    },
+    {
+      "timestamp": "2026-09-16 20:56:11",
+      "ticker": "PVH",
+      "action": "BUY",
+      "price": 71.7,
+      "shares": 69.0,
+      "total_value": 4947.3,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Larsson Stefan"
+    },
+    {
+      "timestamp": "2026-09-16 20:56:01",
+      "ticker": "CAMP",
+      "action": "SELL",
+      "price": 3.86,
+      "shares": 1293.0,
+      "total_value": 4990.98,
+      "reason": "Stop loss (-14.0% ≤ -12.0%)",
+      "triggering_insider": "Gold Kelly"
+    },
     {
       "timestamp": "2026-09-15 20:55:16",
       "ticker": "SELF",
@@ -2275,36 +2314,6 @@
       "total_value": 4974.67,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Gloe Oliver C."
-    },
-    {
-      "timestamp": "2026-05-19 23:04:46",
-      "ticker": "EROK",
-      "action": "BUY",
-      "price": 23.29,
-      "shares": 211.0,
-      "total_value": 4914.19,
-      "reason": "Score 73.0 ≥ 70",
-      "triggering_insider": "Lott Jeff Slaughter"
-    },
-    {
-      "timestamp": "2026-05-18 19:44:57",
-      "ticker": "EMYB",
-      "action": "BUY",
-      "price": 20.3,
-      "shares": 244.0,
-      "total_value": 4953.2,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Lobach David M Jr"
-    },
-    {
-      "timestamp": "2026-05-14 19:45:56",
-      "ticker": "SBMT",
-      "action": "SELL",
-      "price": 9.22,
-      "shares": 463.0,
-      "total_value": 4268.86,
-      "reason": "Stop loss (-14.2% ≤ -12.0%)",
-      "triggering_insider": "Naugle Charles Travis"
     }
   ]
 }
