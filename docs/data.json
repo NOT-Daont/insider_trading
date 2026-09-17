@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17 21:00 UTC",
+  "updated_at": "2026-09-17 23:58 UTC",
   "metrics": {
     "total_return_pct": 10.19,
     "ytd_return_pct": 10.19,
@@ -667,6 +667,32 @@
   ],
   "transactions": [
     {
+      "ticker": "XBP",
+      "insider_name": "Jonovic Andrej",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-09-15",
+      "shares": 31500.0,
+      "price": 2.83,
+      "value": 89145.0,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "XBP",
+      "insider_name": "Avramovic Dejan",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-09-15",
+      "shares": 8833.0,
+      "price": 2.83,
+      "value": 24997.39,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
       "ticker": "BIVI",
       "insider_name": "KIM JOANNE WENDY",
       "insider_title": "Chief Financial Officer",
@@ -1287,32 +1313,6 @@
       "value": 35560.0,
       "tx_code": "P",
       "score": 79.3,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "IBP",
-      "insider_name": "Miller Michael Thomas",
-      "insider_title": "Executive VP & CFO",
-      "trade_date": "2026-05-11",
-      "shares": 20.0,
-      "price": 212.75,
-      "value": 4255.0,
-      "tx_code": "P",
-      "score": 79.3,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "FTH",
-      "insider_name": "STEPHENSON BRIAN C",
-      "insider_title": "Chief Financial Officer",
-      "trade_date": "2026-06-22",
-      "shares": 1797.0,
-      "price": 20.23,
-      "value": 36353.31,
-      "tx_code": "P",
-      "score": 79.2,
       "hit_rate": 50.0,
       "cluster": false
     }
