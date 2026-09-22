@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-22 17:48 UTC",
+  "updated_at": "2026-09-22 20:56 UTC",
   "metrics": {
-    "total_return_pct": 9.55,
-    "ytd_return_pct": 9.55,
-    "sharpe_ratio": 1.64,
+    "total_return_pct": 9.44,
+    "ytd_return_pct": 9.44,
+    "sharpe_ratio": 1.62,
     "max_drawdown_pct": 7.39,
-    "total_trades": 122,
-    "win_rate": 46.51,
-    "current_value": 109548.81
+    "total_trades": 124,
+    "win_rate": 45.45,
+    "current_value": 109439.74
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -233,7 +233,7 @@
       110186.17,
       109291.66,
       109271.23,
-      109548.81
+      109439.74
     ],
     "benchmark": [
       null,
@@ -345,7 +345,7 @@
       107643.44,
       107515.0,
       109182.02,
-      109172.13
+      109165.08
     ]
   },
   "positions": [
@@ -472,15 +472,6 @@
       "avg_cost": 71.9,
       "opened_at": "2026-08-03",
       "triggering_insider": "MADDIPATI SRIKANTH",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "MKZR",
-      "shares": 3819.0,
-      "avg_cost": 1.52,
-      "opened_at": "2026-08-10",
-      "triggering_insider": "DIXON ROBERT E",
       "current_price": null,
       "pnl_pct": null
     },
@@ -670,6 +661,15 @@
       "avg_cost": 3.19,
       "opened_at": "2026-09-22",
       "triggering_insider": "Jonovic Andrej",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "BFRG",
+      "shares": 8465.0,
+      "avg_cost": 0.6,
+      "opened_at": "2026-09-22",
+      "triggering_insider": "Singh Vininder",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1327,6 +1327,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-22 20:56:43",
+      "ticker": "BFRG",
+      "action": "BUY",
+      "price": 0.6,
+      "shares": 8465.0,
+      "total_value": 5079.0,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Singh Vininder"
+    },
+    {
+      "timestamp": "2026-09-22 20:56:34",
+      "ticker": "MKZR",
+      "action": "SELL",
+      "price": 1.33,
+      "shares": 3819.0,
+      "total_value": 5079.27,
+      "reason": "Stop loss (-12.5% ≤ -12.0%)",
+      "triggering_insider": "DIXON ROBERT E"
+    },
     {
       "timestamp": "2026-09-22 17:48:45",
       "ticker": "XBP",
@@ -2306,26 +2326,6 @@
       "total_value": 5050.8,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Burak Mallorie Sara"
-    },
-    {
-      "timestamp": "2026-05-27 20:18:34",
-      "ticker": "XZO",
-      "action": "BUY",
-      "price": 13.74,
-      "shares": 366.0,
-      "total_value": 5028.84,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Patel Paresh"
-    },
-    {
-      "timestamp": "2026-05-22 16:14:16",
-      "ticker": "WSBK",
-      "action": "BUY",
-      "price": 12.78,
-      "shares": 394.0,
-      "total_value": 5035.32,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Carroll John A"
     }
   ]
 }
