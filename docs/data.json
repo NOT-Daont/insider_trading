@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-23 18:02 UTC",
+  "updated_at": "2026-09-23 21:09 UTC",
   "metrics": {
-    "total_return_pct": 11.18,
-    "ytd_return_pct": 11.18,
-    "sharpe_ratio": 1.86,
+    "total_return_pct": 11.03,
+    "ytd_return_pct": 11.03,
+    "sharpe_ratio": 1.84,
     "max_drawdown_pct": 7.39,
-    "total_trades": 127,
-    "win_rate": 44.44,
-    "current_value": 111180.28
+    "total_trades": 129,
+    "win_rate": 43.48,
+    "current_value": 111026.82
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -235,7 +235,7 @@
       109291.66,
       109271.23,
       109439.74,
-      111180.28
+      111026.82
     ],
     "benchmark": [
       null,
@@ -348,7 +348,7 @@
       107515.0,
       109182.02,
       109165.08,
-      108477.66
+      108378.85
     ]
   },
   "positions": [
@@ -466,15 +466,6 @@
       "avg_cost": 1.03,
       "opened_at": "2026-07-29",
       "triggering_insider": "O'Dowd William IV",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "CMS",
-      "shares": 78.0,
-      "avg_cost": 71.9,
-      "opened_at": "2026-08-03",
-      "triggering_insider": "MADDIPATI SRIKANTH",
       "current_price": null,
       "pnl_pct": null
     },
@@ -682,6 +673,15 @@
       "avg_cost": 16.6,
       "opened_at": "2026-09-23",
       "triggering_insider": "CHEVALLIER ANDRES CAMPOS",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "LUCK",
+      "shares": 933.0,
+      "avg_cost": 5.28,
+      "opened_at": "2026-09-23",
+      "triggering_insider": "Lavan Robert M.",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1339,6 +1339,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-23 21:09:37",
+      "ticker": "LUCK",
+      "action": "BUY",
+      "price": 5.28,
+      "shares": 933.0,
+      "total_value": 4926.24,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Lavan Robert M."
+    },
+    {
+      "timestamp": "2026-09-23 21:09:26",
+      "ticker": "CMS",
+      "action": "SELL",
+      "price": 63.15,
+      "shares": 78.0,
+      "total_value": 4925.7,
+      "reason": "Stop loss (-12.2% ≤ -12.0%)",
+      "triggering_insider": "MADDIPATI SRIKANTH"
+    },
     {
       "timestamp": "2026-09-23 18:02:53",
       "ticker": "BWMX",
@@ -2318,26 +2338,6 @@
       "total_value": 4241.2,
       "reason": "Stop loss (-16.0% ≤ -12.0%)",
       "triggering_insider": "Burak Mallorie Sara"
-    },
-    {
-      "timestamp": "2026-06-08 23:12:56",
-      "ticker": "SSMR",
-      "action": "BUY",
-      "price": 14.0,
-      "shares": 351.0,
-      "total_value": 4914.0,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "White Heather Eileen"
-    },
-    {
-      "timestamp": "2026-06-08 23:12:54",
-      "ticker": "FCNCA",
-      "action": "BUY",
-      "price": 2074.25,
-      "shares": 2.0,
-      "total_value": 4148.5,
-      "reason": "Score 84.8 ≥ 70",
-      "triggering_insider": "HOLDING FRANK B JR"
     }
   ]
 }
