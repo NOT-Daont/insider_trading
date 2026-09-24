@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-24 18:02 UTC",
+  "updated_at": "2026-09-24 21:12 UTC",
   "metrics": {
-    "total_return_pct": 9.95,
-    "ytd_return_pct": 9.95,
-    "sharpe_ratio": 1.66,
+    "total_return_pct": 9.85,
+    "ytd_return_pct": 9.85,
+    "sharpe_ratio": 1.64,
     "max_drawdown_pct": 7.39,
-    "total_trades": 129,
-    "win_rate": 43.48,
-    "current_value": 109954.49
+    "total_trades": 131,
+    "win_rate": 42.55,
+    "current_value": 109853.98
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -237,7 +237,7 @@
       109271.23,
       109439.74,
       111026.82,
-      109954.49
+      109853.98
     ],
     "benchmark": [
       null,
@@ -351,7 +351,7 @@
       109182.02,
       109165.08,
       108378.85,
-      108124.78
+      108289.93
     ]
   },
   "positions": [
@@ -662,15 +662,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "BFRG",
-      "shares": 6342.0,
-      "avg_cost": 0.88,
-      "opened_at": "2026-09-23",
-      "triggering_insider": "Blacher Joshua",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "BWMX",
       "shares": 112.0,
       "avg_cost": 16.6,
@@ -685,6 +676,15 @@
       "avg_cost": 5.28,
       "opened_at": "2026-09-23",
       "triggering_insider": "Lavan Robert M.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "NYAX",
+      "shares": 108.0,
+      "avg_cost": 44.75,
+      "opened_at": "2026-09-24",
+      "triggering_insider": "Nechmad Yair",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1342,6 +1342,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-24 21:12:32",
+      "ticker": "NYAX",
+      "action": "BUY",
+      "price": 44.75,
+      "shares": 108.0,
+      "total_value": 4833.0,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Nechmad Yair"
+    },
+    {
+      "timestamp": "2026-09-24 21:12:17",
+      "ticker": "BFRG",
+      "action": "SELL",
+      "price": 0.76,
+      "shares": 6342.0,
+      "total_value": 4849.73,
+      "reason": "Stop loss (-12.9% ≤ -12.0%)",
+      "triggering_insider": "Blacher Joshua"
+    },
     {
       "timestamp": "2026-09-23 21:09:37",
       "ticker": "LUCK",
@@ -2321,26 +2341,6 @@
       "total_value": 4671.94,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Smith Weber Lara"
-    },
-    {
-      "timestamp": "2026-06-09 20:07:19",
-      "ticker": "CUEN",
-      "action": "BUY",
-      "price": 0.28,
-      "shares": 17567.0,
-      "total_value": 4995.0,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "OAS ENERGY LLC"
-    },
-    {
-      "timestamp": "2026-06-09 16:24:42",
-      "ticker": "WATT",
-      "action": "SELL",
-      "price": 23.05,
-      "shares": 184.0,
-      "total_value": 4241.2,
-      "reason": "Stop loss (-16.0% ≤ -12.0%)",
-      "triggering_insider": "Burak Mallorie Sara"
     }
   ]
 }
