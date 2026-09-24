@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-23 21:09 UTC",
+  "updated_at": "2026-09-24 00:17 UTC",
   "metrics": {
-    "total_return_pct": 11.03,
-    "ytd_return_pct": 11.03,
-    "sharpe_ratio": 1.84,
-    "max_drawdown_pct": 7.39,
+    "total_return_pct": 8.89,
+    "ytd_return_pct": 8.89,
+    "sharpe_ratio": 1.47,
+    "max_drawdown_pct": 7.72,
     "total_trades": 129,
     "win_rate": 43.48,
-    "current_value": 111026.82
+    "current_value": 108886.5
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -122,7 +122,8 @@
       "2026-09-18",
       "2026-09-21",
       "2026-09-22",
-      "2026-09-23"
+      "2026-09-23",
+      "2026-09-24"
     ],
     "portfolio": [
       100000.0,
@@ -235,7 +236,8 @@
       109291.66,
       109271.23,
       109439.74,
-      111026.82
+      111026.82,
+      108886.5
     ],
     "benchmark": [
       null,
@@ -348,7 +350,8 @@
       107515.0,
       109182.02,
       109165.08,
-      108378.85
+      108378.85,
+      109165.08
     ]
   },
   "positions": [
@@ -1026,6 +1029,19 @@
       "cluster": true
     },
     {
+      "ticker": "NONE",
+      "insider_name": "Lewinsohn Jonathan",
+      "insider_title": "Co-President",
+      "trade_date": "2026-09-10",
+      "shares": 98814.229,
+      "price": 10.12,
+      "value": 1000000.0,
+      "tx_code": "P",
+      "score": 81.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
       "ticker": "CWBC",
       "insider_name": "LIVINGSTON SHANNON R",
       "insider_title": "EXECUTIVE VICE PRESIDENT",
@@ -1323,19 +1339,6 @@
       "score": 79.4,
       "hit_rate": 50.0,
       "cluster": true
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-04",
-      "shares": 20.0,
-      "price": 1778.0,
-      "value": 35560.0,
-      "tx_code": "P",
-      "score": 79.3,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
