@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-30 18:40 UTC",
+  "updated_at": "2026-09-30 21:55 UTC",
   "metrics": {
-    "total_return_pct": 9.91,
-    "ytd_return_pct": 9.91,
-    "sharpe_ratio": 1.61,
+    "total_return_pct": 9.36,
+    "ytd_return_pct": 9.36,
+    "sharpe_ratio": 1.52,
     "max_drawdown_pct": 7.39,
-    "total_trades": 137,
-    "win_rate": 38.0,
-    "current_value": 109910.88
+    "total_trades": 139,
+    "win_rate": 37.25,
+    "current_value": 109358.43
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -247,7 +247,7 @@
       109909.88,
       109303.11,
       109781.67,
-      109910.88
+      109358.43
     ],
     "benchmark": [
       null,
@@ -366,7 +366,7 @@
       108289.93,
       108068.31,
       107869.29,
-      108236.29
+      107647.68
     ]
   },
   "positions": [
@@ -587,15 +587,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "MDRR",
-      "shares": 2.0,
-      "avg_cost": 11.99,
-      "opened_at": "2026-09-10",
-      "triggering_insider": "Winn Charles Brent Jr.",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "CSBB",
       "shares": 37.0,
       "avg_cost": 76.0,
@@ -700,6 +691,15 @@
       "avg_cost": 102.08,
       "opened_at": "2026-09-30",
       "triggering_insider": "Lappe Mark",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "ADRX",
+      "shares": 4.0,
+      "avg_cost": 19.94,
+      "opened_at": "2026-09-30",
+      "triggering_insider": "ORBIMED ADVISORS LLC",
       "current_price": null,
       "pnl_pct": null
     }
@@ -849,6 +849,32 @@
       "cluster": true
     },
     {
+      "ticker": "ADRX",
+      "insider_name": "ORBIMED ADVISORS LLC",
+      "insider_title": "Director",
+      "trade_date": "2026-09-28",
+      "shares": 588235.0,
+      "price": 17.0,
+      "value": 9999995.0,
+      "tx_code": "P",
+      "score": 88.2,
+      "hit_rate": 100.0,
+      "cluster": true
+    },
+    {
+      "ticker": "ADRX",
+      "insider_name": "ORBIMED ADVISORS LLC",
+      "insider_title": "Director",
+      "trade_date": "2026-09-28",
+      "shares": 300249.0,
+      "price": 17.0,
+      "value": 5104233.0,
+      "tx_code": "P",
+      "score": 85.5,
+      "hit_rate": 100.0,
+      "cluster": true
+    },
+    {
       "ticker": "IBP",
       "insider_name": "Miller Michael Thomas",
       "insider_title": "Executive VP & CFO",
@@ -938,6 +964,19 @@
       "score": 83.9,
       "hit_rate": 50.0,
       "cluster": false
+    },
+    {
+      "ticker": "ADRX",
+      "insider_name": "ORBIMED ADVISORS LLC",
+      "insider_title": "Director",
+      "trade_date": "2026-09-28",
+      "shares": 61516.0,
+      "price": 17.0,
+      "value": 1045772.0,
+      "tx_code": "P",
+      "score": 83.7,
+      "hit_rate": 100.0,
+      "cluster": true
     },
     {
       "ticker": "CUEN",
@@ -1315,48 +1354,29 @@
       "score": 79.8,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-04",
-      "shares": 26.0,
-      "price": 1734.0,
-      "value": 45084.0,
-      "tx_code": "P",
-      "score": 79.7,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-04",
-      "shares": 25.0,
-      "price": 1794.99,
-      "value": 44874.75,
-      "tx_code": "P",
-      "score": 79.7,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "CUEN",
-      "insider_name": "Maimon Shalom Arik",
-      "insider_title": "CEO",
-      "trade_date": "2026-09-23",
-      "shares": 500.0,
-      "price": 0.55,
-      "value": 275.0,
-      "tx_code": "P",
-      "score": 79.6,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-30 21:55:38",
+      "ticker": "ADRX",
+      "action": "BUY",
+      "price": 19.94,
+      "shares": 4.0,
+      "total_value": 79.76,
+      "reason": "Score 88.2 ≥ 70",
+      "triggering_insider": "ORBIMED ADVISORS LLC"
+    },
+    {
+      "timestamp": "2026-09-30 21:55:34",
+      "ticker": "MDRR",
+      "action": "SELL",
+      "price": 10.0,
+      "shares": 2.0,
+      "total_value": 20.0,
+      "reason": "Stop loss (-16.6% ≤ -12.0%)",
+      "triggering_insider": "Winn Charles Brent Jr."
+    },
     {
       "timestamp": "2026-09-30 18:40:24",
       "ticker": "INBX",
@@ -2336,26 +2356,6 @@
       "total_value": 1029.0,
       "reason": "Score 84.2 ≥ 70",
       "triggering_insider": "STEPHENSON BRIAN C"
-    },
-    {
-      "timestamp": "2026-06-25 20:00:41",
-      "ticker": "FCBM",
-      "action": "BUY",
-      "price": 12.89,
-      "shares": 405.0,
-      "total_value": 5220.45,
-      "reason": "Score 89.0 ≥ 70",
-      "triggering_insider": "Day Ronald Arvin"
-    },
-    {
-      "timestamp": "2026-06-25 20:00:35",
-      "ticker": "SWIM",
-      "action": "SELL",
-      "price": 6.34,
-      "shares": 989.0,
-      "total_value": 6270.26,
-      "reason": "Take profit (+26.0% ≥ +25.0%)",
-      "triggering_insider": "Gloe Oliver C."
     }
   ]
 }
