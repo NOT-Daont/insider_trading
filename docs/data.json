@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-30 01:14 UTC",
+  "updated_at": "2026-09-30 18:40 UTC",
   "metrics": {
-    "total_return_pct": 9.35,
-    "ytd_return_pct": 9.35,
-    "sharpe_ratio": 1.52,
+    "total_return_pct": 9.91,
+    "ytd_return_pct": 9.91,
+    "sharpe_ratio": 1.61,
     "max_drawdown_pct": 7.39,
-    "total_trades": 135,
-    "win_rate": 38.78,
-    "current_value": 109346.58
+    "total_trades": 137,
+    "win_rate": 38.0,
+    "current_value": 109910.88
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -247,7 +247,7 @@
       109909.88,
       109303.11,
       109781.67,
-      109346.58
+      109910.88
     ],
     "benchmark": [
       null,
@@ -366,7 +366,7 @@
       108289.93,
       108068.31,
       107869.29,
-      108068.31
+      108236.29
     ]
   },
   "positions": [
@@ -560,15 +560,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "SMID",
-      "shares": 56.0,
-      "avg_cost": 26.12,
-      "opened_at": "2026-09-04",
-      "triggering_insider": "SMITH ASHLEY B",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "ENOV",
       "shares": 35.0,
       "avg_cost": 19.53,
@@ -700,6 +691,15 @@
       "avg_cost": 3.2,
       "opened_at": "2026-09-28",
       "triggering_insider": "Tam Man Kin",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "INBX",
+      "shares": 12.0,
+      "avg_cost": 102.08,
+      "opened_at": "2026-09-30",
+      "triggering_insider": "Lappe Mark",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1357,6 +1357,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-09-30 18:40:24",
+      "ticker": "INBX",
+      "action": "BUY",
+      "price": 102.08,
+      "shares": 12.0,
+      "total_value": 1224.96,
+      "reason": "Score 76.6 ≥ 70",
+      "triggering_insider": "Lappe Mark"
+    },
+    {
+      "timestamp": "2026-09-30 18:40:16",
+      "ticker": "SMID",
+      "action": "SELL",
+      "price": 22.95,
+      "shares": 56.0,
+      "total_value": 1285.2,
+      "reason": "Stop loss (-12.1% ≤ -12.0%)",
+      "triggering_insider": "SMITH ASHLEY B"
+    },
     {
       "timestamp": "2026-09-28 20:20:04",
       "ticker": "ADAG",
@@ -2336,26 +2356,6 @@
       "total_value": 6270.26,
       "reason": "Take profit (+26.0% ≥ +25.0%)",
       "triggering_insider": "Gloe Oliver C."
-    },
-    {
-      "timestamp": "2026-06-15 20:55:19",
-      "ticker": "SXTP",
-      "action": "BUY",
-      "price": 1.49,
-      "shares": 587.0,
-      "total_value": 874.63,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "DOW GEOFFREY S"
-    },
-    {
-      "timestamp": "2026-06-12 20:11:28",
-      "ticker": "MOBI",
-      "action": "BUY",
-      "price": 12.31,
-      "shares": 415.0,
-      "total_value": 5108.65,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Curnes Nelson Bunker"
     }
   ]
 }
