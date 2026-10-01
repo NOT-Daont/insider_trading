@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-01 19:07 UTC",
+  "updated_at": "2026-10-01 22:24 UTC",
   "metrics": {
-    "total_return_pct": 9.44,
-    "ytd_return_pct": 9.44,
+    "total_return_pct": 9.47,
+    "ytd_return_pct": 9.47,
     "sharpe_ratio": 1.53,
     "max_drawdown_pct": 7.39,
     "total_trades": 139,
     "win_rate": 37.25,
-    "current_value": 109439.53
+    "current_value": 109468.03
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -249,7 +249,7 @@
       109303.11,
       109781.67,
       109358.43,
-      109439.53
+      109468.03
     ],
     "benchmark": [
       null,
@@ -369,7 +369,7 @@
       108068.31,
       107869.29,
       107647.68,
-      107883.4
+      107839.65
     ]
   },
   "positions": [
@@ -708,6 +708,32 @@
     }
   ],
   "transactions": [
+    {
+      "ticker": "PRHI",
+      "insider_name": "MELOCHE HAROLD J",
+      "insider_title": "CFO, Treasurer",
+      "trade_date": "2026-09-30",
+      "shares": 4100.0,
+      "price": 6.38,
+      "value": 26137.5,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "PRHI",
+      "insider_name": "RONEY BRIAN J",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-09-30",
+      "shares": 7500.0,
+      "price": 6.75,
+      "value": 50622.75,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
     {
       "ticker": "XBP",
       "insider_name": "Jonovic Andrej",
@@ -1327,32 +1353,6 @@
       "shares": 25.0,
       "price": 1950.0,
       "value": 48750.0,
-      "tx_code": "P",
-      "score": 79.8,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "IBP",
-      "insider_name": "Miller Michael Thomas",
-      "insider_title": "Executive VP & CFO",
-      "trade_date": "2026-05-11",
-      "shares": 70.0,
-      "price": 209.31,
-      "value": 14651.7,
-      "tx_code": "P",
-      "score": 79.8,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 23.0,
-      "price": 2030.0,
-      "value": 46690.0,
       "tx_code": "P",
       "score": 79.8,
       "hit_rate": 50.0,
