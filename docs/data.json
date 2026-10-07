@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-07 01:16 UTC",
+  "updated_at": "2026-10-07 19:37 UTC",
   "metrics": {
-    "total_return_pct": 10.74,
-    "ytd_return_pct": 10.74,
-    "sharpe_ratio": 1.68,
+    "total_return_pct": 9.7,
+    "ytd_return_pct": 9.7,
+    "sharpe_ratio": 1.52,
     "max_drawdown_pct": 7.39,
-    "total_trades": 144,
-    "win_rate": 37.74,
-    "current_value": 110735.67
+    "total_trades": 146,
+    "win_rate": 36.36,
+    "current_value": 109695.12
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -259,7 +259,7 @@
       109771.82,
       110308.96,
       110782.26,
-      110735.67
+      109695.12
     ],
     "benchmark": [
       null,
@@ -384,7 +384,7 @@
       107839.65,
       109369.75,
       109971.07,
-      109971.07
+      109661.94
     ]
   },
   "positions": [
@@ -632,15 +632,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "RWT",
-      "shares": 12.0,
-      "avg_cost": 3.89,
-      "opened_at": "2026-09-16",
-      "triggering_insider": "Carillo Brooke",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "XBP",
       "shares": 1616.0,
       "avg_cost": 3.19,
@@ -691,15 +682,6 @@
       "avg_cost": 102.08,
       "opened_at": "2026-09-30",
       "triggering_insider": "Lappe Mark",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "ADRX",
-      "shares": 4.0,
-      "avg_cost": 19.94,
-      "opened_at": "2026-09-30",
-      "triggering_insider": "ORBIMED ADVISORS LLC",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1384,6 +1366,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-07 19:37:44",
+      "ticker": "ADRX",
+      "action": "SELL",
+      "price": 17.38,
+      "shares": 4.0,
+      "total_value": 69.52,
+      "reason": "Stop loss (-12.8% ≤ -12.0%)",
+      "triggering_insider": "ORBIMED ADVISORS LLC"
+    },
+    {
+      "timestamp": "2026-10-07 19:37:43",
+      "ticker": "RWT",
+      "action": "SELL",
+      "price": 3.31,
+      "shares": 12.0,
+      "total_value": 39.72,
+      "reason": "Stop loss (-14.9% ≤ -12.0%)",
+      "triggering_insider": "Carillo Brooke"
+    },
     {
       "timestamp": "2026-10-06 02:06:37",
       "ticker": "ACCV",
@@ -2363,26 +2365,6 @@
       "total_value": 3011.86,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Bochnowski Benjamin J"
-    },
-    {
-      "timestamp": "2026-07-01 16:14:34",
-      "ticker": "CTGO",
-      "action": "BUY",
-      "price": 16.39,
-      "shares": 331.0,
-      "total_value": 5425.09,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Van Nieuwenhuyse Rick"
-    },
-    {
-      "timestamp": "2026-07-01 16:14:32",
-      "ticker": "STRR",
-      "action": "BUY",
-      "price": 11.03,
-      "shares": 492.0,
-      "total_value": 5426.76,
-      "reason": "Score 74.5 ≥ 70",
-      "triggering_insider": "Eberwein Jeffrey E."
     }
   ]
 }
