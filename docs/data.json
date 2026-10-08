@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-08 01:36 UTC",
+  "updated_at": "2026-10-08 19:34 UTC",
   "metrics": {
-    "total_return_pct": 9.94,
-    "ytd_return_pct": 9.94,
-    "sharpe_ratio": 1.55,
+    "total_return_pct": 10.92,
+    "ytd_return_pct": 10.92,
+    "sharpe_ratio": 1.69,
     "max_drawdown_pct": 7.39,
-    "total_trades": 146,
-    "win_rate": 36.36,
-    "current_value": 109936.73
+    "total_trades": 148,
+    "win_rate": 35.71,
+    "current_value": 110920.46
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -261,7 +261,7 @@
       110308.96,
       110782.26,
       109936.73,
-      109936.73
+      110920.46
     ],
     "benchmark": [
       null,
@@ -387,7 +387,7 @@
       109369.75,
       109971.07,
       109707.1,
-      109707.1
+      109137.55
     ]
   },
   "positions": [
@@ -572,15 +572,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "ENOV",
-      "shares": 35.0,
-      "avg_cost": 19.53,
-      "opened_at": "2026-09-08",
-      "triggering_insider": "McDonald Damien",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "BCDA",
       "shares": 15.0,
       "avg_cost": 1.1,
@@ -712,6 +703,15 @@
       "avg_cost": 16.46,
       "opened_at": "2026-10-06",
       "triggering_insider": "Rubiera Michael",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "WVVI",
+      "shares": 382.0,
+      "avg_cost": 1.86,
+      "opened_at": "2026-10-08",
+      "triggering_insider": "Osborn Michael Jordan",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1369,6 +1369,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-08 19:33:55",
+      "ticker": "WVVI",
+      "action": "BUY",
+      "price": 1.86,
+      "shares": 382.0,
+      "total_value": 710.52,
+      "reason": "Score 70.3 ≥ 70",
+      "triggering_insider": "Osborn Michael Jordan"
+    },
+    {
+      "timestamp": "2026-10-08 19:33:38",
+      "ticker": "ENOV",
+      "action": "SELL",
+      "price": 17.13,
+      "shares": 35.0,
+      "total_value": 599.55,
+      "reason": "Stop loss (-12.3% ≤ -12.0%)",
+      "triggering_insider": "McDonald Damien"
+    },
     {
       "timestamp": "2026-10-07 19:37:44",
       "ticker": "ADRX",
@@ -2348,26 +2368,6 @@
       "total_value": 6246.74,
       "reason": "Take profit (+26.8% ≥ +25.0%)",
       "triggering_insider": "LUMSDAINE ALFRED"
-    },
-    {
-      "timestamp": "2026-07-02 15:59:22",
-      "ticker": "LEEEF",
-      "action": "SELL",
-      "price": 0.21,
-      "shares": 33527.0,
-      "total_value": 6956.85,
-      "reason": "Take profit (+38.3% ≥ +25.0%)",
-      "triggering_insider": "Anderson Micah Payne"
-    },
-    {
-      "timestamp": "2026-07-01 16:14:38",
-      "ticker": "FNWD",
-      "action": "BUY",
-      "price": 36.73,
-      "shares": 82.0,
-      "total_value": 3011.86,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Bochnowski Benjamin J"
     }
   ]
 }
