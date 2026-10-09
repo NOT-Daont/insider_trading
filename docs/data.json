@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-09 19:08 UTC",
+  "updated_at": "2026-10-09 22:20 UTC",
   "metrics": {
-    "total_return_pct": 11.31,
-    "ytd_return_pct": 11.31,
-    "sharpe_ratio": 1.73,
+    "total_return_pct": 11.12,
+    "ytd_return_pct": 11.12,
+    "sharpe_ratio": 1.71,
     "max_drawdown_pct": 7.39,
     "total_trades": 149,
     "win_rate": 35.09,
-    "current_value": 111314.68
+    "current_value": 111119.0
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -263,7 +263,7 @@
       110782.26,
       109936.73,
       110963.9,
-      111314.68
+      111119.0
     ],
     "benchmark": [
       null,
@@ -390,7 +390,7 @@
       109971.07,
       109707.1,
       109242.71,
-      109962.6
+      109897.66
     ]
   },
   "positions": [
@@ -881,6 +881,19 @@
       "cluster": true
     },
     {
+      "ticker": "CRNC",
+      "insider_name": "Rodriquez Antonio",
+      "insider_title": "CFO",
+      "trade_date": "2026-02-15",
+      "shares": 2000.0,
+      "price": 7.02,
+      "value": 14040.0,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 100.0,
+      "cluster": false
+    },
+    {
       "ticker": "ADRX",
       "insider_name": "ORBIMED ADVISORS LLC",
       "insider_title": "Director",
@@ -1345,19 +1358,6 @@
       "value": 51740.0,
       "tx_code": "P",
       "score": 80.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FTH",
-      "insider_name": "STEPHENSON BRIAN C",
-      "insider_title": "Chief Financial Officer",
-      "trade_date": "2026-06-23",
-      "shares": 1969.0,
-      "price": 24.84,
-      "value": 48909.96,
-      "tx_code": "P",
-      "score": 79.9,
       "hit_rate": 50.0,
       "cluster": false
     }
