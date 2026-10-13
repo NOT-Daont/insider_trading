@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-13 02:54 UTC",
+  "updated_at": "2026-10-13 20:00 UTC",
   "metrics": {
-    "total_return_pct": 11.28,
-    "ytd_return_pct": 11.28,
-    "sharpe_ratio": 1.7,
+    "total_return_pct": 11.46,
+    "ytd_return_pct": 11.46,
+    "sharpe_ratio": 1.73,
     "max_drawdown_pct": 7.39,
-    "total_trades": 149,
-    "win_rate": 35.09,
-    "current_value": 111276.69
+    "total_trades": 152,
+    "win_rate": 33.9,
+    "current_value": 111464.01
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -269,7 +269,7 @@
       111119.0,
       110767.31,
       111276.69,
-      111276.69
+      111464.01
     ],
     "benchmark": [
       null,
@@ -399,7 +399,7 @@
       109897.66,
       109897.66,
       109831.32,
-      109831.32
+      109812.97
     ]
   },
   "positions": [
@@ -526,15 +526,6 @@
       "avg_cost": 26.18,
       "opened_at": "2026-08-11",
       "triggering_insider": "Camden Bradley T",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "CIA",
-      "shares": 5.0,
-      "avg_cost": 3.91,
-      "opened_at": "2026-08-12",
-      "triggering_insider": "Stenberg Jon",
       "current_price": null,
       "pnl_pct": null
     },
@@ -674,15 +665,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "INBX",
-      "shares": 12.0,
-      "avg_cost": 102.08,
-      "opened_at": "2026-09-30",
-      "triggering_insider": "Lappe Mark",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "PRHI",
       "shares": 795.0,
       "avg_cost": 6.93,
@@ -717,9 +699,31 @@
       "triggering_insider": "Osborn Michael Jordan",
       "current_price": null,
       "pnl_pct": null
+    },
+    {
+      "ticker": "NEOG",
+      "shares": 90.0,
+      "avg_cost": 11.74,
+      "opened_at": "2026-10-13",
+      "triggering_insider": "Nassif Mikheal",
+      "current_price": null,
+      "pnl_pct": null
     }
   ],
   "transactions": [
+    {
+      "ticker": "HEI, HEI.A",
+      "insider_name": "MENDELSON VICTOR H",
+      "insider_title": "Co-COB and Co-CEO",
+      "trade_date": "2026-10-08",
+      "shares": 795.0,
+      "price": 220.3,
+      "value": 175141.92,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
     {
       "ticker": "PRHI",
       "insider_name": "MELOCHE HAROLD J",
@@ -1356,22 +1360,39 @@
       "score": 80.0,
       "hit_rate": 50.0,
       "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 26.0,
-      "price": 1990.0,
-      "value": 51740.0,
-      "tx_code": "P",
-      "score": 80.0,
-      "hit_rate": 50.0,
-      "cluster": false
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-13 19:59:23",
+      "ticker": "NEOG",
+      "action": "BUY",
+      "price": 11.74,
+      "shares": 90.0,
+      "total_value": 1056.6,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Nassif Mikheal"
+    },
+    {
+      "timestamp": "2026-10-13 19:59:13",
+      "ticker": "INBX",
+      "action": "SELL",
+      "price": 87.07,
+      "shares": 12.0,
+      "total_value": 1044.84,
+      "reason": "Stop loss (-14.7% ≤ -12.0%)",
+      "triggering_insider": "Lappe Mark"
+    },
+    {
+      "timestamp": "2026-10-13 19:59:10",
+      "ticker": "CIA",
+      "action": "SELL",
+      "price": 3.44,
+      "shares": 5.0,
+      "total_value": 17.2,
+      "reason": "Stop loss (-12.0% ≤ -12.0%)",
+      "triggering_insider": "Stenberg Jon"
+    },
     {
       "timestamp": "2026-10-08 22:59:21",
       "ticker": "AWRE",
@@ -2341,36 +2362,6 @@
       "total_value": 3772.35,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "jeereddi Prasad Anjaneya"
-    },
-    {
-      "timestamp": "2026-07-09 19:46:07",
-      "ticker": "FTH",
-      "action": "SELL",
-      "price": 32.72,
-      "shares": 42.0,
-      "total_value": 1374.24,
-      "reason": "Take profit (+33.6% ≥ +25.0%)",
-      "triggering_insider": "STEPHENSON BRIAN C"
-    },
-    {
-      "timestamp": "2026-07-08 19:24:56",
-      "ticker": "PRQR",
-      "action": "BUY",
-      "price": 1.7,
-      "shares": 3177.0,
-      "total_value": 5400.9,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "de Boer Daniel Anton"
-    },
-    {
-      "timestamp": "2026-07-07 23:04:11",
-      "ticker": "VENU",
-      "action": "BUY",
-      "price": 2.33,
-      "shares": 2328.0,
-      "total_value": 5424.24,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "ROTH JAY W"
     }
   ]
 }
