@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-14 00:56 UTC",
+  "updated_at": "2026-10-14 18:13 UTC",
   "metrics": {
-    "total_return_pct": 11.23,
-    "ytd_return_pct": 11.23,
-    "sharpe_ratio": 1.69,
+    "total_return_pct": 9.47,
+    "ytd_return_pct": 9.47,
+    "sharpe_ratio": 1.42,
     "max_drawdown_pct": 7.39,
-    "total_trades": 152,
-    "win_rate": 33.9,
-    "current_value": 111231.22
+    "total_trades": 155,
+    "win_rate": 32.79,
+    "current_value": 109468.14
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -271,7 +271,7 @@
       110767.31,
       111276.69,
       111332.11,
-      111231.22
+      109468.14
     ],
     "benchmark": [
       null,
@@ -402,7 +402,7 @@
       109897.66,
       109831.32,
       109818.62,
-      109831.32
+      108435.32
     ]
   },
   "positions": [
@@ -412,15 +412,6 @@
       "avg_cost": 21.5,
       "opened_at": "2026-04-29",
       "triggering_insider": "SWETMAN CHEVIS",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "IBP",
-      "shares": 24.0,
-      "avg_cost": 202.65,
-      "opened_at": "2026-05-12",
-      "triggering_insider": "Miller Michael Thomas",
       "current_price": null,
       "pnl_pct": null
     },
@@ -596,15 +587,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "UPST",
-      "shares": 1.0,
-      "avg_cost": 25.74,
-      "opened_at": "2026-09-11",
-      "triggering_insider": "Gu Paul",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "SELF",
       "shares": 838.0,
       "avg_cost": 5.06,
@@ -709,6 +691,15 @@
       "avg_cost": 11.74,
       "opened_at": "2026-10-13",
       "triggering_insider": "Nassif Mikheal",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "RTSN",
+      "shares": 371.0,
+      "avg_cost": 11.47,
+      "opened_at": "2026-10-14",
+      "triggering_insider": "Keller Eric L.",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1366,6 +1357,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-14 18:13:05",
+      "ticker": "RTSN",
+      "action": "BUY",
+      "price": 11.47,
+      "shares": 371.0,
+      "total_value": 4255.37,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Keller Eric L."
+    },
+    {
+      "timestamp": "2026-10-14 18:12:54",
+      "ticker": "UPST",
+      "action": "SELL",
+      "price": 22.26,
+      "shares": 1.0,
+      "total_value": 22.26,
+      "reason": "Stop loss (-13.5% ≤ -12.0%)",
+      "triggering_insider": "Gu Paul"
+    },
+    {
+      "timestamp": "2026-10-14 18:12:51",
+      "ticker": "IBP",
+      "action": "SELL",
+      "price": 176.49,
+      "shares": 24.0,
+      "total_value": 4235.76,
+      "reason": "Stop loss (-12.9% ≤ -12.0%)",
+      "triggering_insider": "Miller Michael Thomas"
+    },
     {
       "timestamp": "2026-10-13 19:59:23",
       "ticker": "NEOG",
@@ -2335,36 +2356,6 @@
       "total_value": 6.33,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Cohen Scot"
-    },
-    {
-      "timestamp": "2026-07-13 22:57:15",
-      "ticker": "CNXC",
-      "action": "BUY",
-      "price": 24.88,
-      "shares": 173.0,
-      "total_value": 4304.24,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Caldwell Christopher A"
-    },
-    {
-      "timestamp": "2026-07-13 22:57:13",
-      "ticker": "SMRT",
-      "action": "SELL",
-      "price": 0.98,
-      "shares": 4389.0,
-      "total_value": 4311.31,
-      "reason": "Stop loss (-12.3% ≤ -12.0%)",
-      "triggering_insider": "Martell Frank"
-    },
-    {
-      "timestamp": "2026-07-09 19:46:09",
-      "ticker": "EHSI",
-      "action": "BUY",
-      "price": 1.01,
-      "shares": 3735.0,
-      "total_value": 3772.35,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "jeereddi Prasad Anjaneya"
     }
   ]
 }
