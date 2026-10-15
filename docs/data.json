@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-15 17:56 UTC",
+  "updated_at": "2026-10-15 21:00 UTC",
   "metrics": {
-    "total_return_pct": 11.11,
-    "ytd_return_pct": 11.11,
-    "sharpe_ratio": 1.63,
+    "total_return_pct": 10.87,
+    "ytd_return_pct": 10.87,
+    "sharpe_ratio": 1.6,
     "max_drawdown_pct": 7.39,
-    "total_trades": 160,
+    "total_trades": 161,
     "win_rate": 31.25,
-    "current_value": 111108.57
+    "current_value": 110868.58
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -273,7 +273,7 @@
       111276.69,
       111332.11,
       109561.57,
-      111108.57
+      110868.58
     ],
     "benchmark": [
       null,
@@ -405,7 +405,7 @@
       109831.32,
       109818.62,
       108631.51,
-      108882.86
+      108940.64
     ]
   },
   "positions": [
@@ -694,6 +694,15 @@
       "avg_cost": 0.11,
       "opened_at": "2026-10-15",
       "triggering_insider": "Hassen Tyler Lewis",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "FLSC",
+      "shares": 1.0,
+      "avg_cost": 10.49,
+      "opened_at": "2026-10-15",
+      "triggering_insider": "Cha Albert",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1351,6 +1360,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-15 20:59:55",
+      "ticker": "FLSC",
+      "action": "BUY",
+      "price": 10.49,
+      "shares": 1.0,
+      "total_value": 10.49,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Cha Albert"
+    },
     {
       "timestamp": "2026-10-15 17:56:02",
       "ticker": "CUEN",
@@ -2340,16 +2359,6 @@
       "total_value": 6283.53,
       "reason": "Take profit (+28.7% ≥ +25.0%)",
       "triggering_insider": "Gray James D"
-    },
-    {
-      "timestamp": "2026-07-23 15:46:43",
-      "ticker": "CAG",
-      "action": "BUY",
-      "price": 14.49,
-      "shares": 303.0,
-      "total_value": 4390.47,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Brase John P"
     }
   ]
 }
