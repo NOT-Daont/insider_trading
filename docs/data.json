@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-16 17:44 UTC",
+  "updated_at": "2026-10-16 20:34 UTC",
   "metrics": {
-    "total_return_pct": 11.19,
-    "ytd_return_pct": 11.19,
-    "sharpe_ratio": 1.64,
+    "total_return_pct": 10.88,
+    "ytd_return_pct": 10.88,
+    "sharpe_ratio": 1.6,
     "max_drawdown_pct": 7.39,
-    "total_trades": 161,
-    "win_rate": 31.25,
-    "current_value": 111185.98
+    "total_trades": 165,
+    "win_rate": 30.3,
+    "current_value": 110879.07
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -275,7 +275,7 @@
       111332.11,
       109561.57,
       110868.58,
-      111185.98
+      110879.07
     ],
     "benchmark": [
       null,
@@ -408,7 +408,7 @@
       109818.62,
       108631.51,
       108940.64,
-      108009.03
+      107735.19
     ]
   },
   "positions": [
@@ -535,15 +535,6 @@
       "avg_cost": 20.64,
       "opened_at": "2026-08-19",
       "triggering_insider": "Minan Peter Francis",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "SKYH",
-      "shares": 568.0,
-      "avg_cost": 10.36,
-      "opened_at": "2026-08-19",
-      "triggering_insider": "Gonzalez Francisco",
       "current_price": null,
       "pnl_pct": null
     },
@@ -692,20 +683,29 @@
       "pnl_pct": null
     },
     {
-      "ticker": "ZONE",
-      "shares": 109.0,
-      "avg_cost": 0.11,
-      "opened_at": "2026-10-15",
-      "triggering_insider": "Hassen Tyler Lewis",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "FLSC",
       "shares": 1.0,
       "avg_cost": 10.49,
       "opened_at": "2026-10-15",
       "triggering_insider": "Cha Albert",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "INBX",
+      "shares": 57.0,
+      "avg_cost": 89.83,
+      "opened_at": "2026-10-16",
+      "triggering_insider": "Lappe Mark",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "UMH",
+      "shares": 4.0,
+      "avg_cost": 15.24,
+      "opened_at": "2026-10-16",
+      "triggering_insider": "Miller Kevin S.",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1363,6 +1363,46 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-16 20:34:34",
+      "ticker": "UMH",
+      "action": "BUY",
+      "price": 15.24,
+      "shares": 4.0,
+      "total_value": 60.96,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Miller Kevin S."
+    },
+    {
+      "timestamp": "2026-10-16 20:34:18",
+      "ticker": "INBX",
+      "action": "BUY",
+      "price": 89.83,
+      "shares": 57.0,
+      "total_value": 5120.31,
+      "reason": "Score 80.1 ≥ 70",
+      "triggering_insider": "Lappe Mark"
+    },
+    {
+      "timestamp": "2026-10-16 20:34:10",
+      "ticker": "ZONE",
+      "action": "SELL",
+      "price": 0.1,
+      "shares": 109.0,
+      "total_value": 10.36,
+      "reason": "Stop loss (-15.9% ≤ -12.0%)",
+      "triggering_insider": "Hassen Tyler Lewis"
+    },
+    {
+      "timestamp": "2026-10-16 20:34:07",
+      "ticker": "SKYH",
+      "action": "SELL",
+      "price": 9.1,
+      "shares": 568.0,
+      "total_value": 5168.8,
+      "reason": "Stop loss (-12.2% ≤ -12.0%)",
+      "triggering_insider": "Gonzalez Francisco"
+    },
     {
       "timestamp": "2026-10-15 20:59:55",
       "ticker": "FLSC",
@@ -2322,46 +2362,6 @@
       "total_value": 0.2,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Siokas Grigorios"
-    },
-    {
-      "timestamp": "2026-07-29 23:00:30",
-      "ticker": "DLPN",
-      "action": "BUY",
-      "price": 1.03,
-      "shares": 2.0,
-      "total_value": 2.06,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "O'Dowd William IV"
-    },
-    {
-      "timestamp": "2026-07-27 19:26:46",
-      "ticker": "ANIX",
-      "action": "BUY",
-      "price": 3.4,
-      "shares": 235.0,
-      "total_value": 799.0,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "KUMAR AMIT"
-    },
-    {
-      "timestamp": "2026-07-27 16:06:30",
-      "ticker": "BYRN",
-      "action": "BUY",
-      "price": 3.78,
-      "shares": 1451.0,
-      "total_value": 5484.78,
-      "reason": "Score 77.3 ≥ 70",
-      "triggering_insider": "Davis Conn Q."
-    },
-    {
-      "timestamp": "2026-07-27 16:06:25",
-      "ticker": "LW",
-      "action": "SELL",
-      "price": 51.93,
-      "shares": 121.0,
-      "total_value": 6283.53,
-      "reason": "Take profit (+28.7% ≥ +25.0%)",
-      "triggering_insider": "Gray James D"
     }
   ]
 }
