@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-17 00:12 UTC",
+  "updated_at": "2026-10-19 19:32 UTC",
   "metrics": {
-    "total_return_pct": 11.12,
-    "ytd_return_pct": 11.12,
-    "sharpe_ratio": 1.62,
+    "total_return_pct": 12.07,
+    "ytd_return_pct": 12.07,
+    "sharpe_ratio": 1.73,
     "max_drawdown_pct": 7.39,
-    "total_trades": 165,
-    "win_rate": 30.3,
-    "current_value": 111119.14
+    "total_trades": 168,
+    "win_rate": 30.43,
+    "current_value": 112070.75
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -143,7 +143,8 @@
       "2026-10-14",
       "2026-10-15",
       "2026-10-16",
-      "2026-10-17"
+      "2026-10-17",
+      "2026-10-19"
     ],
     "portfolio": [
       100000.0,
@@ -277,7 +278,8 @@
       109561.57,
       110868.58,
       110879.07,
-      111119.14
+      111119.14,
+      112070.75
     ],
     "benchmark": [
       null,
@@ -411,7 +413,8 @@
       108631.51,
       108940.64,
       107735.19,
-      108940.64
+      108940.64,
+      108425.44
     ]
   },
   "positions": [
@@ -421,15 +424,6 @@
       "avg_cost": 21.5,
       "opened_at": "2026-04-29",
       "triggering_insider": "SWETMAN CHEVIS",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "XRN",
-      "shares": 143.0,
-      "avg_cost": 34.32,
-      "opened_at": "2026-05-13",
-      "triggering_insider": "Wittman Lori",
       "current_price": null,
       "pnl_pct": null
     },
@@ -614,15 +608,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "LUCK",
-      "shares": 933.0,
-      "avg_cost": 5.28,
-      "opened_at": "2026-09-23",
-      "triggering_insider": "Lavan Robert M.",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "NYAX",
       "shares": 108.0,
       "avg_cost": 44.75,
@@ -664,15 +649,6 @@
       "avg_cost": 11.74,
       "opened_at": "2026-10-13",
       "triggering_insider": "Nassif Mikheal",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "RTSN",
-      "shares": 371.0,
-      "avg_cost": 11.47,
-      "opened_at": "2026-10-14",
-      "triggering_insider": "Keller Eric L.",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1366,6 +1342,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-19 19:32:51",
+      "ticker": "RTSN",
+      "action": "SELL",
+      "price": 18.51,
+      "shares": 371.0,
+      "total_value": 6867.21,
+      "reason": "Take profit (+61.4% ≥ +25.0%)",
+      "triggering_insider": "Keller Eric L."
+    },
+    {
+      "timestamp": "2026-10-19 19:32:50",
+      "ticker": "LUCK",
+      "action": "SELL",
+      "price": 4.61,
+      "shares": 933.0,
+      "total_value": 4301.13,
+      "reason": "Stop loss (-12.7% ≤ -12.0%)",
+      "triggering_insider": "Lavan Robert M."
+    },
+    {
+      "timestamp": "2026-10-19 19:32:48",
+      "ticker": "XRN",
+      "action": "SELL",
+      "price": 29.61,
+      "shares": 143.0,
+      "total_value": 4234.23,
+      "reason": "Stop loss (-13.7% ≤ -12.0%)",
+      "triggering_insider": "Wittman Lori"
+    },
     {
       "timestamp": "2026-10-16 20:34:34",
       "ticker": "UMH",
@@ -2335,36 +2341,6 @@
       "total_value": 7095.39,
       "reason": "Take profit (+29.4% ≥ +25.0%)",
       "triggering_insider": "Davis Conn Q."
-    },
-    {
-      "timestamp": "2026-07-31 23:02:43",
-      "ticker": "XAIR",
-      "action": "BUY",
-      "price": 5.28,
-      "shares": 895.0,
-      "total_value": 4721.12,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "MOORHEAD DANIEL J"
-    },
-    {
-      "timestamp": "2026-07-31 23:02:41",
-      "ticker": "VENU",
-      "action": "SELL",
-      "price": 2.03,
-      "shares": 2328.0,
-      "total_value": 4725.84,
-      "reason": "Stop loss (-12.9% ≤ -12.0%)",
-      "triggering_insider": "ROTH JAY W"
-    },
-    {
-      "timestamp": "2026-07-30 15:45:02",
-      "ticker": "COSM",
-      "action": "BUY",
-      "price": 0.2,
-      "shares": 1.0,
-      "total_value": 0.2,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Siokas Grigorios"
     }
   ]
 }
