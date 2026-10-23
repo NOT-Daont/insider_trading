@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-23 00:26 UTC",
+  "updated_at": "2026-10-23 18:01 UTC",
   "metrics": {
-    "total_return_pct": 12.25,
-    "ytd_return_pct": 12.25,
-    "sharpe_ratio": 1.73,
+    "total_return_pct": 12.15,
+    "ytd_return_pct": 12.15,
+    "sharpe_ratio": 1.72,
     "max_drawdown_pct": 7.39,
-    "total_trades": 172,
-    "win_rate": 30.0,
-    "current_value": 112247.82
+    "total_trades": 173,
+    "win_rate": 29.58,
+    "current_value": 112146.83
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -287,7 +287,7 @@
       112182.35,
       111835.49,
       112281.89,
-      112247.82
+      112146.83
     ],
     "benchmark": [
       null,
@@ -426,7 +426,7 @@
       108553.88,
       109124.15,
       107835.42,
-      109124.15
+      107400.66
     ]
   },
   "positions": [
@@ -625,15 +625,6 @@
       "avg_cost": 6.93,
       "opened_at": "2026-10-02",
       "triggering_insider": "MELOCHE HAROLD J",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "HELP",
-      "shares": 166.0,
-      "avg_cost": 11.56,
-      "opened_at": "2026-10-02",
-      "triggering_insider": "Cavers Greg",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1372,6 +1363,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-23 18:01:03",
+      "ticker": "HELP",
+      "action": "SELL",
+      "price": 10.15,
+      "shares": 166.0,
+      "total_value": 1684.9,
+      "reason": "Stop loss (-12.2% ≤ -12.0%)",
+      "triggering_insider": "Cavers Greg"
+    },
     {
       "timestamp": "2026-10-22 00:28:42",
       "ticker": "RAPP",
@@ -2361,16 +2362,6 @@
       "total_value": 6182.21,
       "reason": "Take profit (+26.9% ≥ +25.0%)",
       "triggering_insider": "LANGLEY BRYAN"
-    },
-    {
-      "timestamp": "2026-08-03 19:36:10",
-      "ticker": "XAIR",
-      "action": "SELL",
-      "price": 6.23,
-      "shares": 782.0,
-      "total_value": 4871.86,
-      "reason": "Stop loss (-13.5% ≤ -12.0%)",
-      "triggering_insider": "Goodman Robert Scott"
     }
   ]
 }
