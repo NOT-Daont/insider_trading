@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-23 18:01 UTC",
+  "updated_at": "2026-10-23 21:03 UTC",
   "metrics": {
-    "total_return_pct": 12.15,
-    "ytd_return_pct": 12.15,
-    "sharpe_ratio": 1.72,
+    "total_return_pct": 12.07,
+    "ytd_return_pct": 12.07,
+    "sharpe_ratio": 1.71,
     "max_drawdown_pct": 7.39,
-    "total_trades": 173,
+    "total_trades": 174,
     "win_rate": 29.58,
-    "current_value": 112146.83
+    "current_value": 112067.15
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -287,7 +287,7 @@
       112182.35,
       111835.49,
       112281.89,
-      112146.83
+      112067.15
     ],
     "benchmark": [
       null,
@@ -426,7 +426,7 @@
       108553.88,
       109124.15,
       107835.42,
-      107400.66
+      107272.21
     ]
   },
   "positions": [
@@ -706,6 +706,15 @@
       "avg_cost": 25.06,
       "opened_at": "2026-10-22",
       "triggering_insider": "Ignelzi Troy A.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "NXG",
+      "shares": 37.0,
+      "avg_cost": 44.41,
+      "opened_at": "2026-10-23",
+      "triggering_insider": "Nelson Blake",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1363,6 +1372,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-23 21:03:22",
+      "ticker": "NXG",
+      "action": "BUY",
+      "price": 44.41,
+      "shares": 37.0,
+      "total_value": 1643.17,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Nelson Blake"
+    },
     {
       "timestamp": "2026-10-23 18:01:03",
       "ticker": "HELP",
@@ -2352,16 +2371,6 @@
       "total_value": 6150.36,
       "reason": "Take profit (+25.1% ≥ +25.0%)",
       "triggering_insider": "STOPKO JEFFREY A"
-    },
-    {
-      "timestamp": "2026-08-04 16:05:47",
-      "ticker": "FND",
-      "action": "SELL",
-      "price": 61.21,
-      "shares": 101.0,
-      "total_value": 6182.21,
-      "reason": "Take profit (+26.9% ≥ +25.0%)",
-      "triggering_insider": "LANGLEY BRYAN"
     }
   ]
 }
