@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-26 19:38 UTC",
+  "updated_at": "2026-10-26 22:21 UTC",
   "metrics": {
-    "total_return_pct": 12.5,
-    "ytd_return_pct": 12.5,
-    "sharpe_ratio": 1.75,
+    "total_return_pct": 11.94,
+    "ytd_return_pct": 11.94,
+    "sharpe_ratio": 1.68,
     "max_drawdown_pct": 7.39,
-    "total_trades": 175,
+    "total_trades": 177,
     "win_rate": 29.17,
-    "current_value": 112499.19
+    "current_value": 111937.39
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -291,7 +291,7 @@
       112281.89,
       112067.15,
       112190.36,
-      112499.19
+      111937.39
     ],
     "benchmark": [
       null,
@@ -432,7 +432,7 @@
       107835.42,
       107272.21,
       107835.42,
-      108082.43
+      108034.44
     ]
   },
   "positions": [
@@ -712,6 +712,24 @@
       "avg_cost": 44.41,
       "opened_at": "2026-10-23",
       "triggering_insider": "Nelson Blake",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "THRM",
+      "shares": 172.0,
+      "avg_cost": 28.59,
+      "opened_at": "2026-10-26",
+      "triggering_insider": "Presley William T.",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "GRCE",
+      "shares": 10.0,
+      "avg_cost": 1.81,
+      "opened_at": "2026-10-26",
+      "triggering_insider": "Opaleye Management Inc.",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1369,6 +1387,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-26 22:21:43",
+      "ticker": "GRCE",
+      "action": "BUY",
+      "price": 1.81,
+      "shares": 10.0,
+      "total_value": 18.1,
+      "reason": "Score 70.6 ≥ 70",
+      "triggering_insider": "Opaleye Management Inc."
+    },
+    {
+      "timestamp": "2026-10-26 22:21:28",
+      "ticker": "THRM",
+      "action": "BUY",
+      "price": 28.59,
+      "shares": 172.0,
+      "total_value": 4917.48,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Presley William T."
+    },
     {
       "timestamp": "2026-10-26 19:38:20",
       "ticker": "GRSD",
@@ -2348,26 +2386,6 @@
       "total_value": 5804.88,
       "reason": "Score 77.3 ≥ 70",
       "triggering_insider": "DIXON ROBERT E"
-    },
-    {
-      "timestamp": "2026-08-10 22:39:12",
-      "ticker": "BLSM",
-      "action": "BUY",
-      "price": 15.99,
-      "shares": 363.0,
-      "total_value": 5804.37,
-      "reason": "Score 89.0 ≥ 70",
-      "triggering_insider": "Keyes Jason A"
-    },
-    {
-      "timestamp": "2026-08-10 14:49:31",
-      "ticker": "CTTH",
-      "action": "BUY",
-      "price": 0.07,
-      "shares": 88058.0,
-      "total_value": 5811.83,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "CTT PHARMACEUTICAL HOLDINGS, INC."
     }
   ]
 }
