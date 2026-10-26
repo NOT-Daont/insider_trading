@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-24 00:21 UTC",
+  "updated_at": "2026-10-26 19:38 UTC",
   "metrics": {
-    "total_return_pct": 12.19,
-    "ytd_return_pct": 12.19,
-    "sharpe_ratio": 1.72,
+    "total_return_pct": 12.5,
+    "ytd_return_pct": 12.5,
+    "sharpe_ratio": 1.75,
     "max_drawdown_pct": 7.39,
-    "total_trades": 174,
-    "win_rate": 29.58,
-    "current_value": 112190.36
+    "total_trades": 175,
+    "win_rate": 29.17,
+    "current_value": 112499.19
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -149,7 +149,8 @@
       "2026-10-21",
       "2026-10-22",
       "2026-10-23",
-      "2026-10-24"
+      "2026-10-24",
+      "2026-10-26"
     ],
     "portfolio": [
       100000.0,
@@ -289,7 +290,8 @@
       111835.49,
       112281.89,
       112067.15,
-      112190.36
+      112190.36,
+      112499.19
     ],
     "benchmark": [
       null,
@@ -429,7 +431,8 @@
       109124.15,
       107835.42,
       107272.21,
-      107835.42
+      107835.42,
+      108082.43
     ]
   },
   "positions": [
@@ -682,15 +685,6 @@
       "avg_cost": 15.24,
       "opened_at": "2026-10-16",
       "triggering_insider": "Miller Kevin S.",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "GRSD",
-      "shares": 4043.0,
-      "avg_cost": 1.38,
-      "opened_at": "2026-10-19",
-      "triggering_insider": "McCrystle Kevin Ross",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1375,6 +1369,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-26 19:38:20",
+      "ticker": "GRSD",
+      "action": "SELL",
+      "price": 1.21,
+      "shares": 4043.0,
+      "total_value": 4892.03,
+      "reason": "Stop loss (-12.3% ≤ -12.0%)",
+      "triggering_insider": "McCrystle Kevin Ross"
+    },
     {
       "timestamp": "2026-10-23 21:03:22",
       "ticker": "NXG",
@@ -2364,16 +2368,6 @@
       "total_value": 5811.83,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "CTT PHARMACEUTICAL HOLDINGS, INC."
-    },
-    {
-      "timestamp": "2026-08-06 23:58:15",
-      "ticker": "ASRV",
-      "action": "SELL",
-      "price": 4.79,
-      "shares": 1284.0,
-      "total_value": 6150.36,
-      "reason": "Take profit (+25.1% ≥ +25.0%)",
-      "triggering_insider": "STOPKO JEFFREY A"
     }
   ]
 }
