@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-28 01:01 UTC",
+  "updated_at": "2026-10-28 19:11 UTC",
   "metrics": {
-    "total_return_pct": 12.54,
-    "ytd_return_pct": 12.54,
-    "sharpe_ratio": 1.7,
+    "total_return_pct": 12.77,
+    "ytd_return_pct": 12.77,
+    "sharpe_ratio": 1.73,
     "max_drawdown_pct": 7.39,
-    "total_trades": 179,
-    "win_rate": 30.14,
-    "current_value": 112536.73
+    "total_trades": 180,
+    "win_rate": 29.73,
+    "current_value": 112769.2
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -295,7 +295,7 @@
       112190.36,
       111937.39,
       113936.35,
-      112536.73
+      112769.2
     ],
     "benchmark": [
       null,
@@ -438,7 +438,7 @@
       107835.42,
       108034.44,
       108639.98,
-      108034.44
+      108714.8
     ]
   },
   "positions": [
@@ -664,15 +664,6 @@
       "avg_cost": 10.49,
       "opened_at": "2026-10-15",
       "triggering_insider": "Cha Albert",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "INBX",
-      "shares": 57.0,
-      "avg_cost": 89.83,
-      "opened_at": "2026-10-16",
-      "triggering_insider": "Lappe Mark",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1393,6 +1384,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-28 19:10:51",
+      "ticker": "INBX",
+      "action": "SELL",
+      "price": 72.4,
+      "shares": 57.0,
+      "total_value": 4126.8,
+      "reason": "Stop loss (-19.4% ≤ -12.0%)",
+      "triggering_insider": "Lappe Mark"
+    },
     {
       "timestamp": "2026-10-27 01:15:42",
       "ticker": "STC",
@@ -2382,16 +2383,6 @@
       "total_value": 1.19,
       "reason": "Score 71.2 ≥ 70",
       "triggering_insider": "Amlani Ajay K"
-    },
-    {
-      "timestamp": "2026-08-12 19:01:23",
-      "ticker": "CIA",
-      "action": "BUY",
-      "price": 3.91,
-      "shares": 5.0,
-      "total_value": 19.55,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Stenberg Jon"
     }
   ]
 }
