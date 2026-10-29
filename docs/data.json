@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-29 19:19 UTC",
+  "updated_at": "2026-10-29 22:29 UTC",
   "metrics": {
-    "total_return_pct": 13.0,
-    "ytd_return_pct": 13.0,
-    "sharpe_ratio": 1.74,
+    "total_return_pct": 13.16,
+    "ytd_return_pct": 13.16,
+    "sharpe_ratio": 1.75,
     "max_drawdown_pct": 7.39,
-    "total_trades": 181,
-    "win_rate": 29.73,
-    "current_value": 113001.97
+    "total_trades": 182,
+    "win_rate": 29.33,
+    "current_value": 113159.97
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -297,7 +297,7 @@
       111937.39,
       113936.35,
       112053.65,
-      113001.97
+      113159.97
     ],
     "benchmark": [
       null,
@@ -441,7 +441,7 @@
       108034.44,
       108639.98,
       109014.04,
-      108353.45
+      108597.64
     ]
   },
   "positions": [
@@ -550,15 +550,6 @@
       "avg_cost": 26.3,
       "opened_at": "2026-09-02",
       "triggering_insider": "LIVINGSTON SHANNON R",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "CURI",
-      "shares": 1.0,
-      "avg_cost": 2.88,
-      "opened_at": "2026-09-02",
-      "triggering_insider": "Stinchcomb Clinton Larry",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1396,6 +1387,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-29 22:29:12",
+      "ticker": "CURI",
+      "action": "SELL",
+      "price": 2.53,
+      "shares": 1.0,
+      "total_value": 2.53,
+      "reason": "Stop loss (-12.2% ≤ -12.0%)",
+      "triggering_insider": "Stinchcomb Clinton Larry"
+    },
     {
       "timestamp": "2026-10-29 01:38:00",
       "ticker": "TTMI",
@@ -2385,16 +2386,6 @@
       "total_value": 6830.55,
       "reason": "Take profit (+26.5% ≥ +25.0%)",
       "triggering_insider": "de Boer Daniel Anton"
-    },
-    {
-      "timestamp": "2026-08-14 18:53:02",
-      "ticker": "STRR",
-      "action": "SELL",
-      "price": 9.52,
-      "shares": 492.0,
-      "total_value": 4683.84,
-      "reason": "Stop loss (-13.7% ≤ -12.0%)",
-      "triggering_insider": "Eberwein Jeffrey E."
     }
   ]
 }
