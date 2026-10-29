@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-28 22:15 UTC",
+  "updated_at": "2026-10-29 01:38 UTC",
   "metrics": {
-    "total_return_pct": 12.05,
-    "ytd_return_pct": 12.05,
+    "total_return_pct": 12.06,
+    "ytd_return_pct": 12.06,
     "sharpe_ratio": 1.63,
     "max_drawdown_pct": 7.39,
-    "total_trades": 180,
+    "total_trades": 181,
     "win_rate": 29.73,
-    "current_value": 112053.65
+    "current_value": 112055.45
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -152,7 +152,8 @@
       "2026-10-24",
       "2026-10-26",
       "2026-10-27",
-      "2026-10-28"
+      "2026-10-28",
+      "2026-10-29"
     ],
     "portfolio": [
       100000.0,
@@ -295,7 +296,8 @@
       112190.36,
       111937.39,
       113936.35,
-      112053.65
+      112053.65,
+      112055.45
     ],
     "benchmark": [
       null,
@@ -438,6 +440,7 @@
       107835.42,
       108034.44,
       108639.98,
+      109014.04,
       109014.04
     ]
   },
@@ -727,6 +730,15 @@
       "avg_cost": 42.96,
       "opened_at": "2026-10-27",
       "triggering_insider": "BRADLEY C ALLEN JR",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "TTMI",
+      "shares": 45.0,
+      "avg_cost": 90.79,
+      "opened_at": "2026-10-29",
+      "triggering_insider": "Roks Edwin",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1384,6 +1396,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-10-29 01:38:00",
+      "ticker": "TTMI",
+      "action": "BUY",
+      "price": 90.79,
+      "shares": 45.0,
+      "total_value": 4085.55,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Roks Edwin"
+    },
     {
       "timestamp": "2026-10-28 19:10:51",
       "ticker": "INBX",
@@ -2373,16 +2395,6 @@
       "total_value": 4683.84,
       "reason": "Stop loss (-13.7% ≤ -12.0%)",
       "triggering_insider": "Eberwein Jeffrey E."
-    },
-    {
-      "timestamp": "2026-08-12 22:42:57",
-      "ticker": "AWRE",
-      "action": "BUY",
-      "price": 1.19,
-      "shares": 1.0,
-      "total_value": 1.19,
-      "reason": "Score 71.2 ≥ 70",
-      "triggering_insider": "Amlani Ajay K"
     }
   ]
 }
