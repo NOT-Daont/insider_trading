@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-03 20:19 UTC",
+  "updated_at": "2026-11-03 22:57 UTC",
   "metrics": {
-    "total_return_pct": 10.85,
-    "ytd_return_pct": 10.85,
-    "sharpe_ratio": 1.43,
+    "total_return_pct": 10.56,
+    "ytd_return_pct": 10.56,
+    "sharpe_ratio": 1.39,
     "max_drawdown_pct": 7.39,
-    "total_trades": 189,
-    "win_rate": 30.0,
-    "current_value": 110845.57
+    "total_trades": 191,
+    "win_rate": 29.27,
+    "current_value": 110557.74
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -305,7 +305,7 @@
       111124.27,
       111124.27,
       111370.74,
-      110845.57
+      110557.74
     ],
     "benchmark": [
       null,
@@ -453,7 +453,7 @@
       106672.31,
       106672.31,
       106161.33,
-      106476.11
+      106478.93
     ]
   },
   "positions": [
@@ -494,15 +494,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "HRZN",
-      "shares": 972.0,
-      "avg_cost": 4.44,
-      "opened_at": "2026-06-10",
-      "triggering_insider": "Trolio Daniel R.",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "FCBM",
       "shares": 405.0,
       "avg_cost": 12.89,
@@ -526,15 +517,6 @@
       "avg_cost": 14.49,
       "opened_at": "2026-07-23",
       "triggering_insider": "Brase John P",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "DLPN",
-      "shares": 2.0,
-      "avg_cost": 1.03,
-      "opened_at": "2026-07-29",
-      "triggering_insider": "O'Dowd William IV",
       "current_price": null,
       "pnl_pct": null
     },
@@ -1372,6 +1354,26 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-11-03 22:57:11",
+      "ticker": "DLPN",
+      "action": "SELL",
+      "price": 0.9,
+      "shares": 2.0,
+      "total_value": 1.8,
+      "reason": "Stop loss (-12.4% ≤ -12.0%)",
+      "triggering_insider": "O'Dowd William IV"
+    },
+    {
+      "timestamp": "2026-11-03 22:57:10",
+      "ticker": "HRZN",
+      "action": "SELL",
+      "price": 3.86,
+      "shares": 972.0,
+      "total_value": 3751.92,
+      "reason": "Stop loss (-13.1% ≤ -12.0%)",
+      "triggering_insider": "Trolio Daniel R."
+    },
     {
       "timestamp": "2026-11-02 22:30:47",
       "ticker": "FCPT",
@@ -2351,26 +2353,6 @@
       "total_value": 2899.62,
       "reason": "Stop loss (-50.6% ≤ -12.0%)",
       "triggering_insider": "LeBlanc Jeff"
-    },
-    {
-      "timestamp": "2026-08-25 22:29:13",
-      "ticker": "ASYS",
-      "action": "BUY",
-      "price": 14.25,
-      "shares": 414.0,
-      "total_value": 5899.5,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Shechter Guy"
-    },
-    {
-      "timestamp": "2026-08-25 22:29:07",
-      "ticker": "OPFI",
-      "action": "BUY",
-      "price": 7.3,
-      "shares": 808.0,
-      "total_value": 5898.4,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Schwartz Todd G."
     }
   ]
 }
