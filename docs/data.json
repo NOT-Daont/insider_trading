@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-04 20:35 UTC",
+  "updated_at": "2026-11-04 23:16 UTC",
   "metrics": {
-    "total_return_pct": 11.91,
-    "ytd_return_pct": 11.91,
+    "total_return_pct": 11.9,
+    "ytd_return_pct": 11.9,
     "sharpe_ratio": 1.53,
     "max_drawdown_pct": 7.39,
-    "total_trades": 191,
+    "total_trades": 192,
     "win_rate": 29.27,
-    "current_value": 111907.44
+    "current_value": 111903.54
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -307,7 +307,7 @@
       111124.27,
       111370.74,
       110557.74,
-      111907.44
+      111903.54
     ],
     "benchmark": [
       null,
@@ -456,7 +456,7 @@
       106672.31,
       106161.33,
       106478.93,
-      108457.9
+      108237.7
     ]
   },
   "positions": [
@@ -700,6 +700,15 @@
       "avg_cost": 23.2,
       "opened_at": "2026-11-02",
       "triggering_insider": "Lenehan William H",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "PAM",
+      "shares": 86.0,
+      "avg_cost": 64.84,
+      "opened_at": "2026-11-04",
+      "triggering_insider": "Zuberbuhler Adolfo Fernando",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1357,6 +1366,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-11-04 23:16:15",
+      "ticker": "PAM",
+      "action": "BUY",
+      "price": 64.84,
+      "shares": 86.0,
+      "total_value": 5576.24,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Zuberbuhler Adolfo Fernando"
+    },
     {
       "timestamp": "2026-11-03 22:57:11",
       "ticker": "DLPN",
@@ -2346,16 +2365,6 @@
       "total_value": 3217.76,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Belizaire John"
-    },
-    {
-      "timestamp": "2026-08-26 14:33:31",
-      "ticker": "GRML",
-      "action": "SELL",
-      "price": 5.34,
-      "shares": 543.0,
-      "total_value": 2899.62,
-      "reason": "Stop loss (-50.6% ≤ -12.0%)",
-      "triggering_insider": "LeBlanc Jeff"
     }
   ]
 }
