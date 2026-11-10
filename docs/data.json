@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-10 03:59 UTC",
+  "updated_at": "2026-11-10 20:39 UTC",
   "metrics": {
-    "total_return_pct": 12.7,
-    "ytd_return_pct": 12.7,
-    "sharpe_ratio": 1.48,
+    "total_return_pct": 12.37,
+    "ytd_return_pct": 12.37,
+    "sharpe_ratio": 1.45,
     "max_drawdown_pct": 7.65,
-    "total_trades": 194,
-    "win_rate": 29.27,
-    "current_value": 112700.8
+    "total_trades": 197,
+    "win_rate": 30.12,
+    "current_value": 112372.37
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -317,7 +317,7 @@
       110418.73,
       108968.36,
       112700.75,
-      112700.8
+      112372.37
     ],
     "benchmark": [
       null,
@@ -471,7 +471,7 @@
       103788.55,
       103788.55,
       106244.62,
-      106244.62
+      105759.76
     ]
   },
   "positions": [
@@ -490,15 +490,6 @@
       "avg_cost": 12.78,
       "opened_at": "2026-05-22",
       "triggering_insider": "Carroll John A",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
-      "ticker": "GRNT",
-      "shares": 1046.0,
-      "avg_cost": 4.86,
-      "opened_at": "2026-05-29",
-      "triggering_insider": "Kettler Ronald Kyle",
       "current_price": null,
       "pnl_pct": null
     },
@@ -742,6 +733,24 @@
       "avg_cost": 11.45,
       "opened_at": "2026-11-05",
       "triggering_insider": "Johnson Timothy Steven",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "MTDR",
+      "shares": 112.0,
+      "avg_cost": 50.23,
+      "opened_at": "2026-11-10",
+      "triggering_insider": "Calvert Christopher P",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "ADTN",
+      "shares": 164.0,
+      "avg_cost": 4.49,
+      "opened_at": "2026-11-10",
+      "triggering_insider": "Santo Timothy P",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1399,6 +1408,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-11-10 20:39:03",
+      "ticker": "ADTN",
+      "action": "BUY",
+      "price": 4.49,
+      "shares": 164.0,
+      "total_value": 736.36,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Santo Timothy P"
+    },
+    {
+      "timestamp": "2026-11-10 20:38:56",
+      "ticker": "MTDR",
+      "action": "BUY",
+      "price": 50.23,
+      "shares": 112.0,
+      "total_value": 5625.76,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Calvert Christopher P"
+    },
+    {
+      "timestamp": "2026-11-10 20:38:52",
+      "ticker": "GRNT",
+      "action": "SELL",
+      "price": 6.08,
+      "shares": 1046.0,
+      "total_value": 6359.68,
+      "reason": "Take profit (+25.1% ≥ +25.0%)",
+      "triggering_insider": "Kettler Ronald Kyle"
+    },
     {
       "timestamp": "2026-11-05 23:19:33",
       "ticker": "BXMT",
@@ -2368,36 +2407,6 @@
       "total_value": 2761.5,
       "reason": "Score 81.0 ≥ 70",
       "triggering_insider": "LIVINGSTON SHANNON R"
-    },
-    {
-      "timestamp": "2026-09-02 17:29:29",
-      "ticker": "SLNH",
-      "action": "SELL",
-      "price": 1.03,
-      "shares": 2704.0,
-      "total_value": 2785.12,
-      "reason": "Stop loss (-13.4% ≤ -12.0%)",
-      "triggering_insider": "Belizaire John"
-    },
-    {
-      "timestamp": "2026-09-01 20:39:28",
-      "ticker": "BLNE",
-      "action": "BUY",
-      "price": 1.05,
-      "shares": 1.0,
-      "total_value": 1.05,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Liuzza Nicholas Reyland JR"
-    },
-    {
-      "timestamp": "2026-09-01 17:30:12",
-      "ticker": "BIVI",
-      "action": "BUY",
-      "price": 2.28,
-      "shares": 2423.0,
-      "total_value": 5524.44,
-      "reason": "Score 89.0 ≥ 70",
-      "triggering_insider": "KIM JOANNE WENDY"
     }
   ]
 }
