@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-10 20:39 UTC",
+  "updated_at": "2026-11-10 22:54 UTC",
   "metrics": {
-    "total_return_pct": 12.37,
-    "ytd_return_pct": 12.37,
-    "sharpe_ratio": 1.45,
+    "total_return_pct": 12.29,
+    "ytd_return_pct": 12.29,
+    "sharpe_ratio": 1.44,
     "max_drawdown_pct": 7.65,
-    "total_trades": 197,
-    "win_rate": 30.12,
-    "current_value": 112372.37
+    "total_trades": 198,
+    "win_rate": 31.33,
+    "current_value": 112289.95
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -317,7 +317,7 @@
       110418.73,
       108968.36,
       112700.75,
-      112372.37
+      112289.95
     ],
     "benchmark": [
       null,
@@ -471,7 +471,7 @@
       103788.55,
       103788.55,
       106244.62,
-      105759.76
+      105853.62
     ]
   },
   "positions": [
@@ -751,6 +751,15 @@
       "avg_cost": 4.49,
       "opened_at": "2026-11-10",
       "triggering_insider": "Santo Timothy P",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "AWRE",
+      "shares": 1.0,
+      "avg_cost": 0.89,
+      "opened_at": "2026-11-10",
+      "triggering_insider": "Amlani Ajay K",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1408,6 +1417,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-11-10 22:54:23",
+      "ticker": "AWRE",
+      "action": "BUY",
+      "price": 0.89,
+      "shares": 1.0,
+      "total_value": 0.89,
+      "reason": "Score 72.9 ≥ 70",
+      "triggering_insider": "Amlani Ajay K"
+    },
     {
       "timestamp": "2026-11-10 20:39:03",
       "ticker": "ADTN",
@@ -2397,16 +2416,6 @@
       "total_value": 20.24,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "EVANS GARY C"
-    },
-    {
-      "timestamp": "2026-09-02 17:29:40",
-      "ticker": "CWBC",
-      "action": "BUY",
-      "price": 26.3,
-      "shares": 105.0,
-      "total_value": 2761.5,
-      "reason": "Score 81.0 ≥ 70",
-      "triggering_insider": "LIVINGSTON SHANNON R"
     }
   ]
 }
