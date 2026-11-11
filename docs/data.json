@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-11 01:45 UTC",
+  "updated_at": "2026-11-11 20:58 UTC",
   "metrics": {
-    "total_return_pct": 12.55,
-    "ytd_return_pct": 12.55,
-    "sharpe_ratio": 1.46,
+    "total_return_pct": 14.13,
+    "ytd_return_pct": 14.13,
+    "sharpe_ratio": 1.61,
     "max_drawdown_pct": 7.65,
-    "total_trades": 198,
-    "win_rate": 31.33,
-    "current_value": 112552.95
+    "total_trades": 202,
+    "win_rate": 30.95,
+    "current_value": 114132.35
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -319,7 +319,7 @@
       108968.36,
       112700.75,
       112289.95,
-      112552.95
+      114132.35
     ],
     "benchmark": [
       null,
@@ -474,7 +474,7 @@
       103788.55,
       106244.62,
       105853.62,
-      105853.62
+      107226.34
     ]
   },
   "positions": [
@@ -722,15 +722,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "ETRA",
-      "shares": 745.0,
-      "avg_cost": 7.35,
-      "opened_at": "2026-11-05",
-      "triggering_insider": "ORBIMED ADVISORS LLC",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "BXMT",
       "shares": 311.0,
       "avg_cost": 11.45,
@@ -763,6 +754,33 @@
       "avg_cost": 0.89,
       "opened_at": "2026-11-10",
       "triggering_insider": "Amlani Ajay K",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "ETRA",
+      "shares": 605.0,
+      "avg_cost": 9.42,
+      "opened_at": "2026-11-11",
+      "triggering_insider": "ORBIMED ADVISORS LLC",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "KRT",
+      "shares": 35.0,
+      "avg_cost": 36.87,
+      "opened_at": "2026-11-11",
+      "triggering_insider": "Guo Jian",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "LAW",
+      "shares": 4.0,
+      "avg_cost": 6.1,
+      "opened_at": "2026-11-11",
+      "triggering_insider": "Friedrichsen Eric",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1420,6 +1438,46 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-11-11 20:58:44",
+      "ticker": "LAW",
+      "action": "BUY",
+      "price": 6.1,
+      "shares": 4.0,
+      "total_value": 24.4,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Friedrichsen Eric"
+    },
+    {
+      "timestamp": "2026-11-11 20:58:39",
+      "ticker": "KRT",
+      "action": "BUY",
+      "price": 36.87,
+      "shares": 35.0,
+      "total_value": 1290.45,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Guo Jian"
+    },
+    {
+      "timestamp": "2026-11-11 20:58:27",
+      "ticker": "ETRA",
+      "action": "BUY",
+      "price": 9.42,
+      "shares": 605.0,
+      "total_value": 5699.1,
+      "reason": "Score 77.8 ≥ 70",
+      "triggering_insider": "ORBIMED ADVISORS LLC"
+    },
+    {
+      "timestamp": "2026-11-11 20:58:22",
+      "ticker": "ETRA",
+      "action": "SELL",
+      "price": 9.42,
+      "shares": 745.0,
+      "total_value": 7017.9,
+      "reason": "Take profit (+28.2% ≥ +25.0%)",
+      "triggering_insider": "ORBIMED ADVISORS LLC"
+    },
     {
       "timestamp": "2026-11-10 22:54:23",
       "ticker": "AWRE",
@@ -2379,46 +2437,6 @@
       "total_value": 5805.57,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Gold Kelly"
-    },
-    {
-      "timestamp": "2026-09-03 20:34:31",
-      "ticker": "BLSM",
-      "action": "SELL",
-      "price": 20.02,
-      "shares": 363.0,
-      "total_value": 7267.26,
-      "reason": "Take profit (+25.2% ≥ +25.0%)",
-      "triggering_insider": "Keyes Jason A"
-    },
-    {
-      "timestamp": "2026-09-03 17:22:34",
-      "ticker": "COSM",
-      "action": "SELL",
-      "price": 0.26,
-      "shares": 1.0,
-      "total_value": 0.26,
-      "reason": "Take profit (+28.6% ≥ +25.0%)",
-      "triggering_insider": "Siokas Grigorios"
-    },
-    {
-      "timestamp": "2026-09-02 17:30:15",
-      "ticker": "CURI",
-      "action": "BUY",
-      "price": 2.88,
-      "shares": 1.0,
-      "total_value": 2.88,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Stinchcomb Clinton Larry"
-    },
-    {
-      "timestamp": "2026-09-02 17:30:00",
-      "ticker": "UAMY",
-      "action": "BUY",
-      "price": 5.06,
-      "shares": 4.0,
-      "total_value": 20.24,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "EVANS GARY C"
     }
   ]
 }
