@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-14 02:01 UTC",
+  "updated_at": "2026-11-16 23:06 UTC",
   "metrics": {
-    "total_return_pct": 11.82,
-    "ytd_return_pct": 11.82,
-    "sharpe_ratio": 1.33,
+    "total_return_pct": 9.53,
+    "ytd_return_pct": 9.53,
+    "sharpe_ratio": 1.08,
     "max_drawdown_pct": 7.65,
-    "total_trades": 205,
-    "win_rate": 30.23,
-    "current_value": 111819.79
+    "total_trades": 210,
+    "win_rate": 30.68,
+    "current_value": 109534.38
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -167,7 +167,8 @@
       "2026-11-11",
       "2026-11-12",
       "2026-11-13",
-      "2026-11-14"
+      "2026-11-14",
+      "2026-11-16"
     ],
     "portfolio": [
       100000.0,
@@ -325,7 +326,8 @@
       114132.35,
       111512.89,
       111679.31,
-      111819.79
+      111819.79,
+      109534.38
     ],
     "benchmark": [
       null,
@@ -483,19 +485,11 @@
       107226.34,
       106869.92,
       106481.75,
-      106481.75
+      106481.75,
+      104446.32
     ]
   },
   "positions": [
-    {
-      "ticker": "EMYB",
-      "shares": 244.0,
-      "avg_cost": 20.3,
-      "opened_at": "2026-05-18",
-      "triggering_insider": "Lobach David M Jr",
-      "current_price": null,
-      "pnl_pct": null
-    },
     {
       "ticker": "WSBK",
       "shares": 394.0,
@@ -758,15 +752,6 @@
       "pnl_pct": null
     },
     {
-      "ticker": "KRT",
-      "shares": 35.0,
-      "avg_cost": 36.87,
-      "opened_at": "2026-11-11",
-      "triggering_insider": "Guo Jian",
-      "current_price": null,
-      "pnl_pct": null
-    },
-    {
       "ticker": "LAW",
       "shares": 4.0,
       "avg_cost": 6.1,
@@ -781,6 +766,33 @@
       "avg_cost": 1.06,
       "opened_at": "2026-11-12",
       "triggering_insider": "Ruberti Alexandre",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "LRMR",
+      "shares": 1825.0,
+      "avg_cost": 3.0,
+      "opened_at": "2026-11-16",
+      "triggering_insider": "BEN-MAIMON CAROLE",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "HPP",
+      "shares": 78.0,
+      "avg_cost": 9.52,
+      "opened_at": "2026-11-16",
+      "triggering_insider": "COLEMAN VICTOR J",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "FISN",
+      "shares": 1.0,
+      "avg_cost": 2.28,
+      "opened_at": "2026-11-16",
+      "triggering_insider": "Muller Elizabeth",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1438,6 +1450,56 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-11-16 23:06:33",
+      "ticker": "FISN",
+      "action": "BUY",
+      "price": 2.28,
+      "shares": 1.0,
+      "total_value": 2.28,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Muller Elizabeth"
+    },
+    {
+      "timestamp": "2026-11-16 23:06:25",
+      "ticker": "HPP",
+      "action": "BUY",
+      "price": 9.52,
+      "shares": 78.0,
+      "total_value": 742.56,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "COLEMAN VICTOR J"
+    },
+    {
+      "timestamp": "2026-11-16 23:06:02",
+      "ticker": "LRMR",
+      "action": "BUY",
+      "price": 3.0,
+      "shares": 1825.0,
+      "total_value": 5475.0,
+      "reason": "Score 89.0 ≥ 70",
+      "triggering_insider": "BEN-MAIMON CAROLE"
+    },
+    {
+      "timestamp": "2026-11-16 23:05:55",
+      "ticker": "KRT",
+      "action": "SELL",
+      "price": 32.39,
+      "shares": 35.0,
+      "total_value": 1133.65,
+      "reason": "Stop loss (-12.2% ≤ -12.0%)",
+      "triggering_insider": "Guo Jian"
+    },
+    {
+      "timestamp": "2026-11-16 23:05:50",
+      "ticker": "EMYB",
+      "action": "SELL",
+      "price": 20.85,
+      "shares": 244.0,
+      "total_value": 5087.4,
+      "reason": "Max hold period (182d ≥ 180d, P/L: +2.7%)",
+      "triggering_insider": "Lobach David M Jr"
+    },
     {
       "timestamp": "2026-11-12 21:13:55",
       "ticker": "ZVIA",
@@ -2387,56 +2449,6 @@
       "total_value": 4227.04,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "KHOSROWSHAHI DARA"
-    },
-    {
-      "timestamp": "2026-09-10 17:23:01",
-      "ticker": "IVR",
-      "action": "SELL",
-      "price": 6.96,
-      "shares": 611.0,
-      "total_value": 4252.56,
-      "reason": "Stop loss (-13.3% ≤ -12.0%)",
-      "triggering_insider": "Gregson Mark William"
-    },
-    {
-      "timestamp": "2026-09-08 17:39:19",
-      "ticker": "BCDA",
-      "action": "BUY",
-      "price": 1.1,
-      "shares": 15.0,
-      "total_value": 16.5,
-      "reason": "Score 72.0 ≥ 70",
-      "triggering_insider": "Altman Peter"
-    },
-    {
-      "timestamp": "2026-09-08 17:39:06",
-      "ticker": "ENOV",
-      "action": "BUY",
-      "price": 19.53,
-      "shares": 35.0,
-      "total_value": 683.55,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "McDonald Damien"
-    },
-    {
-      "timestamp": "2026-09-08 17:38:56",
-      "ticker": "ANIX",
-      "action": "SELL",
-      "price": 2.98,
-      "shares": 235.0,
-      "total_value": 700.3,
-      "reason": "Stop loss (-12.4% ≤ -12.0%)",
-      "triggering_insider": "KUMAR AMIT"
-    },
-    {
-      "timestamp": "2026-09-04 20:21:12",
-      "ticker": "BIVI",
-      "action": "BUY",
-      "price": 2.0,
-      "shares": 2423.0,
-      "total_value": 4846.0,
-      "reason": "Score 73.0 ≥ 70",
-      "triggering_insider": "Chappell Amy Suzon"
     }
   ]
 }
