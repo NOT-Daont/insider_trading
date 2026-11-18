@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-18 03:23 UTC",
+  "updated_at": "2026-11-18 21:41 UTC",
   "metrics": {
-    "total_return_pct": 8.44,
-    "ytd_return_pct": 8.44,
-    "sharpe_ratio": 0.96,
-    "max_drawdown_pct": 8.1,
-    "total_trades": 210,
-    "win_rate": 30.68,
-    "current_value": 108441.19
+    "total_return_pct": 9.5,
+    "ytd_return_pct": 9.5,
+    "sharpe_ratio": 1.06,
+    "max_drawdown_pct": 8.08,
+    "total_trades": 213,
+    "win_rate": 31.46,
+    "current_value": 109496.62
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -331,7 +331,7 @@
       111819.79,
       109534.38,
       108462.92,
-      108441.19
+      109496.62
     ],
     "benchmark": [
       null,
@@ -492,19 +492,10 @@
       106481.75,
       104446.32,
       103386.26,
-      103386.26
+      103070.08
     ]
   },
   "positions": [
-    {
-      "ticker": "WSBK",
-      "shares": 394.0,
-      "avg_cost": 12.78,
-      "opened_at": "2026-05-22",
-      "triggering_insider": "Carroll John A",
-      "current_price": null,
-      "pnl_pct": null
-    },
     {
       "ticker": "FCNCA",
       "shares": 2.0,
@@ -799,6 +790,24 @@
       "avg_cost": 2.28,
       "opened_at": "2026-11-16",
       "triggering_insider": "Muller Elizabeth",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "MX",
+      "shares": 2370.0,
+      "avg_cost": 2.3,
+      "opened_at": "2026-11-18",
+      "triggering_insider": "LEE CHAE",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "MXCT",
+      "shares": 1.0,
+      "avg_cost": 1.25,
+      "opened_at": "2026-11-18",
+      "triggering_insider": "Masoud Maher",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1456,6 +1465,36 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-11-18 21:41:00",
+      "ticker": "MXCT",
+      "action": "BUY",
+      "price": 1.25,
+      "shares": 1.0,
+      "total_value": 1.25,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Masoud Maher"
+    },
+    {
+      "timestamp": "2026-11-18 21:39:57",
+      "ticker": "MX",
+      "action": "BUY",
+      "price": 2.3,
+      "shares": 2370.0,
+      "total_value": 5451.0,
+      "reason": "Score 76.7 ≥ 70",
+      "triggering_insider": "LEE CHAE"
+    },
+    {
+      "timestamp": "2026-11-18 21:39:37",
+      "ticker": "WSBK",
+      "action": "SELL",
+      "price": 13.84,
+      "shares": 394.0,
+      "total_value": 5450.99,
+      "reason": "Max hold period (180d ≥ 180d, P/L: +8.3%)",
+      "triggering_insider": "Carroll John A"
+    },
     {
       "timestamp": "2026-11-16 23:06:33",
       "ticker": "FISN",
@@ -2425,36 +2464,6 @@
       "total_value": 2812.0,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "STEINER EDDIE L"
-    },
-    {
-      "timestamp": "2026-09-11 17:24:12",
-      "ticker": "EHSI",
-      "action": "SELL",
-      "price": 0.76,
-      "shares": 3735.0,
-      "total_value": 2838.6,
-      "reason": "Stop loss (-24.8% ≤ -12.0%)",
-      "triggering_insider": "jeereddi Prasad Anjaneya"
-    },
-    {
-      "timestamp": "2026-09-10 17:23:31",
-      "ticker": "MDRR",
-      "action": "BUY",
-      "price": 11.99,
-      "shares": 2.0,
-      "total_value": 23.98,
-      "reason": "Score 71.6 ≥ 70",
-      "triggering_insider": "Winn Charles Brent Jr."
-    },
-    {
-      "timestamp": "2026-09-10 17:23:13",
-      "ticker": "UBER",
-      "action": "BUY",
-      "price": 72.88,
-      "shares": 58.0,
-      "total_value": 4227.04,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "KHOSROWSHAHI DARA"
     }
   ]
 }
