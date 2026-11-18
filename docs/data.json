@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 21:41 UTC",
+  "updated_at": "2026-11-18 23:57 UTC",
   "metrics": {
     "total_return_pct": 9.5,
     "ytd_return_pct": 9.5,
@@ -814,6 +814,58 @@
   ],
   "transactions": [
     {
+      "ticker": "BH",
+      "insider_name": "BIGLARI, SARDAR",
+      "insider_title": "Chairman and CEO",
+      "trade_date": "2026-11-16",
+      "shares": 4823.0,
+      "price": 358.36,
+      "value": 1728370.28,
+      "tx_code": "P",
+      "score": 98.7,
+      "hit_rate": 100.0,
+      "cluster": false
+    },
+    {
+      "ticker": "BH",
+      "insider_name": "BIGLARI, SARDAR",
+      "insider_title": "Chairman and CEO",
+      "trade_date": "2026-11-17",
+      "shares": 480.0,
+      "price": 359.38,
+      "value": 172502.4,
+      "tx_code": "P",
+      "score": 93.5,
+      "hit_rate": 100.0,
+      "cluster": false
+    },
+    {
+      "ticker": "BH",
+      "insider_name": "BIGLARI, SARDAR",
+      "insider_title": "Chairman and CEO",
+      "trade_date": "2026-11-17",
+      "shares": 70.0,
+      "price": 1799.84,
+      "value": 125988.8,
+      "tx_code": "P",
+      "score": 93.3,
+      "hit_rate": 100.0,
+      "cluster": false
+    },
+    {
+      "ticker": "BH",
+      "insider_name": "BIGLARI, SARDAR",
+      "insider_title": "Chairman and CEO",
+      "trade_date": "2026-11-16",
+      "shares": 70.0,
+      "price": 1796.84,
+      "value": 125778.8,
+      "tx_code": "P",
+      "score": 93.3,
+      "hit_rate": 100.0,
+      "cluster": false
+    },
+    {
       "ticker": "LRMR",
       "insider_name": "BEN-MAIMON CAROLE",
       "insider_title": "President and CEO",
@@ -1408,58 +1460,6 @@
       "value": 125000.01,
       "tx_code": "P",
       "score": 81.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "NONE",
-      "insider_name": "ROSENTHAL SAUL B",
-      "insider_title": "President",
-      "trade_date": "2026-04-01",
-      "shares": 283929.59,
-      "price": 17.61,
-      "value": 5000000.08,
-      "tx_code": "P",
-      "score": 81.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 41.0,
-      "price": 1853.92,
-      "value": 76010.72,
-      "tx_code": "P",
-      "score": 81.0,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "FCNCA",
-      "insider_name": "HOLDING FRANK B JR",
-      "insider_title": "Chairman and CEO",
-      "trade_date": "2026-06-05",
-      "shares": 34.0,
-      "price": 2065.0,
-      "value": 70210.0,
-      "tx_code": "P",
-      "score": 80.8,
-      "hit_rate": 50.0,
-      "cluster": false
-    },
-    {
-      "ticker": "IBP",
-      "insider_name": "Miller Michael Thomas",
-      "insider_title": "Executive VP & CFO",
-      "trade_date": "2026-05-11",
-      "shares": 154.0,
-      "price": 207.04,
-      "value": 31884.16,
-      "tx_code": "P",
-      "score": 80.6,
       "hit_rate": 50.0,
       "cluster": true
     }
