@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-18 23:57 UTC",
+  "updated_at": "2026-11-19 02:59 UTC",
   "metrics": {
     "total_return_pct": 9.5,
     "ytd_return_pct": 9.5,
     "sharpe_ratio": 1.06,
     "max_drawdown_pct": 8.08,
-    "total_trades": 213,
+    "total_trades": 214,
     "win_rate": 31.46,
-    "current_value": 109496.62
+    "current_value": 109495.64
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -170,7 +170,8 @@
       "2026-11-14",
       "2026-11-16",
       "2026-11-17",
-      "2026-11-18"
+      "2026-11-18",
+      "2026-11-19"
     ],
     "portfolio": [
       100000.0,
@@ -331,7 +332,8 @@
       111819.79,
       109534.38,
       108462.92,
-      109496.62
+      109496.62,
+      109495.64
     ],
     "benchmark": [
       null,
@@ -492,6 +494,7 @@
       106481.75,
       104446.32,
       103386.26,
+      103070.08,
       103070.08
     ]
   },
@@ -808,6 +811,15 @@
       "avg_cost": 1.25,
       "opened_at": "2026-11-18",
       "triggering_insider": "Masoud Maher",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "AIM",
+      "shares": 7.0,
+      "avg_cost": 0.13,
+      "opened_at": "2026-11-19",
+      "triggering_insider": "Equels Thomas K",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1465,6 +1477,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-11-19 02:58:53",
+      "ticker": "AIM",
+      "action": "BUY",
+      "price": 0.13,
+      "shares": 7.0,
+      "total_value": 0.91,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "Equels Thomas K"
+    },
     {
       "timestamp": "2026-11-18 21:41:00",
       "ticker": "MXCT",
@@ -2454,16 +2476,6 @@
       "total_value": 25.74,
       "reason": "Score 74.0 ≥ 70",
       "triggering_insider": "Gu Paul"
-    },
-    {
-      "timestamp": "2026-09-11 17:24:33",
-      "ticker": "CSBB",
-      "action": "BUY",
-      "price": 76.0,
-      "shares": 37.0,
-      "total_value": 2812.0,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "STEINER EDDIE L"
     }
   ]
 }
