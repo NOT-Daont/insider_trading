@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-20 00:20 UTC",
+  "updated_at": "2026-11-20 02:53 UTC",
   "metrics": {
-    "total_return_pct": 8.68,
-    "ytd_return_pct": 8.68,
-    "sharpe_ratio": 0.97,
+    "total_return_pct": 8.79,
+    "ytd_return_pct": 8.79,
+    "sharpe_ratio": 0.98,
     "max_drawdown_pct": 8.08,
-    "total_trades": 219,
+    "total_trades": 220,
     "win_rate": 31.87,
-    "current_value": 108680.38
+    "current_value": 108790.48
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -335,7 +335,7 @@
       108462.92,
       109496.62,
       108680.38,
-      108680.38
+      108790.48
     ],
     "benchmark": [
       null,
@@ -498,7 +498,7 @@
       103386.26,
       103070.08,
       101047.35,
-      101047.35
+      101047.36
     ]
   },
   "positions": [
@@ -832,6 +832,15 @@
       "avg_cost": 14.11,
       "opened_at": "2026-11-19",
       "triggering_insider": "Schlacks Jabbok",
+      "current_price": null,
+      "pnl_pct": null
+    },
+    {
+      "ticker": "MODD",
+      "shares": 1.0,
+      "avg_cost": 1.82,
+      "opened_at": "2026-11-20",
+      "triggering_insider": "MANCHESTER MANAGEMENT CO LLC",
       "current_price": null,
       "pnl_pct": null
     }
@@ -1489,6 +1498,16 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-11-20 02:53:31",
+      "ticker": "MODD",
+      "action": "BUY",
+      "price": 1.82,
+      "shares": 1.0,
+      "total_value": 1.82,
+      "reason": "Score 74.0 ≥ 70",
+      "triggering_insider": "MANCHESTER MANAGEMENT CO LLC"
+    },
     {
       "timestamp": "2026-11-19 21:55:25",
       "ticker": "EQPT",
@@ -2478,16 +2497,6 @@
       "total_value": 5155.04,
       "reason": "Stop loss (-12.6% ≤ -12.0%)",
       "triggering_insider": "Schwartz Todd G."
-    },
-    {
-      "timestamp": "2026-09-16 20:56:27",
-      "ticker": "RWT",
-      "action": "BUY",
-      "price": 3.89,
-      "shares": 12.0,
-      "total_value": 46.68,
-      "reason": "Score 74.0 ≥ 70",
-      "triggering_insider": "Carillo Brooke"
     }
   ]
 }
