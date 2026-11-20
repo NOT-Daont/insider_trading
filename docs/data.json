@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 21:38 UTC",
+  "updated_at": "2026-11-20 23:43 UTC",
   "metrics": {
     "total_return_pct": 5.79,
     "ytd_return_pct": 5.79,
@@ -7,7 +7,7 @@
     "max_drawdown_pct": 10.35,
     "total_trades": 227,
     "win_rate": 30.53,
-    "current_value": 105787.1
+    "current_value": 105786.73
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -335,7 +335,7 @@
       108462.92,
       109496.62,
       108680.38,
-      105787.1
+      105786.73
     ],
     "benchmark": [
       null,
