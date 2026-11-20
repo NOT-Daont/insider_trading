@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-19 21:55 UTC",
+  "updated_at": "2026-11-20 00:20 UTC",
   "metrics": {
     "total_return_pct": 8.68,
     "ytd_return_pct": 8.68,
-    "sharpe_ratio": 0.98,
+    "sharpe_ratio": 0.97,
     "max_drawdown_pct": 8.08,
     "total_trades": 219,
     "win_rate": 31.87,
@@ -171,7 +171,8 @@
       "2026-11-16",
       "2026-11-17",
       "2026-11-18",
-      "2026-11-19"
+      "2026-11-19",
+      "2026-11-20"
     ],
     "portfolio": [
       100000.0,
@@ -333,6 +334,7 @@
       109534.38,
       108462.92,
       109496.62,
+      108680.38,
       108680.38
     ],
     "benchmark": [
@@ -495,6 +497,7 @@
       104446.32,
       103386.26,
       103070.08,
+      101047.35,
       101047.35
     ]
   },
@@ -885,6 +888,19 @@
       "score": 93.3,
       "hit_rate": 100.0,
       "cluster": false
+    },
+    {
+      "ticker": "N/A",
+      "insider_name": "Syvertsen Erik",
+      "insider_title": "President and CEO",
+      "trade_date": "2026-11-17",
+      "shares": 1063.83,
+      "price": 23.5,
+      "value": 25000.0,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
     },
     {
       "ticker": "LRMR",
@@ -1466,19 +1482,6 @@
       "shares": 124254.473,
       "price": 10.06,
       "value": 1250000.0,
-      "tx_code": "P",
-      "score": 81.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "NONE",
-      "insider_name": "Sarti Jeffrey",
-      "insider_title": "Vice President",
-      "trade_date": "2026-07-01",
-      "shares": 12242.9,
-      "price": 10.21,
-      "value": 125000.01,
       "tx_code": "P",
       "score": 81.0,
       "hit_rate": 50.0,
