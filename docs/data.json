@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-24 05:46 UTC",
+  "updated_at": "2026-11-24 23:19 UTC",
   "metrics": {
-    "total_return_pct": 8.62,
-    "ytd_return_pct": 8.62,
+    "total_return_pct": 8.64,
+    "ytd_return_pct": 8.64,
     "sharpe_ratio": 0.92,
     "max_drawdown_pct": 10.35,
     "total_trades": 230,
     "win_rate": 29.9,
-    "current_value": 108617.15
+    "current_value": 108644.73
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -339,7 +339,7 @@
       108680.38,
       105786.73,
       105785.72,
-      108617.15
+      108644.73
     ],
     "benchmark": [
       null,
@@ -504,7 +504,7 @@
       101047.35,
       97368.9,
       97368.9,
-      101953.56
+      101458.12
     ]
   },
   "positions": [
@@ -885,6 +885,32 @@
       "score": 93.3,
       "hit_rate": 100.0,
       "cluster": false
+    },
+    {
+      "ticker": "CTSO",
+      "insider_name": "MARIANI PETER J",
+      "insider_title": "Chief Financial Officer",
+      "trade_date": "2026-11-20",
+      "shares": 6757.0,
+      "price": 5.18,
+      "value": 35001.26,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
+      "ticker": "CTSO",
+      "insider_name": "Chan Phillip P.",
+      "insider_title": "Chief Executive Officer",
+      "trade_date": "2026-11-20",
+      "shares": 68533.0,
+      "price": 5.18,
+      "value": 355000.94,
+      "tx_code": "P",
+      "score": 89.0,
+      "hit_rate": 50.0,
+      "cluster": true
     },
     {
       "ticker": "RMIX",
@@ -1433,6 +1459,19 @@
       "cluster": true
     },
     {
+      "ticker": "CTSO",
+      "insider_name": "Capponi Vincent",
+      "insider_title": "President and COO",
+      "trade_date": "2026-11-20",
+      "shares": 2895.0,
+      "price": 5.18,
+      "value": 14996.1,
+      "tx_code": "P",
+      "score": 81.0,
+      "hit_rate": 50.0,
+      "cluster": true
+    },
+    {
       "ticker": "LRMR",
       "insider_name": "Harlow John B. Jr.",
       "insider_title": "President and COO",
@@ -1440,45 +1479,6 @@
       "shares": 17800.0,
       "price": 2.8,
       "value": 49918.32,
-      "tx_code": "P",
-      "score": 81.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "NONE",
-      "insider_name": "Lewinsohn Jonathan",
-      "insider_title": "Co-President",
-      "trade_date": "2026-09-10",
-      "shares": 98814.229,
-      "price": 10.12,
-      "value": 1000000.0,
-      "tx_code": "P",
-      "score": 81.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "CWBC",
-      "insider_name": "LIVINGSTON SHANNON R",
-      "insider_title": "EXECUTIVE VICE PRESIDENT",
-      "trade_date": "2026-08-31",
-      "shares": 107.0,
-      "price": 21.51,
-      "value": 2301.57,
-      "tx_code": "P",
-      "score": 81.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "CWBC",
-      "insider_name": "CAGLE DAWN M",
-      "insider_title": "EXECUTIVE VICE PRESIDENT",
-      "trade_date": "2026-08-31",
-      "shares": 188.0,
-      "price": 21.51,
-      "value": 4043.88,
       "tx_code": "P",
       "score": 81.0,
       "hit_rate": 50.0,
