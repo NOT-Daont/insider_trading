@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-25 22:52 UTC",
+  "updated_at": "2026-11-26 01:38 UTC",
   "metrics": {
-    "total_return_pct": 9.39,
-    "ytd_return_pct": 9.39,
-    "sharpe_ratio": 0.99,
+    "total_return_pct": 8.65,
+    "ytd_return_pct": 8.65,
+    "sharpe_ratio": 0.91,
     "max_drawdown_pct": 10.35,
     "total_trades": 230,
     "win_rate": 29.9,
-    "current_value": 109391.63
+    "current_value": 108648.57
   },
   "starting_capital": 100000.0,
   "chart": {
@@ -175,7 +175,8 @@
       "2026-11-20",
       "2026-11-21",
       "2026-11-24",
-      "2026-11-25"
+      "2026-11-25",
+      "2026-11-26"
     ],
     "portfolio": [
       100000.0,
@@ -341,7 +342,8 @@
       105786.73,
       105785.72,
       108644.73,
-      109391.63
+      109391.63,
+      108648.57
     ],
     "benchmark": [
       null,
@@ -507,7 +509,8 @@
       97368.9,
       97368.9,
       101458.12,
-      101164.51
+      101164.51,
+      101458.12
     ]
   },
   "positions": [
@@ -1319,6 +1322,19 @@
       "cluster": true
     },
     {
+      "ticker": "TEAM",
+      "insider_name": "Cannon-Brookes Michael",
+      "insider_title": "CEO, Co-Founder",
+      "trade_date": "2026-11-25",
+      "shares": 3800.0,
+      "price": 137.03,
+      "value": 520698.04,
+      "tx_code": "P",
+      "score": 82.8,
+      "hit_rate": 50.0,
+      "cluster": false
+    },
+    {
       "ticker": "CUEN",
       "insider_name": "Maimon Shalom Arik",
       "insider_title": "CEO",
@@ -1469,19 +1485,6 @@
       "shares": 2895.0,
       "price": 5.18,
       "value": 14996.1,
-      "tx_code": "P",
-      "score": 81.0,
-      "hit_rate": 50.0,
-      "cluster": true
-    },
-    {
-      "ticker": "LRMR",
-      "insider_name": "Harlow John B. Jr.",
-      "insider_title": "President and COO",
-      "trade_date": "2026-11-11",
-      "shares": 17800.0,
-      "price": 2.8,
-      "value": 49918.32,
       "tx_code": "P",
       "score": 81.0,
       "hit_rate": 50.0,
